@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: e03d8c13fcd8b444bbcd9c0ea074e62d
+guid: 719a8db994ddb0842ba5702f2d15b47c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5756380681857427472
-    second: background1_0
+      213: 6561323072749490207
+    second: DaniLeftWalk_0
+  - first:
+      213: -3179630129078005413
+    second: DaniLeftWalk_1
+  - first:
+      213: 8071975112819750846
+    second: DaniLeftWalk_2
+  - first:
+      213: -6572985493656115595
+    second: DaniLeftWalk_3
+  - first:
+      213: 7517861018828234024
+    second: DaniLeftWalk_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background1_0
+      name: DaniLeftWalk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 257
+        x: 298
+        y: 124
+        width: 395
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +166,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01868064bb5c2ef40800000000000000
-      internalID: 5756380681857427472
+      spriteID: f10decf32908e0b50800000000000000
+      internalID: 6561323072749490207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaniLeftWalk_1
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 124
+        width: 395
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b511d277e3fafd3d0800000000000000
+      internalID: -3179630129078005413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaniLeftWalk_2
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 123
+        width: 395
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb73a63199a650070800000000000000
+      internalID: 8071975112819750846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaniLeftWalk_3
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 123
+        width: 395
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576e4d8c48018c4a0800000000000000
+      internalID: -6572985493656115595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaniLeftWalk_4
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 122
+        width: 395
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d530ae3cec45860800000000000000
+      internalID: 7517861018828234024
       vertices: []
       indices: 
       edges: []
@@ -174,7 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      background1_0: 5756380681857427472
+      DaniLeftWalk_0: 6561323072749490207
+      DaniLeftWalk_1: -3179630129078005413
+      DaniLeftWalk_2: 8071975112819750846
+      DaniLeftWalk_3: -6572985493656115595
+      DaniLeftWalk_4: 7517861018828234024
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
