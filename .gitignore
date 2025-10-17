@@ -1,4 +1,6 @@
-# Unity generated folders
+# ==========================================
+# ✅ Unity generated folders
+# ==========================================
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -8,10 +10,17 @@
 [Uu]ser[Ss]ettings/
 MemoryCaptures/
 Recordings/
+# Cache (패키지 캐시 등)
+[Ll]ibrary/PackageCache/
+[Ll]ibrary/ShaderCache/
+[Ll]ibrary/Artifacts/
 
-# Rider / Visual Studio
+# ==========================================
+# ✅ IDE / Editor
+# ==========================================
 .vs/
 .idea/
+.vscode/
 *.csproj
 *.sln
 *.user
@@ -19,11 +28,56 @@ Recordings/
 *.booproj
 *.svd
 
-# OS specific
+# ==========================================
+# ✅ OS specific
+# ==========================================
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Crash and profiler files
+# ==========================================
+# ✅ Build outputs
+# ==========================================
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.ipa
+*.exe
+*.app
+*.msi
+*.zip
+
+# ==========================================
+# ✅ Crash and profiler files
+# ==========================================
 *.stackdump
 *.dmp
 *.diag
+*.crash
+*.tmp
+
+# ==========================================
+# ✅ Logs, Backups
+# ==========================================
+*.log
+*.bak
+*.backup
+*.orig
+
+# ==========================================
+# ✅ Optional: Unity Collaborate / Plastic SCM
+# ==========================================
+PlasticSCM/
+.collabignore
+.collab/
+
+# ==========================================
+# ✅ For specific project structure (optional)
+# ==========================================
+# Ignore VS-generated Unity project solution duplicates
+UnityProject/Fade/Library/
+UnityProject/Fade/Temp/
+UnityProject/Fade/Logs/
+UnityProject/Fade/UserSettings/
