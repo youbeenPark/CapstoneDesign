@@ -441,12 +441,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed3f412608cfb64aad80c181fe781e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallSpeed: -2.5
-  horizontalDriftSpeed: 0.8
-  windStrength: 0.8
-  windChangeSpeed: 0.6
-  globalLight: {fileID: 0}
-  lightFadeSpeed: 1.2
+  fallSpeed: -1.2
+  horizontalRange: 0.5
+  horizontalSpeed: 1.2
+  verticalWaveStrength: 0.15
+  rotateAngle: 10
+  horizontalOffsetStart: 3
+  horizontalGlideSpeed: 1
+  failAnimationSpeed: 0.5
+  walkSpeed: 2
+  wallTarget: {fileID: 0}
 --- !u!1 &683145368
 GameObject:
   m_ObjectHideFlags: 0

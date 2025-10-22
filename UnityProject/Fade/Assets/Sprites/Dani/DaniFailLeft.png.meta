@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: be6adc3c9f0b54342b9adebb602635c0
+guid: 8d17d328df8630b40bf52b903583ced4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4144867011586782688
-    second: DaniStand_0
+      213: -6248876345666817204
+    second: KakaoTalk_20251016_105451373_01_0
   - first:
-      213: 6946320334037233997
-    second: DaniStand_1
+      213: -6312587740656077628
+    second: KakaoTalk_20251016_105451373_01_1
+  - first:
+      213: -648322540237207375
+    second: KakaoTalk_20251016_105451373_01_2
+  - first:
+      213: -1779331992245243247
+    second: KakaoTalk_20251016_105451373_01_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,13 +148,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DaniStand_0
+      name: KakaoTalk_20251016_105451373_01_0
       rect:
         serializedVersion: 2
-        x: 217
-        y: 77
-        width: 183
-        height: 225
+        x: 106
+        y: 34
+        width: 173
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02a8225d9697a76c0800000000000000
-      internalID: -4144867011586782688
+      spriteID: c43303352188749a0800000000000000
+      internalID: -6248876345666817204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaniStand_1
+      name: KakaoTalk_20251016_105451373_01_1
       rect:
         serializedVersion: 2
-        x: 832
-        y: 79
-        width: 175
-        height: 225
+        x: 507
+        y: 38
+        width: 179
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +185,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d41bc566a89466060800000000000000
-      internalID: 6946320334037233997
+      spriteID: 4c475b835ee2568a0800000000000000
+      internalID: -6312587740656077628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KakaoTalk_20251016_105451373_01_2
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 27
+        width: 169
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b84849a512b007f0800000000000000
+      internalID: -648322540237207375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KakaoTalk_20251016_105451373_01_3
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 28
+        width: 177
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192fbb8fafa8e47e0800000000000000
+      internalID: -1779331992245243247
       vertices: []
       indices: 
       edges: []
@@ -199,8 +249,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DaniStand_0: -4144867011586782688
-      DaniStand_1: 6946320334037233997
+      KakaoTalk_20251016_105451373_01_0: -6248876345666817204
+      KakaoTalk_20251016_105451373_01_1: -6312587740656077628
+      KakaoTalk_20251016_105451373_01_2: -648322540237207375
+      KakaoTalk_20251016_105451373_01_3: -1779331992245243247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
