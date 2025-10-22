@@ -1,5 +1,4 @@
 using UnityEngine;
-// using System.Collections; // ⭐ 제거 (코루틴 사용 안 함) ⭐
 
 public class DaniController : MonoBehaviour
 {
@@ -9,24 +8,30 @@ public class DaniController : MonoBehaviour
     private bool hasLanded = false;
 
     [Header("Glide Settings")]
-    [SerializeField] private float fallSpeed = -1.2f;      // 낙하 속도 (느릴수록 천천히, 음수 값)
-    [SerializeField] private float horizontalRange = 0.5f;   // 좌우 이동 폭
-    [SerializeField] private float horizontalSpeed = 1.2f;   // 좌우 이동 주기 (주파수)
-    [SerializeField] private float verticalWaveStrength = 0.15f; // 상하 부드러운 흔들림 강도
-    [SerializeField] private float rotateAngle = 10f;      // 회전 각도 (좌우 흔들릴 때 기울기)
+    [SerializeField] private float fallSpeed = -1.2f;
+    [SerializeField] private float horizontalRange = 0.5f;
+    [SerializeField] private float horizontalSpeed = 1.2f;
+    [SerializeField] private float verticalWaveStrength = 0.15f;
+    [SerializeField] private float rotateAngle = 10f;
 
     [Header("Landing Adjustment")]
     [SerializeField] private float horizontalOffsetStart = 3f;
     [SerializeField] private float horizontalGlideSpeed = 1f;
 
-    // ⭐ 추가/복구된 변수 ⭐
     [Header("Animation Control")]
-    [SerializeField] private float failAnimationSpeed = 0.5f; // DaniFail 재생 속도 (DaniFail 상태에 사용)
+    [SerializeField] private float failAnimationSpeed = 0.5f;
 
     [Header("Movement After Landing")]
     [SerializeField] private float walkSpeed = 2.0f;
     [SerializeField] private Transform wallTarget;
     private bool isWalkingToWall = false;
+
+    private LightController lightController;
+    // ⭐ DaniWalk 상태를 감지하기 위한 Hash ID ⭐
+    private int daniWalkShortHash;
+    // ⭐ 뒷모습 전환 Trigger의 Hash ID ⭐
+    private int turnBackHash;
+
 
     private Vector3 startPos;
     private float timer;
@@ -36,22 +41,25 @@ public class DaniController : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        rb.gravityScale = 0f; // 직접 낙하 제어
+        rb.gravityScale = 0f;
         startPos = transform.position;
+
+        lightController = FindObjectOfType<LightController>();
+
+        // ⭐ Animator State의 Hash ID 미리 저장 ⭐
+        daniWalkShortHash = Animator.StringToHash("DaniWalk");
+        turnBackHash = Animator.StringToHash("TurnBack");
     }
 
-    // ⭐ StateMachineBehaviour에서 호출하여 걷기 로직을 켜는 Setter 메서드 (필수 유지) ⭐
+    // Animator State Machine Behaviour 없이 외부에서 호출되어 이동 시작/정지 신호만 받습니다.
     public void SetIsWalkingToWall(bool isWalking)
     {
         isWalkingToWall = isWalking;
 
-        // ⭐ WalkToWall 상태에 진입/탈출할 때 애니메이션 강제 전환 (StateMachineBehaviour 로직을 대체함) ⭐
-        // 이 부분은 StartWalkOnEntry.cs가 DaniWalk 상태에 부착되어 Animator의 전환을 따르도록 합니다.
-        // DaniWalk 클립이 재생되도록 animator.Play()를 사용할 필요는 없습니다.
-        // 다만, 걷기 멈춤 시 Idle로 전환하는 로직은 여기에 추가해야 합니다.
-        if (!isWalking)
+        if (animator != null)
         {
-            // animator.Play("DaniIdle"); // 걷기 멈춤 시 Idle로 전환
+            // DaniWalk -> DaniBackIdle 전환 조건 중 isWalking=false 파라미터를 제어
+            animator.SetBool("isWalking", isWalking);
         }
     }
 
@@ -61,7 +69,7 @@ public class DaniController : MonoBehaviour
         if (!hasLanded)
         {
             timer += Time.deltaTime;
-            // ... (기존의 좌우 흔들림, 회전, 위치 계산 로직 유지) ...
+
             float horizontalWobble = Mathf.Sin(timer * horizontalSpeed) * horizontalRange;
             float totalHorizontalMovement = horizontalGlideSpeed * timer;
             float currentHorizontalDirection = Mathf.Cos(timer * horizontalSpeed);
@@ -80,9 +88,22 @@ public class DaniController : MonoBehaviour
             transform.position = new Vector3(newX, newY, transform.position.z);
             float rotationZ = Mathf.Sin(timer * horizontalSpeed) * rotateAngle;
             transform.rotation = Quaternion.Euler(0, 0, rotationZ);
+
+            return;
         }
 
-        // 2. 착지 후 걷는 동작 실행
+        // 2. 걷기 이동 로직 시작 (State Machine Behaviour 대체)
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+        // DaniWalk 상태에 진입했고, 아직 이동을 시작하지 않았다면 이동을 켬
+        if (!isWalkingToWall && stateInfo.shortNameHash == daniWalkShortHash)
+        {
+            isWalkingToWall = true;
+            // 이동 시작 시 isWalking=true 상태 유지 (전환 시점에서 이미 true이므로 여기서 굳이 필요 없음)
+            animator.SetBool("isWalking", true);
+        }
+
+        // 3. 착지 후 걷는 동작 실행
         if (isWalkingToWall && wallTarget != null)
         {
             Vector3 targetPos = wallTarget.position;
@@ -99,12 +120,23 @@ public class DaniController : MonoBehaviour
             }
             else
             {
+                // ⭐⭐ 목표 지점에 도착하면 걷기를 멈추고 뒷모습으로 전환 ⭐⭐
+
+                // 1. 걷기를 멈추라는 신호를 보냅니다. (DaniWalk -> DaniBackIdle 전환 조건 1)
                 SetIsWalkingToWall(false);
+
+                // 2. 뒷모습으로 전환하라는 Trigger를 호출합니다. (DaniWalk -> DaniBackIdle 전환 조건 2)
+                if (animator != null)
+                {
+                    animator.SetTrigger(turnBackHash);
+                }
+
+                // 걷기 로직이 완전히 종료되었음을 알립니다.
+                isWalkingToWall = false;
             }
         }
     }
 
-    // ⭐ OnCollisionEnter2D 메서드 복구 (Animator 전환 방식 사용) ⭐
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground") && !hasLanded)
@@ -112,21 +144,24 @@ public class DaniController : MonoBehaviour
             hasLanded = true;
             rb.gravityScale = 1f;
 
-            // ⭐ animator.Play() 대신 isLanded 파라미터만 설정 (Animator 전환 사용) ⭐
             animator.SetBool("isLanded", true);
-
-            // DaniFail 상태 진입 시 속도 설정 (LandingCleanup 스크립트에 이 로직이 들어가야 더 깔끔)
-            // 임시로 여기에 둡니다.
             animator.speed = failAnimationSpeed;
 
-            // 캐릭터 기울어짐 방지 및 오른쪽 방향 고정
             transform.rotation = Quaternion.identity;
             if (spriteRenderer != null)
             {
                 spriteRenderer.flipX = false;
             }
 
-            FindObjectOfType<LightController>()?.StartFadeIn();
+            if (MainMenuUIController.Instance != null)
+            {
+                MainMenuUIController.Instance.ShowUIOnLanding();
+            }
+
+            if (lightController != null)
+            {
+                lightController.StartFadeIn();
+            }
         }
     }
 }
