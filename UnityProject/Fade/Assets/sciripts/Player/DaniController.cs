@@ -15,7 +15,7 @@ public class DaniController : MonoBehaviour
     [SerializeField] private float rotateAngle = 10f;
 
     [Header("Landing Adjustment")]
-    [SerializeField] private float horizontalOffsetStart = 3f;
+    [SerializeField] private float horizontalOffsetStart = 1.5f;
     [SerializeField] private float horizontalGlideSpeed = 1f;
 
     [Header("Animation Control")]
@@ -26,10 +26,11 @@ public class DaniController : MonoBehaviour
     [SerializeField] private Transform wallTarget;
     private bool isWalkingToWall = false;
 
-    private LightController lightController;
-    // ⭐ DaniWalk 상태를 감지하기 위한 Hash ID ⭐
+    // ⭐ FindObjectOfType 대신 Inspector에서 연결할 필드로 변경 ⭐
+    [SerializeField] private LightController lightController;
+
+    // DaniWalk 상태 및 Trigger Hash ID
     private int daniWalkShortHash;
-    // ⭐ 뒷모습 전환 Trigger의 Hash ID ⭐
     private int turnBackHash;
 
 
@@ -44,9 +45,9 @@ public class DaniController : MonoBehaviour
         rb.gravityScale = 0f;
         startPos = transform.position;
 
-        lightController = FindObjectOfType<LightController>();
+        // FindObjectOfType 로직 제거됨. lightController는 Inspector에서 연결됨.
 
-        // ⭐ Animator State의 Hash ID 미리 저장 ⭐
+        // Animator Hash ID 미리 저장
         daniWalkShortHash = Animator.StringToHash("DaniWalk");
         turnBackHash = Animator.StringToHash("TurnBack");
     }
@@ -99,7 +100,7 @@ public class DaniController : MonoBehaviour
         if (!isWalkingToWall && stateInfo.shortNameHash == daniWalkShortHash)
         {
             isWalkingToWall = true;
-            // 이동 시작 시 isWalking=true 상태 유지 (전환 시점에서 이미 true이므로 여기서 굳이 필요 없음)
+            // DaniWalk -> DaniBackIdle 전환 조건 중 하나인 isWalking 파라미터를 true로 설정
             animator.SetBool("isWalking", true);
         }
 
@@ -120,7 +121,7 @@ public class DaniController : MonoBehaviour
             }
             else
             {
-                // ⭐⭐ 목표 지점에 도착하면 걷기를 멈추고 뒷모습으로 전환 ⭐⭐
+                // ⭐ 목표 지점에 도착하면 걷기를 멈추고 뒷모습으로 전환 ⭐
 
                 // 1. 걷기를 멈추라는 신호를 보냅니다. (DaniWalk -> DaniBackIdle 전환 조건 1)
                 SetIsWalkingToWall(false);
@@ -158,6 +159,8 @@ public class DaniController : MonoBehaviour
                 MainMenuUIController.Instance.ShowUIOnLanding();
             }
 
+            // LightController 호출 (배경 페이드인)
+            // lightController가 Inspector에서 연결되어 있다면 호출됨
             if (lightController != null)
             {
                 lightController.StartFadeIn();
