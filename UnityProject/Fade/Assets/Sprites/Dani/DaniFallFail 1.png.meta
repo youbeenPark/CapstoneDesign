@@ -1,49 +1,19 @@
 fileFormatVersion: 2
-guid: 424099f74ef4eb64680319e0b66e319d
+guid: a71e46ad4dd02464fab2f425954c9809
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1415207118253553659
-    second: KakaoTalk_20251016_111803338_0
+      213: -8638557936708937345
+    second: DaniFallFail 1_0
   - first:
-      213: -3374240083664893341
-    second: KakaoTalk_20251016_111803338_1
+      213: 2547756073216399779
+    second: DaniFallFail 1_1
   - first:
-      213: -2792591419033590088
-    second: KakaoTalk_20251016_111803338_2
+      213: -8454251892271360548
+    second: DaniFallFail 1_2
   - first:
-      213: 6387796426722757485
-    second: KakaoTalk_20251016_111803338_3
-  - first:
-      213: 8706790755665433585
-    second: KakaoTalk_20251016_111803338_4
-  - first:
-      213: -827015614891184341
-    second: KakaoTalk_20251016_111803338_5
-  - first:
-      213: -7420729572451833266
-    second: KakaoTalk_20251016_111803338_6
-  - first:
-      213: 4305004386133864914
-    second: KakaoTalk_20251016_111803338_7
-  - first:
-      213: -255391167224186378
-    second: KakaoTalk_20251016_111803338_8
-  - first:
-      213: -290257652042444805
-    second: KakaoTalk_20251016_111803338_9
-  - first:
-      213: 6438815482983812206
-    second: KakaoTalk_20251016_111803338_10
-  - first:
-      213: -7510653806652947594
-    second: KakaoTalk_20251016_111803338_11
-  - first:
-      213: -2169625641360396794
-    second: KakaoTalk_20251016_111803338_12
-  - first:
-      213: -4711328007462991486
-    second: KakaoTalk_20251016_111803338_13
+      213: 5474985461029228806
+    second: DaniFallFail 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -90,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -178,155 +148,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KakaoTalk_20251016_111803338_1
+      name: DaniFallFail 1_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 0
-        width: 77
-        height: 77
+        x: 27
+        y: 12
+        width: 71
+        height: 70
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36a054a758a4c21d0800000000000000
-      internalID: -3374240083664893341
+      spriteID: f7915da535dad1880800000000000000
+      internalID: -8638557936708937345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KakaoTalk_20251016_111803338_3
+      name: DaniFallFail 1_1
       rect:
         serializedVersion: 2
-        x: 186
-        y: 0
-        width: 72
-        height: 77
+        x: 128
+        y: 11
+        width: 70
+        height: 71
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6bc150910306a850800000000000000
-      internalID: 6387796426722757485
+      spriteID: 3a9586666a27b5320800000000000000
+      internalID: 2547756073216399779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KakaoTalk_20251016_111803338_4
+      name: DaniFallFail 1_2
       rect:
         serializedVersion: 2
-        x: 330
-        y: 0
-        width: 76
-        height: 94
+        x: 230
+        y: 13
+        width: 69
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f3d71dcf0cb4d870800000000000000
-      internalID: 8706790755665433585
+      spriteID: cd5dd7f42b67caa80800000000000000
+      internalID: -8454251892271360548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KakaoTalk_20251016_111803338_7
+      name: DaniFallFail 1_3
       rect:
         serializedVersion: 2
-        x: 479
-        y: 0
-        width: 72
-        height: 100
+        x: 317
+        y: 18
+        width: 70
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d1f1082ea27ebb30800000000000000
-      internalID: 4305004386133864914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KakaoTalk_20251016_111803338_10
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 0
-        width: 72
-        height: 91
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6c098541944b5950800000000000000
-      internalID: 6438815482983812206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KakaoTalk_20251016_111803338_12
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 73
-        height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60e622f69f0f3e1e0800000000000000
-      internalID: -2169625641360396794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KakaoTalk_20251016_111803338_13
-      rect:
-        serializedVersion: 2
-        x: 916
-        y: 0
-        width: 75
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 289c1de83200e9eb0800000000000000
-      internalID: -4711328007462991486
+      spriteID: 6015313e44e0bfb40800000000000000
+      internalID: 5474985461029228806
       vertices: []
       indices: 
       edges: []
@@ -335,7 +239,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4c0612aeed3fbb647842f6eb10b5944e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -345,20 +249,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      KakaoTalk_20251016_111803338_0: 1415207118253553659
-      KakaoTalk_20251016_111803338_1: -3374240083664893341
-      KakaoTalk_20251016_111803338_10: 6438815482983812206
-      KakaoTalk_20251016_111803338_11: -7510653806652947594
-      KakaoTalk_20251016_111803338_12: -2169625641360396794
-      KakaoTalk_20251016_111803338_13: -4711328007462991486
-      KakaoTalk_20251016_111803338_2: -2792591419033590088
-      KakaoTalk_20251016_111803338_3: 6387796426722757485
-      KakaoTalk_20251016_111803338_4: 8706790755665433585
-      KakaoTalk_20251016_111803338_5: -827015614891184341
-      KakaoTalk_20251016_111803338_6: -7420729572451833266
-      KakaoTalk_20251016_111803338_7: 4305004386133864914
-      KakaoTalk_20251016_111803338_8: -255391167224186378
-      KakaoTalk_20251016_111803338_9: -290257652042444805
+      DaniFallFail 1_0: -8638557936708937345
+      DaniFallFail 1_1: 2547756073216399779
+      DaniFallFail 1_2: -8454251892271360548
+      DaniFallFail 1_3: 5474985461029228806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

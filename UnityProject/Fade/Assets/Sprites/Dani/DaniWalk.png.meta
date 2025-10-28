@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 8d17d328df8630b40bf52b903583ced4
+guid: b9aa414489bf2664bbd4bc6b625aa44e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6248876345666817204
-    second: KakaoTalk_20251016_105451373_01_0
+      213: -6447175321581043041
+    second: Dani_0
   - first:
-      213: -6312587740656077628
-    second: KakaoTalk_20251016_105451373_01_1
+      213: -8812024703446448836
+    second: Dani_1
   - first:
-      213: -648322540237207375
-    second: KakaoTalk_20251016_105451373_01_2
+      213: -714829117176325339
+    second: Dani_2
   - first:
-      213: -1779331992245243247
-    second: KakaoTalk_20251016_105451373_01_3
+      213: -3270835985423515653
+    second: Dani_3
+  - first:
+      213: -3469754094322657457
+    second: Dani_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -148,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KakaoTalk_20251016_105451373_01_0
+      name: Dani_0
       rect:
         serializedVersion: 2
-        x: 106
-        y: 34
-        width: 173
-        height: 113
+        x: 30
+        y: 14
+        width: 68
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c43303352188749a0800000000000000
-      internalID: -6248876345666817204
+      spriteID: f924f7024380786a0800000000000000
+      internalID: -6447175321581043041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KakaoTalk_20251016_105451373_01_1
+      name: Dani_1
       rect:
         serializedVersion: 2
-        x: 507
-        y: 38
-        width: 179
-        height: 174
+        x: 127
+        y: 14
+        width: 68
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c475b835ee2568a0800000000000000
-      internalID: -6312587740656077628
+      spriteID: c358b17683665b580800000000000000
+      internalID: -8812024703446448836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KakaoTalk_20251016_105451373_01_2
+      name: Dani_2
       rect:
         serializedVersion: 2
-        x: 915
-        y: 27
-        width: 169
-        height: 194
+        x: 223
+        y: 13
+        width: 68
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b84849a512b007f0800000000000000
-      internalID: -648322540237207375
+      spriteID: 52b599b84ba6416f0800000000000000
+      internalID: -714829117176325339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KakaoTalk_20251016_105451373_01_3
+      name: Dani_3
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 28
-        width: 177
-        height: 206
+        x: 319
+        y: 13
+        width: 68
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +232,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 192fbb8fafa8e47e0800000000000000
-      internalID: -1779331992245243247
+      spriteID: bff344a3008ab92d0800000000000000
+      internalID: -3270835985423515653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dani_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 11
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47d0f5e805f8dfc0800000000000000
+      internalID: -3469754094322657457
       vertices: []
       indices: 
       edges: []
@@ -249,10 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      KakaoTalk_20251016_105451373_01_0: -6248876345666817204
-      KakaoTalk_20251016_105451373_01_1: -6312587740656077628
-      KakaoTalk_20251016_105451373_01_2: -648322540237207375
-      KakaoTalk_20251016_105451373_01_3: -1779331992245243247
+      Dani_0: -6447175321581043041
+      Dani_1: -8812024703446448836
+      Dani_2: -714829117176325339
+      Dani_3: -3270835985423515653
+      Dani_4: -3469754094322657457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

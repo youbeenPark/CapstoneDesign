@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: be6adc3c9f0b54342b9adebb602635c0
+guid: 08c5f0bde38cbb24ba2c2e159897c20b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4144867011586782688
-    second: DaniStand_0
-  - first:
-      213: 6946320334037233997
-    second: DaniStand_1
+      213: -8353495512856666494
+    second: DaniStand 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 58
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DaniStand_0
+      name: DaniStand 1_0
       rect:
         serializedVersion: 2
-        x: 217
-        y: 77
-        width: 183
-        height: 225
+        x: 17
+        y: 13
+        width: 71
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,30 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02a8225d9697a76c0800000000000000
-      internalID: -4144867011586782688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaniStand_1
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 79
-        width: 175
-        height: 225
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d41bc566a89466060800000000000000
-      internalID: 6946320334037233997
+      spriteID: 28edb5bf61c621c80800000000000000
+      internalID: -8353495512856666494
       vertices: []
       indices: 
       edges: []
@@ -199,8 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DaniStand_0: -4144867011586782688
-      DaniStand_1: 6946320334037233997
+      DaniStand 1_0: -8353495512856666494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
