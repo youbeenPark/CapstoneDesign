@@ -15,12 +15,15 @@ public class WorldMapController : MonoBehaviour
     [SerializeField] private Vector3[] page2IslandPositions;
 
     [Header("Movement Settings")]
-    [SerializeField] private float mapLerpSpeed = 5f;
-    [SerializeField] private float daniLerpSpeed = 8f;
-    [SerializeField] private float cameraLerpSpeed = 6f;
+    [SerializeField] private float mapLerpSpeed = 1f;
+    [SerializeField] private float daniLerpSpeed = 0.8f;
+    [SerializeField] private float cameraLerpSpeed = 1.5f;
     [SerializeField] private Vector3 cameraOffset = new Vector3(0, 0, -10);
 
-    // 내부 계산용
+    [Header("Dani Hover Motion")]
+    [SerializeField] private float hoverAmplitude = 0.1f;   // 위아래 흔들림 높이
+    [SerializeField] private float hoverFrequency = 2f;     // 위아래 속도
+
     private Vector3[] pagePositions;
     private int currentPage = 0;
     private int currentIslandIndex = 0;
@@ -28,12 +31,13 @@ public class WorldMapController : MonoBehaviour
     private Vector3 targetDaniPos;
     private Vector3 targetCameraPos;
 
+    private SpriteRenderer daniRenderer;
+    private float hoverTimer;
+
     private void Start()
     {
-        // ✅ pagePositions 자동 계산
         CalculatePagePositions();
 
-        // ✅ 초기화
         currentPage = 0;
         currentIslandIndex = 0;
         targetWorldPos = pagePositions[currentPage];
@@ -43,8 +47,11 @@ public class WorldMapController : MonoBehaviour
         targetDaniPos = worldGroup.position + islands[currentIslandIndex];
         dani.position = targetDaniPos;
 
-        targetCameraPos = pagePositions[currentPage] + cameraOffset;
-        mainCamera.transform.position = targetCameraPos;
+        daniRenderer = dani.GetComponent<SpriteRenderer>();
+        hoverTimer = Random.Range(0f, Mathf.PI * 2f);
+
+        Vector3 startCenter = GetPageCenter(currentPage);
+        mainCamera.transform.position = startCenter + cameraOffset;
 
         UpdateBackground();
     }
@@ -64,7 +71,7 @@ public class WorldMapController : MonoBehaviour
             MoveLeft();
     }
 
-    // ✅ 배경 폭 기반 자동 배치 계산
+    // ✅ 배경폭 기반 페이지 좌표 계산 (Pivot: Bottom Left)
     private void CalculatePagePositions()
     {
         pagePositions = new Vector3[backgrounds.Length];
@@ -73,29 +80,11 @@ public class WorldMapController : MonoBehaviour
         for (int i = 0; i < backgrounds.Length; i++)
         {
             SpriteRenderer sr = backgrounds[i].GetComponent<SpriteRenderer>();
-            if (sr != null)
-            {
-                float width = sr.bounds.size.x;
-
-                // ✅ Pivot이 Bottom Left 기준이므로 중앙 보정 필요 없음
-                pagePositions[i] = new Vector3(currentX, 0, 0);
-
-                // 다음 배경 시작점을 현재 배경의 오른쪽 끝으로 이동
-                currentX += width;
-            }
-            else
-            {
-                // SpriteRenderer 없을 때 대비
-                pagePositions[i] = new Vector3(currentX, 0, 0);
-                currentX += 20f;
-            }
+            float width = sr != null ? sr.bounds.size.x : 20f;
+            pagePositions[i] = new Vector3(currentX, 0, 0);
+            currentX += width;
         }
-
-        // ✅ 마지막 페이지 오른쪽 끝 부분이 잘리지 않도록 여유 추가
-        currentX += backgrounds[^1].GetComponent<SpriteRenderer>().bounds.size.x * 0.5f;
     }
-
-
 
     private void MoveRight()
     {
@@ -110,7 +99,7 @@ public class WorldMapController : MonoBehaviour
         {
             currentPage++;
             currentIslandIndex = 0;
-            targetWorldPos = -pagePositions[currentPage]; // ✅ worldGroup 이동
+            targetWorldPos = -pagePositions[currentPage];
             UpdateBackground();
         }
 
@@ -131,7 +120,7 @@ public class WorldMapController : MonoBehaviour
             currentPage--;
             Vector3[] prevIslands = GetCurrentIslandArray();
             currentIslandIndex = prevIslands.Length - 1;
-            targetWorldPos = -pagePositions[currentPage]; // ✅ worldGroup 이동
+            targetWorldPos = -pagePositions[currentPage];
             UpdateBackground();
         }
 
@@ -147,28 +136,66 @@ public class WorldMapController : MonoBehaviour
             Time.deltaTime * mapLerpSpeed
         );
 
-        // 🧍‍♀️ Dani 이동
+        // 🧍‍♀️ Dani 이동 (둥실둥실 모션)
         Vector3 daniTargetWorld = worldGroup.position + GetCurrentIslandArray()[currentIslandIndex];
+        hoverTimer += Time.deltaTime * hoverFrequency;
+
+        // 위아래로 흔들리는 위치
+        float hoverOffset = Mathf.Sin(hoverTimer) * hoverAmplitude;
+        Vector3 hoverTarget = new Vector3(
+            daniTargetWorld.x,
+            daniTargetWorld.y + hoverOffset,
+            daniTargetWorld.z
+        );
+
         dani.position = Vector3.Lerp(
             dani.position,
-            daniTargetWorld,
+            hoverTarget,
             Time.deltaTime * daniLerpSpeed
         );
 
-        // 🎥 Camera 이동 — 반드시 페이지 중심 기준으로 이동
-        targetCameraPos = new Vector3(
-            pagePositions[currentPage].x,   // ✅ 현재 페이지 중심
-            0,
+        // 방향 전환 시 스프라이트 반전
+        if (daniRenderer != null)
+        {
+            if (daniTargetWorld.x > dani.position.x + 0.05f) daniRenderer.flipX = false;
+            else if (daniTargetWorld.x < dani.position.x - 0.05f) daniRenderer.flipX = true;
+        }
+
+        // 🎥 카메라 이동 (X만 이동하고 Y는 고정)
+        Vector3 pageCenter = GetPageCenter(currentPage);
+        Vector3 desiredCameraPos = new Vector3(
+            pageCenter.x,
+            mainCamera.transform.position.y,
             cameraOffset.z
         );
 
         mainCamera.transform.position = Vector3.Lerp(
             mainCamera.transform.position,
-            targetCameraPos,
+            desiredCameraPos,
             Time.deltaTime * cameraLerpSpeed
         );
     }
 
+    // ✅ 페이지별 섬 중심 계산 (목표 위치 기준)
+    private Vector3 GetPageCenter(int pageIndex)
+    {
+        Vector3[] islands = null;
+        switch (pageIndex)
+        {
+            case 0: islands = page0IslandPositions; break;
+            case 1: islands = page1IslandPositions; break;
+            case 2: islands = page2IslandPositions; break;
+        }
+
+        if (islands == null || islands.Length == 0)
+            return worldGroup.position;
+
+        Vector3 sum = Vector3.zero;
+        foreach (var pos in islands)
+            sum += pos;
+
+        return targetWorldPos + (sum / islands.Length);
+    }
 
     private Vector3[] GetCurrentIslandArray()
     {
@@ -181,11 +208,9 @@ public class WorldMapController : MonoBehaviour
         }
     }
 
-    // ✅ 모든 배경 항상 켜두기 (이어지는 방식일 때)
     private void UpdateBackground()
     {
         for (int i = 0; i < backgrounds.Length; i++)
             backgrounds[i].SetActive(true);
     }
-
 }
