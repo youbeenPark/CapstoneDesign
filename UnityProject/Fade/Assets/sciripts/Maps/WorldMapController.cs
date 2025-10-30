@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class WorldMapController : MonoBehaviour
 {
@@ -21,8 +22,8 @@ public class WorldMapController : MonoBehaviour
     [SerializeField] private Vector3 cameraOffset = new Vector3(0, 0, -10);
 
     [Header("Dani Hover Motion")]
-    [SerializeField] private float hoverAmplitude = 0.1f;   // 위아래 흔들림 높이
-    [SerializeField] private float hoverFrequency = 2f;     // 위아래 속도
+    [SerializeField] private float hoverAmplitude = 0.1f;
+    [SerializeField] private float hoverFrequency = 2f;
 
     private Vector3[] pagePositions;
     private int currentPage = 0;
@@ -69,6 +70,47 @@ public class WorldMapController : MonoBehaviour
 
         if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
             MoveLeft();
+
+        // ✅ 스페이스바로 씬 이동
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+            LoadCurrentIslandScene();
+    }
+
+    // ✅ 현재 섬의 이름과 페이지에 맞춰 씬 로드
+    private void LoadCurrentIslandScene()
+    {
+        // 씬 이름 규칙: 폴더 이름과 동일하게 (예: "BL", "GR", "RD" 등)
+        string[] sceneNamesByPage0 = { "TUTO", "RD", "YL", "GR" };
+        string[] sceneNamesByPage1 = { "BL", "OR", "PR", "SK" };
+        string[] sceneNamesByPage2 = { "BOSE", "RAINBOW" };
+
+        string sceneName = null;
+
+        switch (currentPage)
+        {
+            case 0:
+                if (currentIslandIndex < sceneNamesByPage0.Length)
+                    sceneName = sceneNamesByPage0[currentIslandIndex];
+                break;
+            case 1:
+                if (currentIslandIndex < sceneNamesByPage1.Length)
+                    sceneName = sceneNamesByPage1[currentIslandIndex];
+                break;
+            case 2:
+                if (currentIslandIndex < sceneNamesByPage2.Length)
+                    sceneName = sceneNamesByPage2[currentIslandIndex];
+                break;
+        }
+
+        if (!string.IsNullOrEmpty(sceneName))
+        {
+            Debug.Log($"🌍 Loading Scene: {sceneName}");
+            SceneManager.LoadScene(sceneName);
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ 해당 위치에 연결된 씬이 없습니다!");
+        }
     }
 
     // ✅ 배경폭 기반 페이지 좌표 계산 (Pivot: Bottom Left)
@@ -129,54 +171,28 @@ public class WorldMapController : MonoBehaviour
 
     private void SmoothMove()
     {
-        // 🌎 WorldGroup 이동
-        worldGroup.position = Vector3.Lerp(
-            worldGroup.position,
-            targetWorldPos,
-            Time.deltaTime * mapLerpSpeed
-        );
+        worldGroup.position = Vector3.Lerp(worldGroup.position, targetWorldPos, Time.deltaTime * mapLerpSpeed);
 
-        // 🧍‍♀️ Dani 이동 (둥실둥실 모션)
         Vector3 daniTargetWorld = worldGroup.position + GetCurrentIslandArray()[currentIslandIndex];
         hoverTimer += Time.deltaTime * hoverFrequency;
 
-        // 위아래로 흔들리는 위치
         float hoverOffset = Mathf.Sin(hoverTimer) * hoverAmplitude;
-        Vector3 hoverTarget = new Vector3(
-            daniTargetWorld.x,
-            daniTargetWorld.y + hoverOffset,
-            daniTargetWorld.z
-        );
+        Vector3 hoverTarget = new Vector3(daniTargetWorld.x, daniTargetWorld.y + hoverOffset, daniTargetWorld.z);
 
-        dani.position = Vector3.Lerp(
-            dani.position,
-            hoverTarget,
-            Time.deltaTime * daniLerpSpeed
-        );
+        dani.position = Vector3.Lerp(dani.position, hoverTarget, Time.deltaTime * daniLerpSpeed);
 
-        // 방향 전환 시 스프라이트 반전
         if (daniRenderer != null)
         {
             if (daniTargetWorld.x > dani.position.x + 0.05f) daniRenderer.flipX = false;
             else if (daniTargetWorld.x < dani.position.x - 0.05f) daniRenderer.flipX = true;
         }
 
-        // 🎥 카메라 이동 (X만 이동하고 Y는 고정)
         Vector3 pageCenter = GetPageCenter(currentPage);
-        Vector3 desiredCameraPos = new Vector3(
-            pageCenter.x,
-            mainCamera.transform.position.y,
-            cameraOffset.z
-        );
+        Vector3 desiredCameraPos = new Vector3(pageCenter.x, mainCamera.transform.position.y, cameraOffset.z);
 
-        mainCamera.transform.position = Vector3.Lerp(
-            mainCamera.transform.position,
-            desiredCameraPos,
-            Time.deltaTime * cameraLerpSpeed
-        );
+        mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, desiredCameraPos, Time.deltaTime * cameraLerpSpeed);
     }
 
-    // ✅ 페이지별 섬 중심 계산 (목표 위치 기준)
     private Vector3 GetPageCenter(int pageIndex)
     {
         Vector3[] islands = null;
