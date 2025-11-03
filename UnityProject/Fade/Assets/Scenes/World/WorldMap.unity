@@ -1248,7 +1248,6 @@ MonoBehaviour:
   cameraOffset: {x: 0, y: 0, z: -10}
   hoverAmplitude: 0.1
   hoverFrequency: 3
-  daniAnimator: {fileID: 1357931303}
 --- !u!4 &1462920624
 Transform:
   m_ObjectHideFlags: 0
