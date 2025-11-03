@@ -1,69 +1,61 @@
-using UnityEngine;
-using UnityEngine.InputSystem;
+//using UnityEngine;
+//using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class PlayerMovement : MonoBehaviour
-{
-    private PlayerControls controls;
-    private Rigidbody2D rb;
-    private Vector2 moveInput;
-    private bool jumpPressed;
-    private bool isGrounded;
+//[RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(Animator))]
+//public class Player : MonoBehaviour
+//{
+//    [Header("Movement Settings")]
+//    public float speed = 5f;
 
-    [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float jumpForce = 7f;
-    [SerializeField] private float gravityScale = 2.5f;
+//    private Rigidbody2D rigid;
+//    private SpriteRenderer spriter;
+//    private Animator anim;
 
-    [Header("Ground Check")]
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private float groundCheckRadius = 0.2f;
-    [SerializeField] private LayerMask groundLayer;
+//    private Vector2 inputVec;
 
-    private void Awake()
-    {
-        controls = new PlayerControls();
-        rb = GetComponent<Rigidbody2D>();
+//    // Input System��
+//    private PlayerControls controls;
 
-        // 중력값 기본 설정
-        rb.gravityScale = gravityScale;
+//    void Awake()
+//    {
+//        rigid = GetComponent<Rigidbody2D>();
+//        spriter = GetComponent<SpriteRenderer>();
+//        anim = GetComponent<Animator>();
 
-        // 이동 입력 처리
-        controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
-        controls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
+//        // �� Input System ����
+//        controls = new PlayerControls();
+//    }
 
-        // 점프 입력 처리
-        controls.Player.Jump.performed += ctx => jumpPressed = true;
-    }
+//    void OnEnable()
+//    {
+//        controls.Enable();
+//        controls.Player.Move.performed += OnMove;
+//        controls.Player.Move.canceled += OnMove;
+//    }
 
-    private void OnEnable() => controls.Enable();
-    private void OnDisable() => controls.Disable();
+//    void OnDisable()
+//    {
+//        controls.Player.Move.performed -= OnMove;
+//        controls.Player.Move.canceled -= OnMove;
+//        controls.Disable();
+//    }
 
-    private void Update()
-    {
-        // 바닥 감지
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+//    private void OnMove(InputAction.CallbackContext context)
+//    {
+//        inputVec = context.ReadValue<Vector2>();
+//    }
 
-        // 점프 처리
-        if (jumpPressed && isGrounded)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f); // 수직 속도 초기화
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        }
+//    void FixedUpdate()
+//    {
+//        Vector2 nextVec = inputVec.normalized * speed * Time.fixedDeltaTime;
+//        rigid.MovePosition(rigid.position + nextVec);
+//    }
 
-        jumpPressed = false;
-    }
+//    void LateUpdate()
+//    {
+//        anim.SetFloat("Speed", inputVec.magnitude);
 
-    private void FixedUpdate()
-    {
-        // 좌우 이동
-        rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        if (groundCheck == null) return;
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
-    }
-}
+//        if (inputVec.x != 0)
+//            spriter.flipX = inputVec.x < 0;
+//    }
+//}
