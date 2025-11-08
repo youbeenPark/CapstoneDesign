@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/TUTO/Stages/TUTO_Stage1.unity
     guid: d70b1a6787310894aaa6ed61011e5f23
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/TUTO/Stages/TUTO_Stage2.unity
+    guid: a7305e7f830a7504c8a5beb05e1c6cb3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: d0f5f863c36f6d941a632bbf91a479b3, type: 3}
   m_UseUCBPForAssetBundles: 0
