@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 44306156}
   - component: {fileID: 44306157}
+  - component: {fileID: 44306158}
   m_Layer: 0
   m_Name: OR_Achromatic
   m_TagString: Untagged
@@ -206,6 +207,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &44306158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44306155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: OR
+  lastStageName: BL_Stage4
+  lockedSprite: {fileID: 21300000, guid: 2e0e82194b6840c4b9a547c41e36f913, type: 3}
+  clearedSprite: {fileID: 21300000, guid: af90882d38369e248866e96842c9b892, type: 3}
 --- !u!1 &172841979
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,6 +407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 435203932}
   - component: {fileID: 435203933}
+  - component: {fileID: 435203934}
   m_Layer: 0
   m_Name: BOSE_Achromatic
   m_TagString: Untagged
@@ -456,17 +474,33 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
+  m_Sprite: {fileID: -1997528162227442683, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.87058824}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 31.25, y: 31.25}
+  m_Size: {x: 25, y: 22.875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &435203934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435203931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: BOSE
+  lastStageName: PR_Stage3
+  lockedSprite: {fileID: -1997528162227442683, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
+  clearedSprite: {fileID: 2111798367698062035, guid: 3389f6031a8ffb24c8b6e117c3fe8dd6, type: 3}
 --- !u!1 &625792297
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 625792298}
   - component: {fileID: 625792299}
+  - component: {fileID: 625792300}
   m_Layer: 0
   m_Name: RAINBOW_Achromatic
   m_TagString: Untagged
@@ -551,9 +586,25 @@ SpriteRenderer:
   m_Size: {x: 45.125, y: 21.5625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &625792300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625792297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: RAINBOW
+  lastStageName: BOSE
+  lockedSprite: {fileID: 8870152589157790855, guid: 57ae6014cb321634ab4d8e18a50f11a7, type: 3}
+  clearedSprite: {fileID: -1906189772562419773, guid: 750c4512b7f649841993a48968bce23e, type: 3}
 --- !u!1 &793140896
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 793140897}
   - component: {fileID: 793140898}
+  - component: {fileID: 793140899}
   m_Layer: 0
   m_Name: SK_Achromatic
   m_TagString: Untagged
@@ -580,8 +632,8 @@ Transform:
   m_GameObject: {fileID: 793140896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1780, y: 107.00001, z: -3}
-  m_LocalScale: {x: 126.420006, y: 132.15302, z: 92.98852}
+  m_LocalPosition: {x: 1796, y: 108, z: -3}
+  m_LocalScale: {x: 18.467434, y: 23.298576, z: 92.98852}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2070292070}
@@ -641,6 +693,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &793140899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793140896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: SK
+  lastStageName: RD_Stage4
+  lockedSprite: {fileID: 7731218543870835020, guid: c8d305f282b3a1f438ed41e5bc436c4e, type: 3}
+  clearedSprite: {fileID: -886054775576758339, guid: b5c51c718cbf705479ac94c20474e2df, type: 3}
 --- !u!1 &922544100
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,6 +806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134140570}
   - component: {fileID: 1134140571}
+  - component: {fileID: 1134140572}
   m_Layer: 0
   m_Name: RD_Achromatic
   m_TagString: Untagged
@@ -754,8 +823,8 @@ Transform:
   m_GameObject: {fileID: 1134140569}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.019892912, w: 0.9998021}
-  m_LocalPosition: {x: 1451, y: -179, z: -3}
-  m_LocalScale: {x: 151.70401, y: 157.731, z: 92.98852}
+  m_LocalPosition: {x: 1479, y: -173, z: -3}
+  m_LocalScale: {x: 26.771511, y: 29.254683, z: 92.98852}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2070292070}
@@ -815,6 +884,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1134140572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134140569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: RD
+  lastStageName: OR_Stage4
+  lockedSprite: {fileID: -6464092388487890328, guid: 2c2d50dc54757a1469e6c6d4d9f6d344, type: 3}
+  clearedSprite: {fileID: -3347356662330891039, guid: dd8ef8b271f3c5b449056914bebb8688, type: 3}
 --- !u!1 &1148353004
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,6 +910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148353005}
   - component: {fileID: 1148353006}
+  - component: {fileID: 1148353007}
   m_Layer: 0
   m_Name: GR_Achromatic
   m_TagString: Untagged
@@ -902,6 +988,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1148353007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148353004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: 
+  lastStageName: 
+  lockedSprite: {fileID: 0}
+  clearedSprite: {fileID: 0}
 --- !u!1 &1293003237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,8 +1412,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1524026550}
   - component: {fileID: 1524026551}
+  - component: {fileID: 1524026552}
   m_Layer: 0
-  m_Name: Tuto_Achromatic
+  m_Name: TUTO_Achromatic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1387,6 +1490,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1524026552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524026549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: TUTO
+  lastStageName: TUTO_Stage2
+  lockedSprite: {fileID: 21300000, guid: 4b32f50bdfffdd34097017228a28325a, type: 3}
+  clearedSprite: {fileID: 21300000, guid: 649e7e6b5f455cf46ac0fb57e61d71b6, type: 3}
 --- !u!1 &1531205747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,8 +1740,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1652338989}
   - component: {fileID: 1652338990}
+  - component: {fileID: 1652338991}
   m_Layer: 0
-  m_Name: BR_Achromatic
+  m_Name: PR_Achromatic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1687,17 +1807,33 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
+  m_Sprite: {fileID: 910058115086972017, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.8980392}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 45.125, y: 21.5625}
+  m_Size: {x: 18.1875, y: 19}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1652338991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652338988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: PR
+  lastStageName: SK_Stage3
+  lockedSprite: {fileID: 910058115086972017, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
+  clearedSprite: {fileID: 1659035048951816136, guid: c09eba23ce5ad18418d4e8fa33f6ace5, type: 3}
 --- !u!1 &1767506992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,6 +1931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1837486001}
   - component: {fileID: 1837486002}
+  - component: {fileID: 1837486003}
   m_Layer: 0
   m_Name: YL_Achromatic
   m_TagString: Untagged
@@ -1872,6 +2009,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1837486003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837486000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: 
+  lastStageName: 
+  lockedSprite: {fileID: 0}
+  clearedSprite: {fileID: 0}
 --- !u!1 &1947197769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,6 +2035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1947197770}
   - component: {fileID: 1947197771}
+  - component: {fileID: 1947197772}
   m_Layer: 0
   m_Name: BL_Achromatic
   m_TagString: Untagged
@@ -1959,6 +2113,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1947197772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947197769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  episodeName: 
+  lastStageName: 
+  lockedSprite: {fileID: 0}
+  clearedSprite: {fileID: 0}
 --- !u!1 &2070292069
 GameObject:
   m_ObjectHideFlags: 0
