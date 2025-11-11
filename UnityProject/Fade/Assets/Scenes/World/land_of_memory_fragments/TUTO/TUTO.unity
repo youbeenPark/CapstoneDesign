@@ -257,6 +257,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageName: TUTO_Stage2
+  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
+  lockedColor: {r: 0.4, g: 0.4, b: 0.4, a: 0.6}
+  glowIntensity: 1.2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,6 +885,7 @@ GameObject:
   - component: {fileID: 1484664788}
   - component: {fileID: 1484664789}
   - component: {fileID: 1484664790}
+  - component: {fileID: 1484664791}
   m_Layer: 12
   m_Name: TUTO_Stage1
   m_TagString: StageSpot
@@ -995,6 +999,68 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.000015258789, y: 0}
   m_Radius: 16
+--- !u!114 &1484664791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484664787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9477cbbf2379d87419a6ab0b5fb29341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageName: TUTO_Stage1
+  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
+  lockedColor: {r: 0.4, g: 0.4, b: 0.4, a: 0.6}
+  glowIntensity: 1.2
+--- !u!1 &2039494905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2039494907}
+  - component: {fileID: 2039494906}
+  m_Layer: 0
+  m_Name: ClearPref
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2039494906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039494905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6e3596601edca40a4d007d557bd644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearOnStart: 0
+  specificKey: 
+--- !u!4 &2039494907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039494905}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.992445, y: -3.5779765, z: -0.04091132}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2062561925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,3 +1117,4 @@ SceneRoots:
   - {fileID: 1233397933}
   - {fileID: 2062561927}
   - {fileID: 1050901963}
+  - {fileID: 2039494907}

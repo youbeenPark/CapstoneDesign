@@ -58,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -156,10 +156,10 @@ TextureImporter:
         serializedVersion: 2
         x: 103
         y: 3
-        width: 545
-        height: 332
+        width: 564
+        height: 342
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,94 +168,6 @@ TextureImporter:
       bones: []
       spriteID: 3cf2fe3508adb85e0800000000000000
       internalID: -1906189772562419773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RAINBOW_Color_1
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 324
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 099859c1785e4da80800000000000000
-      internalID: -8442871032949929584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RAINBOW_Color_2
-      rect:
-        serializedVersion: 2
-        x: 555
-        y: 297
-        width: 42
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f796eaef08753980800000000000000
-      internalID: -8559803506986936332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RAINBOW_Color_3
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 333
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21bc46173d9a2c310800000000000000
-      internalID: 1423887157808122642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RAINBOW_Color_4
-      rect:
-        serializedVersion: 2
-        x: 642
-        y: 276
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa7140a8620107800800000000000000
-      internalID: 608003707405342639
       vertices: []
       indices: 
       edges: []

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class EpisodeMapController : MonoBehaviour
 {
@@ -15,20 +16,31 @@ public class EpisodeMapController : MonoBehaviour
     private void Start()
     {
         // ✅ 첫 번째 스테이지 자동 해금
-        string firstStageKey = $"{currentWorld}_Stage1_Unlocked";
-        if (PlayerPrefs.GetInt(firstStageKey, 0) == 0)
-        {
-            PlayerPrefs.SetInt(firstStageKey, 1);
-            PlayerPrefs.Save();
-            Debug.Log($"기본 해금 설정됨: {firstStageKey}");
-        }
+        string firstStageKey = $"Unlocked_{currentWorld}_Stage1";
+        PlayerPrefs.SetInt(firstStageKey, 1);
+        PlayerPrefs.Save();
+        Debug.Log($"기본 해금 설정됨: {firstStageKey}");
+
+        // ✅ 씬 시작 후 잠시 대기 → 모든 StagePortal 상태 새로고침
+        StartCoroutine(DelayedPortalRefresh());
     }
 
-    void Update()
+    private IEnumerator DelayedPortalRefresh()
+    {
+        yield return new WaitForSeconds(0.3f); // PlayerPrefs 저장/불러오기 완료 대기
+        foreach (var portal in FindObjectsOfType<StagePortal>())
+        {
+            portal.SendMessage("RefreshUnlockState", SendMessageOptions.DontRequireReceiver);
+        }
+        Debug.Log("🔄 모든 StagePortal 상태 새로고침 완료");
+    }
+
+    private void Update()
     {
         HandleMovement();
         HandleStageEnter();
 
+        // 디버그용 — 근처 스테이지 감지 확인
         Collider2D hit = Physics2D.OverlapCircle(player.position, 0.2f, LayerMask.GetMask("StageSpot"));
         if (hit != null)
             Debug.Log($"Overlap 감지됨: {hit.name}");
@@ -48,22 +60,23 @@ public class EpisodeMapController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && currentStageName != null)
         {
-            string unlockKey = $"{currentStageName}_Unlocked";
-            bool unlocked = PlayerPrefs.GetInt(unlockKey, 0) == 1 || currentStageName.EndsWith("Stage1");
+            // ✅ PlayerPrefs 키 통일 (Unlocked_ 접두사로 저장)
+            string unlockKey = $"Unlocked_{currentStageName}";
+            bool unlocked = PlayerPrefs.GetInt(unlockKey, 0) == 1
+                            || currentStageName.EndsWith("Stage1"); // 첫 스테이지만 예외 허용
 
             Debug.Log($"스테이지 확인 → {currentStageName}, 해금 여부: {unlocked}");
 
             if (!unlocked)
             {
-                Debug.Log("이 스테이지는 아직 잠겨 있습니다!");
+                Debug.Log("🔒 이 스테이지는 아직 잠겨 있습니다!");
                 return;
             }
 
-            Debug.Log($"스테이지 진입: {currentStageName}");
+            Debug.Log($"🚪 스테이지 진입: {currentStageName}");
             SceneManager.LoadScene(currentStageName);
         }
     }
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {

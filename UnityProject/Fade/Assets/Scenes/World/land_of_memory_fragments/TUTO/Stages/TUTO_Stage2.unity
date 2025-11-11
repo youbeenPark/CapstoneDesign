@@ -476,9 +476,9 @@ GameObject:
   - component: {fileID: 745995571}
   - component: {fileID: 745995572}
   - component: {fileID: 745995574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -722,7 +722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 857871807}
   - component: {fileID: 857871808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 0}
+    TrackingTarget: {fileID: 745995569}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -1200,7 +1200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0662effbe3cbde646b6ea130ff9d8433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextStageName: WorldMap
+  nextStageName: 
+  nextEpisodeFirstStage: GR_Stage1
+  episodeMapName: WorldMap
 --- !u!61 &1479028913
 BoxCollider2D:
   m_ObjectHideFlags: 0

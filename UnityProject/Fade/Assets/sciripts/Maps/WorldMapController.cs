@@ -55,6 +55,11 @@ public class WorldMapController : MonoBehaviour
         mainCamera.transform.position = startCenter + cameraOffset;
 
         UpdateBackground();
+
+        // ✅ 월드맵 진입 시 각 에피소드 섬의 색상 자동 갱신
+        foreach (var island in FindObjectsOfType<EpisodeIsland>())
+            island.UpdateIslandSprite();
+
     }
 
     private void Update()

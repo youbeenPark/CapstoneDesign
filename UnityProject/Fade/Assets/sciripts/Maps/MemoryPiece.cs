@@ -1,10 +1,70 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿//using System.Collections;
+//using UnityEngine;
+//using UnityEngine.SceneManagement;
 
-public class MemoryFragment : MonoBehaviour
+//public class MemoryFragment : MonoBehaviour
+//{
+//    [Header("다음 스테이지 이름")]
+//    public string nextStageName; // 예: "TUTO_Stage2"
+
+//    [Header("클리어 후 이동할 에피소드 맵 이름")]
+//    public string episodeMapName; // 에피소드 맵 씬 이름으로 변경
+
+//    private bool collected = false;
+
+//    private void OnTriggerEnter2D(Collider2D other)
+//    {
+//        if (collected) return;
+//        if (!other.CompareTag("Player")) return;
+
+//        collected = true;
+//        Debug.Log("✨ 기억 조각 획득!");
+
+//        // 1️⃣ 다음 스테이지 해금
+//        if (!string.IsNullOrEmpty(nextStageName))
+//        {
+//            StageProgressManager.UnlockStage(nextStageName);
+//            PlayerPrefs.Save();
+//            Debug.Log($"🔓 {nextStageName} 해금 완료!");
+//        }
+//        else
+//        {
+//            Debug.LogWarning("⚠️ 다음 스테이지 이름이 비어 있습니다!");
+//        }
+
+//        // 2️⃣ 에피소드 맵으로 이동
+//        if (!string.IsNullOrEmpty(episodeMapName))
+//        {
+//            Debug.Log($"🌈 에피소드 맵으로 이동 준비 중: {episodeMapName}");
+//            StartCoroutine(GoToEpisodeMapAfterDelay(0.2f));
+//        }
+//        else
+//        {
+//            Debug.LogWarning("⚠️ episodeMapName이 비어 있습니다!");
+//        }
+//    }
+
+//    private IEnumerator GoToEpisodeMapAfterDelay(float delay)
+//    {
+//        yield return new WaitForSeconds(delay);
+//        SceneManager.LoadScene(episodeMapName);
+//    }
+//}
+
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
+
+public class MemoryPiece : MonoBehaviour
 {
-    [Header("다음 스테이지 이름")]
-    public string nextStageName;
+    [Header("다음 스테이지 이름 (같은 에피소드 내)")]
+    public string nextStageName; // 예: "TUTO_Stage2"
+
+    [Header("다음 에피소드 첫 스테이지 (다음 섬의 Stage1)")]
+    public string nextEpisodeFirstStage; // 예: "RED_Stage1"
+
+    [Header("클리어 후 이동할 에피소드 맵 이름")]
+    public string episodeMapName; // 예: "Episode_TUTO"
 
     private bool collected = false;
 
@@ -16,22 +76,37 @@ public class MemoryFragment : MonoBehaviour
         collected = true;
         Debug.Log("✨ 기억 조각 획득!");
 
-        // 다음 스테이지 해금
+        // 1️⃣ 같은 에피소드 내 다음 스테이지 해금
         if (!string.IsNullOrEmpty(nextStageName))
         {
             StageProgressManager.UnlockStage(nextStageName);
+            Debug.Log($"🔓 {nextStageName} 해금 완료!");
         }
 
-        // 현재 스테이지 클리어 처리
-        StageClear();
+        // 2️⃣ 다음 에피소드 첫 스테이지 해금
+        if (!string.IsNullOrEmpty(nextEpisodeFirstStage))
+        {
+            StageProgressManager.UnlockStage(nextEpisodeFirstStage);
+            Debug.Log($"🌈 다음 에피소드 스테이지 해금 완료: {nextEpisodeFirstStage}");
+        }
+
+        // 3️⃣ 저장 보장
+        PlayerPrefs.Save();
+
+        // 4️⃣ 딜레이 후 에피소드 맵으로 이동
+        StartCoroutine(GoToEpisodeMapAfterDelay(0.2f));
     }
 
-    private void StageClear()
+    private IEnumerator GoToEpisodeMapAfterDelay(float delay)
     {
-        Debug.Log("🌈 스테이지 클리어!");
-        if (!string.IsNullOrEmpty(nextStageName))
-            SceneManager.LoadScene(nextStageName);
+        yield return new WaitForSeconds(delay);
+        if (!string.IsNullOrEmpty(episodeMapName))
+        {
+            SceneManager.LoadScene(episodeMapName);
+        }
         else
-            Debug.LogWarning("⚠️ 다음 스테이지 이름이 설정되지 않았습니다.");
+        {
+            Debug.LogWarning("⚠️ episodeMapName이 비어 있습니다!");
+        }
     }
 }

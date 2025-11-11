@@ -13,7 +13,7 @@ public static class StageProgressManager
     {
         PlayerPrefs.SetInt($"Unlocked_{stageName}", 1);
         PlayerPrefs.Save();
-        Debug.Log($"🔓 {stageName} 해금됨");
+        Debug.Log($"🔓 스테이지 해금됨: {stageName}");
     }
 
     /// <summary>
