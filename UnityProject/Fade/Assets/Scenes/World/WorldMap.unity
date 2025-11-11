@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: OR
-  lastStageName: BL_Stage4
+  lastStageName: OR_Stage4
   lockedSprite: {fileID: 21300000, guid: 2e0e82194b6840c4b9a547c41e36f913, type: 3}
   clearedSprite: {fileID: 21300000, guid: af90882d38369e248866e96842c9b892, type: 3}
 --- !u!1 &172841979
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: BOSE
-  lastStageName: PR_Stage3
+  lastStageName: BOSE_Stage3
   lockedSprite: {fileID: -1997528162227442683, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
   clearedSprite: {fileID: 2111798367698062035, guid: 3389f6031a8ffb24c8b6e117c3fe8dd6, type: 3}
 --- !u!1 &625792297
@@ -602,7 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: RAINBOW
-  lastStageName: BOSE
+  lastStageName: RAINBOW_Stage1
   lockedSprite: {fileID: 8870152589157790855, guid: 57ae6014cb321634ab4d8e18a50f11a7, type: 3}
   clearedSprite: {fileID: -1906189772562419773, guid: 750c4512b7f649841993a48968bce23e, type: 3}
 --- !u!1 &793140896
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: SK
-  lastStageName: RD_Stage4
+  lastStageName: SK_Stage3
   lockedSprite: {fileID: 7731218543870835020, guid: c8d305f282b3a1f438ed41e5bc436c4e, type: 3}
   clearedSprite: {fileID: -886054775576758339, guid: b5c51c718cbf705479ac94c20474e2df, type: 3}
 --- !u!1 &922544100
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: RD
-  lastStageName: OR_Stage4
+  lastStageName: RD_Stage4
   lockedSprite: {fileID: -6464092388487890328, guid: 2c2d50dc54757a1469e6c6d4d9f6d344, type: 3}
   clearedSprite: {fileID: -3347356662330891039, guid: dd8ef8b271f3c5b449056914bebb8688, type: 3}
 --- !u!1 &1148353004
@@ -1000,10 +1000,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  episodeName: 
-  lastStageName: 
-  lockedSprite: {fileID: 0}
-  clearedSprite: {fileID: 0}
+  episodeName: GR
+  lastStageName: GR_Stage4
+  lockedSprite: {fileID: 21300000, guid: 8d821da4559c1604b8dbd0d147cde2b4, type: 3}
+  clearedSprite: {fileID: 21300000, guid: ace116e6888b634458478a8a9acea7b2, type: 3}
 --- !u!1 &1293003237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,7 +1831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: PR
-  lastStageName: SK_Stage3
+  lastStageName: PR_Stage3
   lockedSprite: {fileID: 910058115086972017, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
   clearedSprite: {fileID: 1659035048951816136, guid: c09eba23ce5ad18418d4e8fa33f6ace5, type: 3}
 --- !u!1 &1767506992
@@ -2003,7 +2003,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 31.25, y: 31.25}
+  m_Size: {x: 3.9062498, y: 3.9062498}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2021,10 +2021,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  episodeName: 
-  lastStageName: 
-  lockedSprite: {fileID: 0}
-  clearedSprite: {fileID: 0}
+  episodeName: YL
+  lastStageName: YL_Stage4
+  lockedSprite: {fileID: 21300000, guid: 1ff0da45c83128c479a01ebbdfcc505e, type: 3}
+  clearedSprite: {fileID: 21300000, guid: 7e1a8f5ced6b26a45be95a681ab2aa15, type: 3}
 --- !u!1 &1947197769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,10 +2125,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 785ff8c10b4092341af4f2de6f0cacff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  episodeName: 
-  lastStageName: 
-  lockedSprite: {fileID: 0}
-  clearedSprite: {fileID: 0}
+  episodeName: BL
+  lastStageName: BL_Stage4
+  lockedSprite: {fileID: 21300000, guid: 65ae883420621cc46960f25844494858, type: 3}
+  clearedSprite: {fileID: 21300000, guid: 7aa87bf97aa8c2a4eb39baf976968662, type: 3}
 --- !u!1 &2070292069
 GameObject:
   m_ObjectHideFlags: 0
