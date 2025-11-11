@@ -151,6 +151,7 @@
 //        return null;
 //    }
 //}
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -238,6 +239,7 @@ public class StagePortal : MonoBehaviour
             }
         }
 
+        // 🚪 스테이지 입장
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (isUnlocked)
