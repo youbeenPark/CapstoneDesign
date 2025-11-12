@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 44306155}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1077, y: -216, z: -3}
+  m_LocalPosition: {x: 1083, y: -209, z: -3}
   m_LocalScale: {x: 25, y: 25, z: 92.98852}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -196,12 +196,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2e0e82194b6840c4b9a547c41e36f913, type: 3}
+  m_Sprite: {fileID: 5421985614009546196, guid: 2e0e82194b6840c4b9a547c41e36f913, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.81960785}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 45.125, y: 21.5625}
+  m_Size: {x: 17.5625, y: 14.125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -220,8 +220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: OR
-  lockedSprite: {fileID: 21300000, guid: 2e0e82194b6840c4b9a547c41e36f913, type: 3}
-  unlockedSprite: {fileID: 21300000, guid: af90882d38369e248866e96842c9b892, type: 3}
+  lockedSprite: {fileID: 5421985614009546196, guid: 2e0e82194b6840c4b9a547c41e36f913, type: 3}
+  unlockedSprite: {fileID: -8803522738834910193, guid: af90882d38369e248866e96842c9b892, type: 3}
 --- !u!1 &172841979
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,12 +473,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
+  m_Sprite: {fileID: -1997528162227442683, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.87058824}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 31.25, y: 31.25}
+  m_Size: {x: 25, y: 22.875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -497,8 +497,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: BOSE
-  lockedSprite: {fileID: 21300000, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
-  unlockedSprite: {fileID: 21300000, guid: 3389f6031a8ffb24c8b6e117c3fe8dd6, type: 3}
+  lockedSprite: {fileID: -1997528162227442683, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
+  unlockedSprite: {fileID: 2111798367698062035, guid: 3389f6031a8ffb24c8b6e117c3fe8dd6, type: 3}
 --- !u!1 &625792297
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,12 +576,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 57ae6014cb321634ab4d8e18a50f11a7, type: 3}
+  m_Sprite: {fileID: 8870152589157790855, guid: 57ae6014cb321634ab4d8e18a50f11a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.8352941}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 45.125, y: 21.5625}
+  m_Size: {x: 33.4375, y: 20.6875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -600,8 +600,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: RAINBOW
-  lockedSprite: {fileID: 21300000, guid: 57ae6014cb321634ab4d8e18a50f11a7, type: 3}
-  unlockedSprite: {fileID: 0}
+  lockedSprite: {fileID: 8870152589157790855, guid: 57ae6014cb321634ab4d8e18a50f11a7, type: 3}
+  unlockedSprite: {fileID: -1906189772562419773, guid: 750c4512b7f649841993a48968bce23e, type: 3}
 --- !u!1 &793140896
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,7 +629,7 @@ Transform:
   m_GameObject: {fileID: 793140896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1797, y: 113, z: -3}
+  m_LocalPosition: {x: 1797, y: 123, z: -3}
   m_LocalScale: {x: 130.61868, y: 145.40717, z: 92.98852}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -819,7 +819,7 @@ Transform:
   m_GameObject: {fileID: 1134140569}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.019892912, w: 0.9998021}
-  m_LocalPosition: {x: 1493, y: -167, z: -3}
+  m_LocalPosition: {x: 1548, y: -201, z: -3}
   m_LocalScale: {x: 178.74803, y: 181.39658, z: 92.98852}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -922,7 +922,7 @@ Transform:
   m_GameObject: {fileID: 1148353004}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.87999, y: 21.000008, z: -3}
+  m_LocalPosition: {x: 29, y: 28, z: -3}
   m_LocalScale: {x: 86, y: 82, z: 98.4202}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -972,12 +972,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8d821da4559c1604b8dbd0d147cde2b4, type: 3}
+  m_Sprite: {fileID: 7416342393169497936, guid: 8d821da4559c1604b8dbd0d147cde2b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.9254902}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 12.892858, y: 6.160714}
+  m_Size: {x: 5.571429, y: 5.553571}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -996,8 +996,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: GR
-  lockedSprite: {fileID: 21300000, guid: 8d821da4559c1604b8dbd0d147cde2b4, type: 3}
-  unlockedSprite: {fileID: 21300000, guid: ace116e6888b634458478a8a9acea7b2, type: 3}
+  lockedSprite: {fileID: 7416342393169497936, guid: 8d821da4559c1604b8dbd0d147cde2b4, type: 3}
+  unlockedSprite: {fileID: -6855466156934153150, guid: ace116e6888b634458478a8a9acea7b2, type: 3}
 --- !u!1 &1293003237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,7 +1423,7 @@ Transform:
   m_GameObject: {fileID: 1524026549}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -300, y: -130, z: -3}
+  m_LocalPosition: {x: -346, y: -126, z: -3}
   m_LocalScale: {x: 15, y: 24, z: 92.98852}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1473,12 +1473,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4b32f50bdfffdd34097017228a28325a, type: 3}
+  m_Sprite: {fileID: -6957961462541260759, guid: 4b32f50bdfffdd34097017228a28325a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.77254903}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 45.125, y: 21.5625}
+  m_Size: {x: 33.5625, y: 18.5625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1497,8 +1497,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: TUTO
-  lockedSprite: {fileID: 21300000, guid: 4b32f50bdfffdd34097017228a28325a, type: 3}
-  unlockedSprite: {fileID: 21300000, guid: 649e7e6b5f455cf46ac0fb57e61d71b6, type: 3}
+  lockedSprite: {fileID: -6957961462541260759, guid: 4b32f50bdfffdd34097017228a28325a, type: 3}
+  unlockedSprite: {fileID: -5517377520542561235, guid: 649e7e6b5f455cf46ac0fb57e61d71b6, type: 3}
 --- !u!1 &1531205747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,7 +1750,7 @@ Transform:
   m_GameObject: {fileID: 1652338988}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1981, y: -122.99999, z: -3}
+  m_LocalPosition: {x: 1962, y: -107, z: -3}
   m_LocalScale: {x: 22.755602, y: 23.0202, z: 92.98852}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1800,12 +1800,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
+  m_Sprite: {fileID: 910058115086972017, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.8980392}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 45.125, y: 21.5625}
+  m_Size: {x: 18.1875, y: 19}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1824,8 +1824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: PR
-  lockedSprite: {fileID: 21300000, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
-  unlockedSprite: {fileID: 21300000, guid: c09eba23ce5ad18418d4e8fa33f6ace5, type: 3}
+  lockedSprite: {fileID: 910058115086972017, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
+  unlockedSprite: {fileID: 1659035048951816136, guid: c09eba23ce5ad18418d4e8fa33f6ace5, type: 3}
 --- !u!1 &1767506992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,7 +1940,7 @@ Transform:
   m_GameObject: {fileID: 1837486000}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.058891717, w: 0.99826443}
-  m_LocalPosition: {x: 362.88, y: -60.999992, z: -3}
+  m_LocalPosition: {x: 394, y: -29, z: -3}
   m_LocalScale: {x: 100, y: 101, z: 98.4202}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1990,12 +1990,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1ff0da45c83128c479a01ebbdfcc505e, type: 3}
+  m_Sprite: {fileID: -4102516972385283082, guid: 1ff0da45c83128c479a01ebbdfcc505e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.9490196}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.9062498, y: 3.9062498}
+  m_Size: {x: 3.734375, y: 3.7265625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2014,8 +2014,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: YL
-  lockedSprite: {fileID: 21300000, guid: 1ff0da45c83128c479a01ebbdfcc505e, type: 3}
-  unlockedSprite: {fileID: 21300000, guid: 7e1a8f5ced6b26a45be95a681ab2aa15, type: 3}
+  lockedSprite: {fileID: -4102516972385283082, guid: 1ff0da45c83128c479a01ebbdfcc505e, type: 3}
+  unlockedSprite: {fileID: -8123163619473994577, guid: 7e1a8f5ced6b26a45be95a681ab2aa15, type: 3}
 --- !u!1 &1947197769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2043,7 +2043,7 @@ Transform:
   m_GameObject: {fileID: 1947197769}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 710.88, y: -23.999992, z: -3}
+  m_LocalPosition: {x: 767, y: -29, z: -3}
   m_LocalScale: {x: 23, y: 21, z: 92.98852}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2093,12 +2093,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 65ae883420621cc46960f25844494858, type: 3}
+  m_Sprite: {fileID: -4994301318291542326, guid: 65ae883420621cc46960f25844494858, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7882353}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 31.25, y: 31.25}
+  m_Size: {x: 16.90909, y: 18.863636}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2117,8 +2117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episodeName: BL
-  lockedSprite: {fileID: 21300000, guid: 65ae883420621cc46960f25844494858, type: 3}
-  unlockedSprite: {fileID: 21300000, guid: 7aa87bf97aa8c2a4eb39baf976968662, type: 3}
+  lockedSprite: {fileID: -4994301318291542326, guid: 65ae883420621cc46960f25844494858, type: 3}
+  unlockedSprite: {fileID: 7944251631231966716, guid: 7aa87bf97aa8c2a4eb39baf976968662, type: 3}
 --- !u!1 &2070292069
 GameObject:
   m_ObjectHideFlags: 0

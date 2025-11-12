@@ -130,8 +130,9 @@ GameObject:
   - component: {fileID: 54876286}
   - component: {fileID: 54876287}
   - component: {fileID: 54876288}
-  m_Layer: 0
-  m_Name: Stage1_foothold
+  - component: {fileID: 54876289}
+  m_Layer: 12
+  m_Name: YL_Stage1
   m_TagString: StageSpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,6 +244,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 14
+--- !u!114 &54876289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54876285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9477cbbf2379d87419a6ab0b5fb29341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageName: YL_Stage1
+  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
+  lockedColor: {r: 0.4, g: 0.4, b: 0.4, a: 0.6}
+  glowIntensity: 1.2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,8 +527,9 @@ GameObject:
   - component: {fileID: 674398334}
   - component: {fileID: 674398335}
   - component: {fileID: 674398336}
-  m_Layer: 0
-  m_Name: Stage4_foothold
+  - component: {fileID: 674398337}
+  m_Layer: 12
+  m_Name: YL_Stage4
   m_TagString: StageSpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -526,7 +544,7 @@ Transform:
   m_GameObject: {fileID: 674398333}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.94, y: -8.3, z: -10.031028}
+  m_LocalPosition: {x: 4.29, y: -8.05, z: -10.031028}
   m_LocalScale: {x: 0.03, y: 0.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -617,12 +635,28 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 14
+--- !u!114 &674398337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674398333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9477cbbf2379d87419a6ab0b5fb29341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageName: YL_Stage4
+  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
+  lockedColor: {r: 0.4, g: 0.4, b: 0.4, a: 0.6}
+  glowIntensity: 1.2
 --- !u!1 &745995565
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +673,7 @@ GameObject:
   - component: {fileID: 745995573}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -828,6 +862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 805894485}
   - component: {fileID: 805894484}
+  - component: {fileID: 805894486}
   m_Layer: 0
   m_Name: EpisodeMapController
   m_TagString: Untagged
@@ -850,6 +885,8 @@ MonoBehaviour:
   player: {fileID: 745995567}
   moveSpeed: 3
   currentWorld: YL
+  nextWorld: BL
+  totalStages: 4
 --- !u!4 &805894485
 Transform:
   m_ObjectHideFlags: 0
@@ -865,6 +902,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &805894486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805894483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6e3596601edca40a4d007d557bd644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearOnStart: 0
+  specificKey: 
 --- !u!1 &935296830
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,8 +1045,9 @@ GameObject:
   - component: {fileID: 1085990131}
   - component: {fileID: 1085990132}
   - component: {fileID: 1085990133}
-  m_Layer: 0
-  m_Name: Stage2_foothold
+  - component: {fileID: 1085990134}
+  m_Layer: 12
+  m_Name: YL_Stage2
   m_TagString: StageSpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1107,6 +1159,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.0000076293945, y: 0.0000038146973}
   m_Radius: 14
+--- !u!114 &1085990134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085990130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9477cbbf2379d87419a6ab0b5fb29341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageName: YL_Stage2
+  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
+  lockedColor: {r: 0.4, g: 0.4, b: 0.4, a: 0.6}
+  glowIntensity: 1.2
 --- !u!1 &1233397931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,8 +1217,9 @@ GameObject:
   - component: {fileID: 1688757409}
   - component: {fileID: 1688757410}
   - component: {fileID: 1688757411}
-  m_Layer: 0
-  m_Name: Stage3_foothold
+  - component: {fileID: 1688757412}
+  m_Layer: 12
+  m_Name: YL_Stage3
   m_TagString: StageSpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1262,6 +1331,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 14
+--- !u!114 &1688757412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688757408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9477cbbf2379d87419a6ab0b5fb29341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageName: YL_Stage3
+  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
+  lockedColor: {r: 0.4, g: 0.4, b: 0.4, a: 0.6}
+  glowIntensity: 1.2
 --- !u!1 &2062561925
 GameObject:
   m_ObjectHideFlags: 0

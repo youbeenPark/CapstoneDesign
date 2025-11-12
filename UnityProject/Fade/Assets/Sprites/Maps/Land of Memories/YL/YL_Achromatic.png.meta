@@ -49,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,10 +147,10 @@ TextureImporter:
         serializedVersion: 2
         x: 13
         y: 15
-        width: 474
-        height: 440
+        width: 478
+        height: 477
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,28 +159,6 @@ TextureImporter:
       bones: []
       spriteID: 6f3d6f7bc8ee017c0800000000000000
       internalID: -4102516972385283082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: YL_Achromatic_1
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 394
-        width: 93
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c417ceb248132aef0800000000000000
-      internalID: -98461798106369716
       vertices: []
       indices: 
       edges: []

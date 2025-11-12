@@ -648,7 +648,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 9041214805728287490, guid: ce31affd40bd13a47b35a3c480d79e47, type: 3}
+  m_Sprite: {fileID: 2687057441370610899, guid: 3f8105af671f63949bee62f6e3867ec5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -668,8 +668,8 @@ Transform:
   m_GameObject: {fileID: 935296830}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0684, y: 0.0361, z: 10}
-  m_LocalScale: {x: 0.3158755, y: 0.31987602, z: 1}
+  m_LocalPosition: {x: 0.0301, y: 0.0046, z: 10}
+  m_LocalScale: {x: 0.27205276, y: 0.31665263, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1152,8 +1152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0662effbe3cbde646b6ea130ff9d8433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextStageName: TUTO_Stage2
-  episodeMapName: TUTO
+  nextStageName: GR_Stage2
+  nextEpisodeFirstStage: 
+  episodeMapName: GR
 --- !u!50 &1654743396
 Rigidbody2D:
   serializedVersion: 5

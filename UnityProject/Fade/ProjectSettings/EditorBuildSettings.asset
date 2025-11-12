@@ -24,8 +24,29 @@ EditorBuildSettings:
     path: Assets/Scenes/World/land_of_memory_fragments/BL/BL.unity
     guid: ce699443d76f96c44ad8d2a607cfc613
   - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/BL/Stages/BL_Stage1.unity
+    guid: 4022fdfafcf5ce545875ecb812ee4dd8
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/BL/Stages/BL_Stage2.unity
+    guid: dde0e31f7fbefd043bb893636866b2a5
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/BL/Stages/BL_Stage3.unity
+    guid: a498a7faa4d70b4488f19b78f9e9a805
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/BL/Stages/BL_Stage4.unity
+    guid: f037bad48e91bec4bb9aae143cf860e5
+  - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/BOSE/BOSE.unity
     guid: 0a8292571ec35294e960ea7b685f2a07
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/BOSE/Stages/BOSE_Stage1.unity
+    guid: 8da86ec66755ffd458878fdf47284685
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/BOSE/Stages/BOSE_Stage2.unity
+    guid: 7ac56e0fb18969d409425f45d6eca7a4
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/BOSE/Stages/BOSE_Stage3.unity
+    guid: 48c1b5b051bc31946aa5084e10ce0ef6
   - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/GR/GR.unity
     guid: 3525da3773801a440a893ecf51a6ef4c
@@ -36,23 +57,86 @@ EditorBuildSettings:
     path: Assets/Scenes/World/land_of_memory_fragments/GR/Stages/GR_Stage2.unity
     guid: ad74e987c2653ee44a066118850517f8
   - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/GR/Stages/GR_Stage3.unity
+    guid: ca5cc3837854e014ea37ca91532d5615
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/GR/Stages/GR_Stage4.unity
+    guid: 4d45c37ad6b49b44d8436c439047c7d8
+  - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/OR/OR.unity
     guid: dca3e46842285bb4e92359ae2f1eaa3a
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/OR/Stages/OR_Stage1.unity
+    guid: 5ade27488a835ea40a209e2de5aa47db
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/OR/Stages/OR_Stage2.unity
+    guid: f9e53a6035ae6e0419eb1d87d3d9a698
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/OR/Stages/OR_Stage3.unity
+    guid: 60dd27349400d134c9828f89509c995d
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/OR/Stages/OR_Stage4.unity
+    guid: afa66a97fd3be6d4ea61795148f1112e
   - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/PR/PR.unity
     guid: 80e5adce962b6004ab04f9ab03e66ad5
   - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/PR/Stages/PR_Stage1.unity
+    guid: fdc0cd8c1a8ee5045982b8ced4bfafaf
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/PR/Stages/PR_Stage2.unity
+    guid: 4c9cf2c9131ae774a980c0d0eb717088
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/PR/Stages/PR_Stage3.unity
+    guid: db227747312ebbc49b74f19a8ea53e75
+  - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/RAINBOW/RAINBOW.unity
     guid: 353453a3c2ecc4343b7e546b3cd47e27
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/RAINBOW/Stages/RAINBOW_Stage1.unity
+    guid: 690f8d14a11e30641b9604bb20abd52a
   - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/RD/RD.unity
     guid: ae6e43af6b5ab2545bbd2b8c5919c505
   - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/RD/Stages/RD_Stage1.unity
+    guid: 108bc9b9da4370c47a350e83724c0229
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/RD/Stages/RD_Stage2.unity
+    guid: d1ab81bc9b4e8084e96627dc55ad4b0b
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/RD/Stages/RD_Stage3.unity
+    guid: 5635248c394477643976d77e29485749
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/RD/Stages/RD_Stage4.unity
+    guid: d6a38ee68051ae4438129706e5c48c56
+  - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/SK/SK.unity
     guid: 3d0ad3a5b105d884a8b4949cd018702c
   - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/SK/Stages/SK_Stage1.unity
+    guid: 6551b7d900729f948b5ad4befee75033
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/SK/Stages/SK_Stage2.unity
+    guid: fcc77ab17bf91e24b9f35e48902d36a4
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/SK/Stages/SK_Stage3.unity
+    guid: 87835e8189ffb6b4697d4c425f0cca05
+  - enabled: 1
     path: Assets/Scenes/World/land_of_memory_fragments/YL/YL.unity
     guid: 55e7db1564866b440a82159c83945b5a
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/YL/Stages/YL_Stage4.unity
+    guid: 93ac57e6c73684642bf6e2da0f0dd80a
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/YL/Stages/YL_Stage3.unity
+    guid: d881df6376645b146bd08ca66f9508f8
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/YL/Stages/YL_Stage2.unity
+    guid: 04af9cd1ab77a9f40a267a5e4437405e
+  - enabled: 1
+    path: Assets/Scenes/World/land_of_memory_fragments/YL/Stages/YL_Stage1.unity
+    guid: 50fc5c74824e4594c83e9f81c74a6f25
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: d0f5f863c36f6d941a632bbf91a479b3, type: 3}
   m_UseUCBPForAssetBundles: 0

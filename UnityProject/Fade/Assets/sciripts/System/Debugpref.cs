@@ -27,4 +27,17 @@ public class Debugpref : MonoBehaviour
             PlayerPrefs.Save();
         }
     }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        foreach (var col in FindObjectsOfType<Collider2D>())
+        {
+            if (col.enabled)
+            {
+                Bounds b = col.bounds;
+                Gizmos.DrawWireCube(b.center, b.size);
+            }
+        }
+    }
 }
