@@ -109,9 +109,9 @@ public class EpisodeMapController : MonoBehaviour
     [SerializeField] private float moveSpeed = 3f;
 
     [Header("World Info")]
-    [SerializeField] private string currentWorld = ""; // 예: "TUTO"
-    [SerializeField] private string nextWorld = "";    // 예: "GR"
-    [SerializeField] private int totalStages = 2;      // 해당 에피소드 내 스테이지 개수
+    [SerializeField] private string currentWorld; // 예: "TUTO"
+    [SerializeField] private string nextWorld;    // 예: "GR"
+    [SerializeField] private int totalStages = 2; // 해당 에피소드 내 스테이지 개수
 
     private string currentStageName = null;
 
@@ -179,15 +179,13 @@ public class EpisodeMapController : MonoBehaviour
             currentStageName = null;
     }
 
-    // ✅ 스테이지 클리어 시 호출되는 함수 (핵심)
+    // ✅ 스테이지 클리어 시 호출
     public void OnStageCleared(string clearedStageName)
     {
         Debug.Log($"[EpisodeMapController] {clearedStageName} 클리어 감지!");
 
-        // 이번 스테이지 클리어 저장
         PlayerPrefs.SetInt($"Cleared_{clearedStageName}", 1);
 
-        // 전체 스테이지 클리어 확인
         int clearedCount = 0;
         for (int i = 1; i <= totalStages; i++)
         {
@@ -196,7 +194,7 @@ public class EpisodeMapController : MonoBehaviour
                 clearedCount++;
         }
 
-        // 모두 클리어 시 다음 에피소드 해금
+        // ✅ 모든 스테이지 클리어 → 다음 월드 해금
         if (clearedCount >= totalStages)
         {
             PlayerPrefs.SetInt($"Unlocked_{nextWorld}", 1);

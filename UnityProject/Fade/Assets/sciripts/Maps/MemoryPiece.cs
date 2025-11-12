@@ -91,14 +91,20 @@ public class MemoryPiece : MonoBehaviour
             Debug.Log($"🔓 {nextStageName} 해금 완료!");
         }
 
-        // 2️⃣ 다음 에피소드 첫 스테이지 해금
+        // 2️⃣ 다음 에피소드 첫 스테이지 해금 + 에피소드 자체 해금
         if (!string.IsNullOrEmpty(nextEpisodeFirstStage))
         {
             StageProgressManager.UnlockStage(nextEpisodeFirstStage);
             Debug.Log($"🌈 다음 에피소드 스테이지 해금 완료: {nextEpisodeFirstStage}");
+
+            // ✅ 에피소드 단위 해금 추가
+            string nextWorld = nextEpisodeFirstStage.Split('_')[0]; // "GR"
+            PlayerPrefs.SetInt("Unlocked_" + nextWorld, 1);
+            PlayerPrefs.Save();
+            Debug.Log($"🏝️ {nextWorld} 에피소드 해금 완료!");
         }
 
-        // 3️⃣ 전체 에피소드 클리어 여부 확인
+        // 3️⃣ 스테이지 클리어 처리 (EpisodeMapController 연동)
         var controller = FindObjectOfType<EpisodeMapController>();
         if (controller != null)
         {
@@ -120,12 +126,8 @@ public class MemoryPiece : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         if (!string.IsNullOrEmpty(episodeMapName))
-        {
             SceneManager.LoadScene(episodeMapName);
-        }
         else
-        {
             Debug.LogWarning("⚠️ episodeMapName이 비어 있습니다!");
-        }
     }
 }
