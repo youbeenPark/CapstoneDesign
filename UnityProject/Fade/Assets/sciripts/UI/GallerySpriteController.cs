@@ -1,58 +1,55 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class GallerySpriteController : MonoBehaviour
 {
-    [Header("연결할 UI 패널 (책 UI)")]
-    public GameObject galleryPanel;  // Canvas 안의 GalleryPanel
+    public GameObject GalleryRoot;
+    public Collider2D galleryIconCollider;
+    public Collider2D closeIconCollider;
+    public Animator galleryAnimator;   // ★ 추가됨 (Animator 연결)
 
-    [Header("닫기 아이콘 (선택사항)")]
-    public GameObject closeIcon;     // 닫기 버튼 (UI Button)
-
-    [Header("책 애니메이터 (선택사항)")]
-    public Animator galleryAnimator; // 책 열림/닫힘 애니메이션 담당
-
-    private bool isGalleryOpen = false;
+    private bool isOpen = false;
 
     void Start()
     {
-        if (galleryPanel != null)
-            galleryPanel.SetActive(false);
-
-        if (galleryAnimator != null)
-            galleryAnimator.SetBool("IsOpen", false);
+        GalleryRoot.SetActive(false);
     }
 
-    // === 버튼에서 호출할 함수 ===
-    public void OpenGallery()
+    void Update()
     {
-        if (isGalleryOpen) return;
-        isGalleryOpen = true;
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        if (galleryPanel != null)
-            galleryPanel.SetActive(true);
+            // 갤러리 아이콘 클릭 → OPEN
+            if (galleryIconCollider == Physics2D.OverlapPoint(mousePos))
+            {
+                OpenGallery();
+            }
 
-        if (galleryAnimator != null)
-            galleryAnimator.SetBool("IsOpen", true);
+            // 닫기 아이콘 클릭 → CLOSE
+            if (closeIconCollider == Physics2D.OverlapPoint(mousePos))
+            {
+                CloseGallery();
+            }
+        }
     }
 
-    public void CloseGallery()
+    void OpenGallery()
     {
-        if (!isGalleryOpen) return;
-        isGalleryOpen = false;
+        GalleryRoot.SetActive(true);
+        isOpen = true;
 
+        // ★ 애니메이션 재생
         if (galleryAnimator != null)
-            galleryAnimator.SetBool("IsOpen", false);
-
-        // 닫힘 애니메이션 끝나면 패널 비활성화
-        StartCoroutine(HideAfterDelay(0.5f));
+        {
+            galleryAnimator.SetTrigger("Open");
+        }
     }
 
-    IEnumerator HideAfterDelay(float delay)
+    void CloseGallery()
     {
-        yield return new WaitForSeconds(delay);
-
-        if (!isGalleryOpen && galleryPanel != null)
-            galleryPanel.SetActive(false);
+        // 닫힐 때는 애니메이션 없이 그냥 꺼짐
+        GalleryRoot.SetActive(false);
+        isOpen = false;
     }
 }
