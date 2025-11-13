@@ -1,82 +1,58 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using System.Collections;
 
 public class GallerySpriteController : MonoBehaviour
 {
-    [Header("¿¬°áÇÒ UI ÆĞ³Î (Ã¥ UI)")]
-    public GameObject galleryPanel;  // Canvas ¾ÈÀÇ GalleryPanel
+    [Header("ì—°ê²°í•  UI íŒ¨ë„ (ì±… UI)")]
+    public GameObject galleryPanel;  // Canvas ì•ˆì˜ GalleryPanel
 
-    [Header("´İ±â ¾ÆÀÌÄÜ (¼±ÅÃ»çÇ×)")]
-    public GameObject closeIcon;     // ´İ±â¿ë ½ºÇÁ¶óÀÌÆ® (¾øÀ¸¸é null)
+    [Header("ë‹«ê¸° ì•„ì´ì½˜ (ì„ íƒì‚¬í•­)")]
+    public GameObject closeIcon;     // ë‹«ê¸° ë²„íŠ¼ (UI Button)
 
-    [Header("Ã¥ ¾Ö´Ï¸ŞÀÌÅÍ (¼±ÅÃ»çÇ×)")]
-    public Animator galleryAnimator; // Ã¥ ¿­¸²/´İÈû ¾Ö´Ï¸ŞÀÌ¼Ç ´ã´ç
+    [Header("ì±… ì• ë‹ˆë©”ì´í„° (ì„ íƒì‚¬í•­)")]
+    public Animator galleryAnimator; // ì±… ì—´ë¦¼/ë‹«í˜ ì• ë‹ˆë©”ì´ì…˜ ë‹´ë‹¹
 
     private bool isGalleryOpen = false;
 
     void Start()
     {
-        // Ã³À½¿£ °¶·¯¸® ¼û±è
         if (galleryPanel != null)
             galleryPanel.SetActive(false);
+
+        if (galleryAnimator != null)
+            galleryAnimator.SetBool("IsOpen", false);
     }
 
-    void Update()
-    {
-        // ¸¶¿ì½º Å¬¸¯ °¨Áö
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Collider2D hit = Physics2D.OverlapPoint(mousePos);
-
-            // °¶·¯¸® ¾ÆÀÌÄÜ Å¬¸¯
-            if (hit != null && hit.gameObject == gameObject)
-            {
-                OpenGallery();
-            }
-
-            // ´İ±â ¾ÆÀÌÄÜ Å¬¸¯
-            if (closeIcon != null && hit != null && hit.gameObject == closeIcon)
-            {
-                CloseGallery();
-            }
-        }
-    }
-
-    void OpenGallery()
+    // === ë²„íŠ¼ì—ì„œ í˜¸ì¶œí•  í•¨ìˆ˜ ===
+    public void OpenGallery()
     {
         if (isGalleryOpen) return;
-
         isGalleryOpen = true;
 
-        // ÆĞ³Î È°¼ºÈ­
         if (galleryPanel != null)
             galleryPanel.SetActive(true);
 
-        // ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà
         if (galleryAnimator != null)
             galleryAnimator.SetBool("IsOpen", true);
     }
 
-    void CloseGallery()
+    public void CloseGallery()
     {
         if (!isGalleryOpen) return;
-
         isGalleryOpen = false;
 
-        // ´İÈû ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà
         if (galleryAnimator != null)
             galleryAnimator.SetBool("IsOpen", false);
 
-        // ´İÈ÷´Â ¾Ö´Ï¸ŞÀÌ¼Ç ³¡³­ µÚ ÆĞ³Î ºñÈ°¼ºÈ­
-        StartCoroutine(HideAfterDelay(0.3f));
+        // ë‹«í˜ ì• ë‹ˆë©”ì´ì…˜ ëë‚˜ë©´ íŒ¨ë„ ë¹„í™œì„±í™”
+        StartCoroutine(HideAfterDelay(0.5f));
     }
 
     IEnumerator HideAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
 
-        if (galleryPanel != null && !isGalleryOpen)
+        if (!isGalleryOpen && galleryPanel != null)
             galleryPanel.SetActive(false);
     }
 }
