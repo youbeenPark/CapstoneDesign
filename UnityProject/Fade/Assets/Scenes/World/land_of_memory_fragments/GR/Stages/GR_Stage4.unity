@@ -1153,8 +1153,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextStageName: 
-  nextEpisodeFirstStage: YL
+  nextEpisodeFirstStage: YL_Stage1
+  nextWorld: YL
   episodeMapName: WorldMap
+  collectEffect: {fileID: 0}
 --- !u!50 &1654743396
 Rigidbody2D:
   serializedVersion: 5

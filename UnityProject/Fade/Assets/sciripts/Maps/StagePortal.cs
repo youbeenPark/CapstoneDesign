@@ -123,7 +123,6 @@
 //    }
 //}
 
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -142,9 +141,9 @@ public class StagePortal : MonoBehaviour
     [Header("Glow (테두리 불빛)용 Renderer")]
     [SerializeField] private SpriteRenderer glowRenderer; // 따로 추가한 Glow SpriteRenderer
 
-    private bool isUnlocked;   // 해금 여부
-    private bool isCleared;    // 클리어 여부
-    private bool isNextStage;  // 다음 스테이지 여부
+    private bool isUnlocked;
+    private bool isCleared;
+    private bool isNextStage;
     private bool isPlayerInRange;
 
     private SpriteRenderer spriteRenderer;
@@ -162,10 +161,11 @@ public class StagePortal : MonoBehaviour
         RefreshVisualState();
     }
 
-    // 시각 상태 갱신
+    /// <summary>
+    /// 🔹 시각 상태 갱신 (클리어/해금 반영)
+    /// </summary>
     public void RefreshVisualState()
     {
-        // PlayerPrefs 기반으로 상태 불러오기
         isUnlocked = StageProgressManager.IsStageUnlocked(stageName);
         isCleared = StageProgressManager.IsStageCleared(stageName);
 
@@ -175,7 +175,7 @@ public class StagePortal : MonoBehaviour
         if (!string.IsNullOrEmpty(prevStage))
             prevCleared = StageProgressManager.IsStageCleared(prevStage);
 
-        // 다음 스테이지 (이전 클리어 + 아직 클리어 안됨)
+        // 다음 스테이지 여부
         isNextStage = prevCleared && !isCleared;
 
         // 상태별 표시
@@ -201,7 +201,7 @@ public class StagePortal : MonoBehaviour
 
     private void Update()
     {
-        // ✨ 해금된 포탈의 테두리 반짝임 (GlowRenderer 전용)
+        // ✨ 해금된 포탈의 테두리 반짝임
         if (isNextStage && glowRenderer != null && glowRenderer.enabled)
         {
             glowTimer += Time.deltaTime * 2f;
@@ -216,6 +216,14 @@ public class StagePortal : MonoBehaviour
             {
                 Debug.Log($"🚪 {stageName} 입장!");
                 SceneManager.LoadScene(stageName);
+
+                // ✅ 현재 스테이지를 클리어 상태로 저장
+                StageProgressManager.ClearStage(stageName);
+
+                // ✅ 모든 EpisodeIsland 다시 갱신
+                EpisodeIsland[] islands = FindObjectsOfType<EpisodeIsland>();
+                foreach (var island in islands)
+                    island.UpdateIslandSprite();
             }
             else
             {
@@ -236,7 +244,9 @@ public class StagePortal : MonoBehaviour
             isPlayerInRange = false;
     }
 
-    // 🔹 이전 스테이지 이름 계산 (예: GR_Stage2 → GR_Stage1)
+    /// <summary>
+    /// 🔹 이전 스테이지 이름 계산 (예: GR_Stage2 → GR_Stage1)
+    /// </summary>
     private string GetPreviousStageName(string stage)
     {
         int idx = stage.LastIndexOf("Stage");

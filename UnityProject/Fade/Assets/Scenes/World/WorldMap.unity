@@ -221,7 +221,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: OR
   lockedSprite: {fileID: 5421985614009546196, guid: 2e0e82194b6840c4b9a547c41e36f913, type: 3}
-  unlockedSprite: {fileID: -8803522738834910193, guid: af90882d38369e248866e96842c9b892, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: -8803522738834910193, guid: af90882d38369e248866e96842c9b892, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &172841979
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +501,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: BOSE
   lockedSprite: {fileID: -1997528162227442683, guid: 7569f6f92e2cc1b469c1332500190780, type: 3}
-  unlockedSprite: {fileID: 2111798367698062035, guid: 3389f6031a8ffb24c8b6e117c3fe8dd6, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: 2111798367698062035, guid: 3389f6031a8ffb24c8b6e117c3fe8dd6, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &625792297
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +607,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: RAINBOW
   lockedSprite: {fileID: 8870152589157790855, guid: 57ae6014cb321634ab4d8e18a50f11a7, type: 3}
-  unlockedSprite: {fileID: -1906189772562419773, guid: 750c4512b7f649841993a48968bce23e, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: -1906189772562419773, guid: 750c4512b7f649841993a48968bce23e, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &793140896
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,7 +713,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: SK
   lockedSprite: {fileID: 7731218543870835020, guid: c8d305f282b3a1f438ed41e5bc436c4e, type: 3}
-  unlockedSprite: {fileID: -886054775576758339, guid: b5c51c718cbf705479ac94c20474e2df, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: -886054775576758339, guid: b5c51c718cbf705479ac94c20474e2df, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &922544100
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,7 +906,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: RD
   lockedSprite: {fileID: -6464092388487890328, guid: 2c2d50dc54757a1469e6c6d4d9f6d344, type: 3}
-  unlockedSprite: {fileID: -3347356662330891039, guid: dd8ef8b271f3c5b449056914bebb8688, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: -3347356662330891039, guid: dd8ef8b271f3c5b449056914bebb8688, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &1148353004
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,7 +1012,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: GR
   lockedSprite: {fileID: 7416342393169497936, guid: 8d821da4559c1604b8dbd0d147cde2b4, type: 3}
-  unlockedSprite: {fileID: -6855466156934153150, guid: ace116e6888b634458478a8a9acea7b2, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: -6855466156934153150, guid: ace116e6888b634458478a8a9acea7b2, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &1293003237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,7 +1516,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: TUTO
   lockedSprite: {fileID: -6957961462541260759, guid: 4b32f50bdfffdd34097017228a28325a, type: 3}
-  unlockedSprite: {fileID: -5517377520542561235, guid: 649e7e6b5f455cf46ac0fb57e61d71b6, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: -5517377520542561235, guid: 649e7e6b5f455cf46ac0fb57e61d71b6, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &1531205747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,7 +1846,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: PR
   lockedSprite: {fileID: 910058115086972017, guid: 2aa4e7373f03e774c81bbac016d5ef28, type: 3}
-  unlockedSprite: {fileID: 1659035048951816136, guid: c09eba23ce5ad18418d4e8fa33f6ace5, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: 1659035048951816136, guid: c09eba23ce5ad18418d4e8fa33f6ace5, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &1767506992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2015,7 +2039,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: YL
   lockedSprite: {fileID: -4102516972385283082, guid: 1ff0da45c83128c479a01ebbdfcc505e, type: 3}
-  unlockedSprite: {fileID: -8123163619473994577, guid: 7e1a8f5ced6b26a45be95a681ab2aa15, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: -8123163619473994577, guid: 7e1a8f5ced6b26a45be95a681ab2aa15, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &1947197769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2118,7 +2145,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodeName: BL
   lockedSprite: {fileID: -4994301318291542326, guid: 65ae883420621cc46960f25844494858, type: 3}
-  unlockedSprite: {fileID: 7944251631231966716, guid: 7aa87bf97aa8c2a4eb39baf976968662, type: 3}
+  unlockedSprite: {fileID: 0}
+  clearedSprite: {fileID: 7944251631231966716, guid: 7aa87bf97aa8c2a4eb39baf976968662, type: 3}
+  blinkSpeed: 2
+  blinkIntensity: 0.4
 --- !u!1 &2070292069
 GameObject:
   m_ObjectHideFlags: 0

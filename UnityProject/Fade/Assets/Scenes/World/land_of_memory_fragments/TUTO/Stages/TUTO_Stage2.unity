@@ -1202,7 +1202,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextStageName: 
   nextEpisodeFirstStage: GR_Stage1
+  nextWorld: GR
   episodeMapName: WorldMap
+  collectEffect: {fileID: 0}
 --- !u!61 &1479028913
 BoxCollider2D:
   m_ObjectHideFlags: 0
