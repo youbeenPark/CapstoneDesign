@@ -82,9 +82,43 @@ public class WorldMapController : MonoBehaviour
     }
 
     // ✅ 현재 섬의 이름과 페이지에 맞춰 씬 로드
+    //private void LoadCurrentIslandScene()
+    //{
+    //    // 씬 이름 규칙: 폴더 이름과 동일하게 (예: "BL", "GR", "RD" 등)
+    //    string[] sceneNamesByPage0 = { "TUTO", "GR", "YL", "BL" };
+    //    string[] sceneNamesByPage1 = { "OR", "RD", "PR", "SK" };
+    //    string[] sceneNamesByPage2 = { "BOSE", "RAINBOW" };
+
+    //    string sceneName = null;
+
+    //    switch (currentPage)
+    //    {
+    //        case 0:
+    //            if (currentIslandIndex < sceneNamesByPage0.Length)
+    //                sceneName = sceneNamesByPage0[currentIslandIndex];
+    //            break;
+    //        case 1:
+    //            if (currentIslandIndex < sceneNamesByPage1.Length)
+    //                sceneName = sceneNamesByPage1[currentIslandIndex];
+    //            break;
+    //        case 2:
+    //            if (currentIslandIndex < sceneNamesByPage2.Length)
+    //                sceneName = sceneNamesByPage2[currentIslandIndex];
+    //            break;
+    //    }
+
+    //    if (!string.IsNullOrEmpty(sceneName))
+    //    {
+    //        Debug.Log($"🌍 Loading Scene: {sceneName}");
+    //        SceneManager.LoadScene(sceneName);
+    //    }
+    //    else
+    //    {
+    //        Debug.LogWarning("⚠️ 해당 위치에 연결된 씬이 없습니다!");
+    //    }
+    //}
     private void LoadCurrentIslandScene()
     {
-        // 씬 이름 규칙: 폴더 이름과 동일하게 (예: "BL", "GR", "RD" 등)
         string[] sceneNamesByPage0 = { "TUTO", "GR", "YL", "BL" };
         string[] sceneNamesByPage1 = { "OR", "RD", "PR", "SK" };
         string[] sceneNamesByPage2 = { "BOSE", "RAINBOW" };
@@ -109,6 +143,10 @@ public class WorldMapController : MonoBehaviour
 
         if (!string.IsNullOrEmpty(sceneName))
         {
+            // ⭐⭐⭐ 여기 추가된다!!
+            IslandInfo.currentIsland = (IslandType)System.Enum.Parse(typeof(IslandType), sceneName);
+            Debug.Log($"🌍 현재 섬 저장됨 : {IslandInfo.currentIsland}");
+
             Debug.Log($"🌍 Loading Scene: {sceneName}");
             SceneManager.LoadScene(sceneName);
         }
@@ -117,6 +155,8 @@ public class WorldMapController : MonoBehaviour
             Debug.LogWarning("⚠️ 해당 위치에 연결된 씬이 없습니다!");
         }
     }
+
+
 
     // ✅ 배경폭 기반 페이지 좌표 계산 (Pivot: Bottom Left)
     private void CalculatePagePositions()
