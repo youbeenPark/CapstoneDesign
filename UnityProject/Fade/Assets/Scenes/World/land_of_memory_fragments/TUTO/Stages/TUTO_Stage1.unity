@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3643382293396621540, guid: 0794afbd0a8d4094b9b60bd5bf4657e9, type: 3}
+      propertyPath: heartUI
+      value: 
+      objectReference: {fileID: 1555861223}
     - target: {fileID: 4541723252710984653, guid: 0794afbd0a8d4094b9b60bd5bf4657e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.68
