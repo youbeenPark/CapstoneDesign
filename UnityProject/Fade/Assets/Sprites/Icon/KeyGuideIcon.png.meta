@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 0e96e5cd0540ce14bb2f67318a3094b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2849631693762280949
+    second: KeyGuideIcon_0
+  - first:
+      213: -5675392049419170460
+    second: KeyGuideIcon_1
+  - first:
+      213: -6577105812199178144
+    second: KeyGuideIcon_2
+  - first:
+      213: -7358012947466815318
+    second: KeyGuideIcon_3
+  - first:
+      213: 3689617532299488972
+    second: KeyGuideIcon_4
+  - first:
+      213: -5598156892761589160
+    second: KeyGuideIcon_5
+  - first:
+      213: -461724236889538092
+    second: KeyGuideIcon_6
+  - first:
+      213: 6260744840264428326
+    second: KeyGuideIcon_7
+  - first:
+      213: -8428494967281765969
+    second: KeyGuideIcon_8
+  - first:
+      213: 2679927207277536291
+    second: KeyGuideIcon_9
+  - first:
+      213: -2506255313954774688
+    second: KeyGuideIcon_10
+  - first:
+      213: -4270189547644514406
+    second: KeyGuideIcon_11
+  - first:
+      213: 1132750970100554208
+    second: KeyGuideIcon_12
+  - first:
+      213: 8623358537292841986
+    second: KeyGuideIcon_13
+  - first:
+      213: -673855435028121812
+    second: KeyGuideIcon_14
+  - first:
+      213: 208046360799947650
+    second: KeyGuideIcon_15
+  - first:
+      213: -2607891693440001444
+    second: KeyGuideIcon_16
+  - first:
+      213: 6414596245207857793
+    second: KeyGuideIcon_17
+  - first:
+      213: -6499129256096943419
+    second: KeyGuideIcon_18
+  - first:
+      213: -5919121642946804068
+    second: KeyGuideIcon_19
+  - first:
+      213: 8581122383842954209
+    second: KeyGuideIcon_20
+  - first:
+      213: 786291411547225476
+    second: KeyGuideIcon_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KeyGuideIcon_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 221
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02ca9092131478d0800000000000000
+      internalID: -2849631693762280949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 245
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d4b452005fc31b0800000000000000
+      internalID: -5675392049419170460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 245
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06006bd5c1d69b4a0800000000000000
+      internalID: -6577105812199178144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 245
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8f38d653613e990800000000000000
+      internalID: -7358012947466815318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_4
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 226
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccea3c1e897243330800000000000000
+      internalID: 3689617532299488972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_5
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 251
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a7a0267f95f42b0800000000000000
+      internalID: -5598156892761589160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 251
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1c20cb040a799f0800000000000000
+      internalID: -461724236889538092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_7
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 251
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b2259e242a2e650800000000000000
+      internalID: 6260744840264428326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 197
+        width: 152
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1b00cbb78f70b80800000000000000
+      internalID: -8428494967281765969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 202
+        width: 151
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324aead9893013520800000000000000
+      internalID: 2679927207277536291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 158
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0616a47121ef73dd0800000000000000
+      internalID: -2506255313954774688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 160
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f00191b3d3db4c0800000000000000
+      internalID: -4270189547644514406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 157
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e992d7710758bf00800000000000000
+      internalID: 1132750970100554208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 148
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2040c22b6e25ca770800000000000000
+      internalID: 8623358537292841986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 163
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27be255d0cf5a6f0800000000000000
+      internalID: -673855435028121812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_15
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 165
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b2b48101123e200800000000000000
+      internalID: 208046360799947650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_16
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 163
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a11df6258eecbd0800000000000000
+      internalID: -2607891693440001444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_17
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 153
+        width: 85
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a3b2d8c49350950800000000000000
+      internalID: 6414596245207857793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 105
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c23efc10647ec5a0800000000000000
+      internalID: -6499129256096943419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 106
+        width: 118
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9644d10a3e0bdda0800000000000000
+      internalID: -5919121642946804068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_20
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 110
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebcc17e755461770800000000000000
+      internalID: 8581122383842954209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyGuideIcon_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 111
+        width: 119
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d76337fd779ea00800000000000000
+      internalID: 786291411547225476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KeyGuideIcon_0: -2849631693762280949
+      KeyGuideIcon_1: -5675392049419170460
+      KeyGuideIcon_10: -2506255313954774688
+      KeyGuideIcon_11: -4270189547644514406
+      KeyGuideIcon_12: 1132750970100554208
+      KeyGuideIcon_13: 8623358537292841986
+      KeyGuideIcon_14: -673855435028121812
+      KeyGuideIcon_15: 208046360799947650
+      KeyGuideIcon_16: -2607891693440001444
+      KeyGuideIcon_17: 6414596245207857793
+      KeyGuideIcon_18: -6499129256096943419
+      KeyGuideIcon_19: -5919121642946804068
+      KeyGuideIcon_2: -6577105812199178144
+      KeyGuideIcon_20: 8581122383842954209
+      KeyGuideIcon_21: 786291411547225476
+      KeyGuideIcon_3: -7358012947466815318
+      KeyGuideIcon_4: 3689617532299488972
+      KeyGuideIcon_5: -5598156892761589160
+      KeyGuideIcon_6: -461724236889538092
+      KeyGuideIcon_7: 6260744840264428326
+      KeyGuideIcon_8: -8428494967281765969
+      KeyGuideIcon_9: 2679927207277536291
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
