@@ -1,4 +1,6 @@
-﻿//using UnityEngine;
+﻿
+
+//using UnityEngine;
 //using UnityEngine.EventSystems;
 //using UnityEngine.InputSystem;
 //using UnityEngine.SceneManagement;
@@ -26,25 +28,21 @@
 //    }
 
 //    // ========================================================
-//    // ESC 동작 처리 (너가 원하는 정확한 구조로 구현됨)
+//    // ESC 동작 처리
 //    // ========================================================
 //    private void HandleEsc()
 //    {
-//        // 1) 옵션창 열려있으면 → 옵션창 닫고 설정창 다시 띄우기
+//        // 1) 옵션창 열려있으면 → 옵션창 닫고 설정창 띄우기
 //        if (panelSetting.activeSelf)
 //        {
-//            panelSetting.SetActive(false);
-//            panelWindow.SetActive(true);
-//            Debug.Log("[ESC] 옵션창 → 설정창으로 돌아감");
+//            CloseSetting();
 //            return;
 //        }
 
-//        // 2) 도움말창 열려있으면 → 도움말창 닫고 설정창 다시 띄우기
+//        // 2) 도움말창 열려있으면 → 도움말창 닫고 설정창 띄우기
 //        if (panelHelp.activeSelf)
 //        {
-//            panelHelp.SetActive(false);
-//            panelWindow.SetActive(true);
-//            Debug.Log("[ESC] 도움말창 → 설정창으로 돌아감");
+//            CloseHelp();
 //            return;
 //        }
 
@@ -56,13 +54,13 @@
 //            return;
 //        }
 
-//        // 4) 아무 패널도 없으면 → ESC 열기
+//        // 4) 아무 패널도 없으면 → ESC로 설정창 열기
 //        TogglePause(true);
 //        Debug.Log("[ESC] 설정창 열림");
 //    }
 
 //    // ========================================================
-//    // Pause 메뉴 켜고 끄기
+//    // Pause 메뉴 열기/닫기
 //    // ========================================================
 //    private void TogglePause(bool pause)
 //    {
@@ -72,7 +70,7 @@
 //        panelBackground.SetActive(pause);
 //        panelWindow.SetActive(pause);
 
-//        // ESC로 닫을 때 모든 서브창 닫기
+//        // ESC로 닫을 때 서브창 전부 닫기
 //        if (!pause)
 //        {
 //            panelSetting.SetActive(false);
@@ -100,6 +98,14 @@
 //        panelSetting.SetActive(true);
 //    }
 
+//    // 옵션 닫기  ← ★ 버튼/ESC 둘 다 사용 가능
+//    public void CloseSetting()
+//    {
+//        Debug.Log("[Button] 옵션 창 닫기");
+//        panelSetting.SetActive(false);
+//        panelWindow.SetActive(true);
+//    }
+
 //    // 도움말 열기
 //    public void OpenHelp()
 //    {
@@ -108,12 +114,20 @@
 //        panelHelp.SetActive(true);
 //    }
 
-//    // 메인 화면으로 이동
+//    // 도움말 닫기  ← ★ 버튼/ESC 둘 다 사용 가능
+//    public void CloseHelp()
+//    {
+//        Debug.Log("[Button] 도움말 창 닫기");
+//        panelHelp.SetActive(false);
+//        panelWindow.SetActive(true);
+//    }
+
+//    // 메인화면으로 이동
 //    public void ReturnToMainMenu()
 //    {
 //        Debug.Log("[Button] 메인화면으로 이동");
 //        Time.timeScale = 1;
-//        SceneManager.LoadScene("MainMenu"); // ← 네 Main Menu 씬 이름으로 바꾸기
+//        SceneManager.LoadScene("MainMenu");   // ← 씬 이름 맞게 변경하기
 //    }
 
 //    // 게임 종료
@@ -137,6 +151,10 @@ public class PauseMenuController : MonoBehaviour
     public GameObject panelSetting;      // 옵션창
     public GameObject panelHelp;         // 도움말창
 
+    [Header("Optional Buttons (Null-Safe)")]
+    public GameObject buttonRestart;     // 다시시작 버튼 (없을 수도 있음)
+    public GameObject buttonReturnMain;  // 메인화면 버튼 (없을 수도 있음)
+
     private bool isPaused = false;
 
     void Update()
@@ -145,10 +163,8 @@ public class PauseMenuController : MonoBehaviour
         if (EventSystem.current.IsPointerOverGameObject())
             return;
 
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
-        {
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
             HandleEsc();
-        }
     }
 
     // ========================================================
@@ -203,12 +219,18 @@ public class PauseMenuController : MonoBehaviour
     }
 
     // ========================================================
-    // Button Functions
+    // Button Functions (Null-Safe)
     // ========================================================
 
     // 게임 다시 시작
     public void RestartStage()
     {
+        if (buttonRestart == null)
+        {
+            Debug.Log("[Button] RestartStage 호출됨 - 버튼이 존재하지 않아 무시됨");
+            return;
+        }
+
         Debug.Log("[Button] 다시 시작");
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -222,7 +244,7 @@ public class PauseMenuController : MonoBehaviour
         panelSetting.SetActive(true);
     }
 
-    // 옵션 닫기  ← ★ 버튼/ESC 둘 다 사용 가능
+    // 옵션 닫기
     public void CloseSetting()
     {
         Debug.Log("[Button] 옵션 창 닫기");
@@ -238,7 +260,7 @@ public class PauseMenuController : MonoBehaviour
         panelHelp.SetActive(true);
     }
 
-    // 도움말 닫기  ← ★ 버튼/ESC 둘 다 사용 가능
+    // 도움말 닫기
     public void CloseHelp()
     {
         Debug.Log("[Button] 도움말 창 닫기");
@@ -249,6 +271,12 @@ public class PauseMenuController : MonoBehaviour
     // 메인화면으로 이동
     public void ReturnToMainMenu()
     {
+        if (buttonReturnMain == null)
+        {
+            Debug.Log("[Button] ReturnToMainMenu 호출됨 - 버튼이 존재하지 않아 무시됨");
+            return;
+        }
+
         Debug.Log("[Button] 메인화면으로 이동");
         Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");   // ← 씬 이름 맞게 변경하기
