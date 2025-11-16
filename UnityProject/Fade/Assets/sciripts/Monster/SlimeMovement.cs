@@ -17,7 +17,7 @@ public class SlimeMovement : MonoBehaviour
     private SpriteRenderer sr;
 
     [Header("데미지 관련")]
-    public float damage = 0.5f;   // 🔥 반칸 데미지
+    public float damage = 0.5f;
 
     void Start()
     {
@@ -49,7 +49,13 @@ public class SlimeMovement : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            // 💥 여기 수정됨 — 플레이어 오브젝트에 없으면 전체 씬에서 찾아옴
             PlayerHealth hp = collision.GetComponent<PlayerHealth>();
+            if (hp == null)
+            {
+                hp = FindObjectOfType<PlayerHealth>();
+            }
+
             if (hp != null)
             {
                 hp.TakeDamage(damage);

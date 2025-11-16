@@ -10,14 +10,14 @@ public class PlayerHealth : MonoBehaviour
     public HeartUI heartUI;
     public Animator anim;
 
-    private static PlayerHealth instance;   // 씬 전환에서 유지되는 싱글톤
+    private static PlayerHealth instance;
     private bool isDead = false;
 
     private Vector3 startPosition;
 
     void Awake()
     {
-        // PlayerHealth 중복 생성 방지
+        // 싱글톤 유지
         if (instance != null && instance != this)
         {
             Destroy(gameObject);
@@ -25,15 +25,14 @@ public class PlayerHealth : MonoBehaviour
         }
 
         instance = this;
-        DontDestroyOnLoad(gameObject);   // 씬 넘어가도 유지
+        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
     {
         startPosition = transform.position;
 
-        if (heartUI == null)
-            heartUI = FindObjectOfType<HeartUI>();
+        ConnectHeartUI();
 
         if (heartUI != null)
             heartUI.UpdateHearts(currentHealth);
@@ -49,26 +48,66 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    // --- 씬 넘어갈 때 자동 연결 ---
+    // --------------------------------------------------------
+    // ⭐ 씬 로딩 시 자동 처리
+    // --------------------------------------------------------
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // 씬에서 새 Player 찾기
-        GameObject playerObj = GameObject.FindWithTag("Player");
-        if (playerObj != null)
+        string sceneName = scene.name;
+
+        //-----------------------------------------------------
+        // ⭐ 1) EpisodeMap(TUTO) → PlatformerPlayer 강제 제거
+        //-----------------------------------------------------
+        if (sceneName == "TUTO")
         {
-            anim = playerObj.GetComponent<Animator>();
-            transform.position = playerObj.transform.position;  // 위치도 새 플레이어 기준으로
+            GameObject platformer = GameObject.Find("PlatformerPlayer");
+            if (platformer != null)
+                Destroy(platformer);
+
+            anim = null;    // EpisodeMap에서는 플레이어 애니 끊음
+            return;
         }
 
-        // HeartUI 자동 재연결
-        if (heartUI == null)
-            heartUI = FindObjectOfType<HeartUI>();
+        //-----------------------------------------------------
+        // ⭐ 2) Stage 씬일 때만 PlatformerPlayer 연결
+        //-----------------------------------------------------
+        if (sceneName.Contains("Stage"))
+        {
+            GameObject playerObj = GameObject.Find("PlatformerPlayer");
+
+            if (playerObj != null)
+            {
+                anim = playerObj.GetComponent<Animator>();
+                transform.position = playerObj.transform.position;
+            }
+        }
+        else
+        {
+            // 스테이지가 아닌 씬에서는 애니 끊기 (불필요한 연결 방지)
+            anim = null;
+        }
+
+        //-----------------------------------------------------
+        // ⭐ Heart UI 다시 연결
+        //-----------------------------------------------------
+        ConnectHeartUI();
 
         if (heartUI != null)
             heartUI.UpdateHearts(currentHealth);
     }
 
-    // --- 데미지 ---
+    // --------------------------------------------------------
+    // ⭐ HeartUI 자동 연결
+    // --------------------------------------------------------
+    private void ConnectHeartUI()
+    {
+        if (heartUI == null)
+            heartUI = FindObjectOfType<HeartUI>();
+    }
+
+    // --------------------------------------------------------
+    // 데미지 처리
+    // --------------------------------------------------------
     public void TakeDamage(float amount)
     {
         if (isDead) return;
@@ -81,48 +120,55 @@ public class PlayerHealth : MonoBehaviour
             Die();
         }
 
-        heartUI.UpdateHearts(currentHealth);
+        if (heartUI != null)
+            heartUI.UpdateHearts(currentHealth);
     }
 
-    // --- 회복 ---
+    // --------------------------------------------------------
+    // 회복 처리
+    // --------------------------------------------------------
     public void Heal(float amount)
     {
         if (isDead) return;
 
         currentHealth += amount;
-
         if (currentHealth > maxHealth)
             currentHealth = maxHealth;
 
-        heartUI.UpdateHearts(currentHealth);
+        if (heartUI != null)
+            heartUI.UpdateHearts(currentHealth);
     }
 
-    // --- 죽음 ---
+    // --------------------------------------------------------
+    // 죽음 처리
+    // --------------------------------------------------------
     void Die()
     {
         isDead = true;
-        anim.SetTrigger("Die");
 
-        // 리스폰 코루틴 실행
+        if (anim != null)
+            anim.SetTrigger("Die");
+
         StartCoroutine(RespawnRoutine());
     }
 
-    // --- 리스폰 ---
+    // --------------------------------------------------------
+    // 리스폰 루틴
+    // --------------------------------------------------------
     IEnumerator RespawnRoutine()
     {
         yield return new WaitForSeconds(2f);
 
-        // 체력 풀 회복
         currentHealth = maxHealth;
-        heartUI.UpdateHearts(currentHealth);
 
-        // 시작 위치로 이동
+        if (heartUI != null)
+            heartUI.UpdateHearts(currentHealth);
+
         transform.position = startPosition;
 
-        // Idle로 복귀
-        anim.Play("DaniIdle");
+        if (anim != null)
+            anim.Play("DaniIdle");
 
-        // 죽음 상태 해제
         isDead = false;
     }
 }
