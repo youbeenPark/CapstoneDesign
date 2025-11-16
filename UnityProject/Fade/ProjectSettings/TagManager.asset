@@ -49,5 +49,11 @@ TagManager:
   - name: Player
     uniqueID: 1056981701
     locked: 0
+  - name: UI
+    uniqueID: 4068820267
+    locked: 0
+  - name: PopupUI
+    uniqueID: 2248682267
+    locked: 0
   m_RenderingLayers:
   - Default

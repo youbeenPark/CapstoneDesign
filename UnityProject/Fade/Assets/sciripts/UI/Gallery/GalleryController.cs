@@ -3,11 +3,63 @@ using TMPro;
 
 public class GalleryController : MonoBehaviour
 {
+    [Header("UI 요소")]
     public TMP_Text currentIslandText;
+    public GameObject galleryRoot;
+
+    [Header("클릭 감지용 Collider")]
+    public Collider2D galleryIconCollider;   // HUD의 갤러리 아이콘
+    public Collider2D closeIconCollider;     // 책 안의 닫기 버튼
+
+    private bool isOpen = false;
 
     private void Start()
     {
-        currentIslandText.text = "현재 섬 : " + ConvertIslandName(IslandInfo.currentIsland);
+        // 현재 섬 텍스트 표시
+        if (currentIslandText != null)
+            currentIslandText.text = "현재 섬 : " + ConvertIslandName(IslandInfo.currentIsland);
+
+        // 갤러리는 기본적으로 꺼진 상태로 시작
+        if (galleryRoot != null)
+            galleryRoot.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            // 갤러리 아이콘 클릭 → 열기
+            if (galleryIconCollider != null &&
+                galleryIconCollider == Physics2D.OverlapPoint(mousePos))
+            {
+                OpenGallery();
+            }
+
+            // 닫기 아이콘 클릭 → 닫기
+            if (closeIconCollider != null &&
+                closeIconCollider == Physics2D.OverlapPoint(mousePos))
+            {
+                CloseGallery();
+            }
+        }
+    }
+
+    public void OpenGallery()
+    {
+        if (galleryRoot == null) return;
+
+        galleryRoot.SetActive(true);
+        isOpen = true;
+    }
+
+    public void CloseGallery()
+    {
+        if (galleryRoot == null) return;
+
+        galleryRoot.SetActive(false);
+        isOpen = false;
     }
 
     private string ConvertIslandName(IslandType type)
