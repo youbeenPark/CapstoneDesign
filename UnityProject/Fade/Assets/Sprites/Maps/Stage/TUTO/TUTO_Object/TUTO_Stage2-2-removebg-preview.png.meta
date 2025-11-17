@@ -1,0 +1,2288 @@
+fileFormatVersion: 2
+guid: 54105fe21b108034188dcd9810e1a380
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4709657054718201366
+    second: TUTO_Stage2-2-removebg-preview_0
+  - first:
+      213: 5106940824960449738
+    second: TUTO_Stage2-2-removebg-preview_1
+  - first:
+      213: 8394147147114737959
+    second: TUTO_Stage2-2-removebg-preview_2
+  - first:
+      213: -8931833814094695611
+    second: TUTO_Stage2-2-removebg-preview_3
+  - first:
+      213: -3588992925011334087
+    second: TUTO_Stage2-2-removebg-preview_4
+  - first:
+      213: 499258442087549294
+    second: TUTO_Stage2-2-removebg-preview_5
+  - first:
+      213: 3381628883544486474
+    second: TUTO_Stage2-2-removebg-preview_6
+  - first:
+      213: 2245723414889060778
+    second: TUTO_Stage2-2-removebg-preview_7
+  - first:
+      213: 3870903337936655054
+    second: TUTO_Stage2-2-removebg-preview_8
+  - first:
+      213: -2088869310512472995
+    second: TUTO_Stage2-2-removebg-preview_9
+  - first:
+      213: -1872874122360710371
+    second: TUTO_Stage2-2-removebg-preview_10
+  - first:
+      213: -38730316430183982
+    second: TUTO_Stage2-2-removebg-preview_11
+  - first:
+      213: 6487862274268583782
+    second: TUTO_Stage2-2-removebg-preview_12
+  - first:
+      213: -431712857956453386
+    second: TUTO_Stage2-2-removebg-preview_13
+  - first:
+      213: 1408178929584947963
+    second: TUTO_Stage2-2-removebg-preview_14
+  - first:
+      213: -4984466907069911616
+    second: TUTO_Stage2-2-removebg-preview_15
+  - first:
+      213: -3100527599217279276
+    second: TUTO_Stage2-2-removebg-preview_16
+  - first:
+      213: 6064357482447954274
+    second: TUTO_Stage2-2-removebg-preview_17
+  - first:
+      213: -7327831218665907755
+    second: TUTO_Stage2-2-removebg-preview_18
+  - first:
+      213: -8667390528400099124
+    second: TUTO_Stage2-2-removebg-preview_19
+  - first:
+      213: -4940088107659704688
+    second: TUTO_Stage2-2-removebg-preview_20
+  - first:
+      213: 9131152820502194589
+    second: TUTO_Stage2-2-removebg-preview_21
+  - first:
+      213: -5083021628373457006
+    second: TUTO_Stage2-2-removebg-preview_22
+  - first:
+      213: 5753948696148943242
+    second: TUTO_Stage2-2-removebg-preview_23
+  - first:
+      213: 1867092118735571485
+    second: TUTO_Stage2-2-removebg-preview_24
+  - first:
+      213: -3322415333686518173
+    second: TUTO_Stage2-2-removebg-preview_25
+  - first:
+      213: -2775645625364886965
+    second: TUTO_Stage2-2-removebg-preview_26
+  - first:
+      213: 8848764590725088816
+    second: TUTO_Stage2-2-removebg-preview_27
+  - first:
+      213: 1746951327254466505
+    second: TUTO_Stage2-2-removebg-preview_28
+  - first:
+      213: -3156890440580190733
+    second: TUTO_Stage2-2-removebg-preview_29
+  - first:
+      213: 6383031309282222073
+    second: TUTO_Stage2-2-removebg-preview_30
+  - first:
+      213: 3138468974902743595
+    second: TUTO_Stage2-2-removebg-preview_31
+  - first:
+      213: -2672065536634340083
+    second: TUTO_Stage2-2-removebg-preview_32
+  - first:
+      213: 1652066700193715839
+    second: TUTO_Stage2-2-removebg-preview_33
+  - first:
+      213: -8357255140642743509
+    second: TUTO_Stage2-2-removebg-preview_34
+  - first:
+      213: -8626704451332746096
+    second: TUTO_Stage2-2-removebg-preview_35
+  - first:
+      213: -7124642163709195612
+    second: TUTO_Stage2-2-removebg-preview_36
+  - first:
+      213: 4994057275617519880
+    second: TUTO_Stage2-2-removebg-preview_37
+  - first:
+      213: -3112650836117971208
+    second: TUTO_Stage2-2-removebg-preview_38
+  - first:
+      213: -8170610980359618574
+    second: TUTO_Stage2-2-removebg-preview_39
+  - first:
+      213: -3724094290797626367
+    second: TUTO_Stage2-2-removebg-preview_40
+  - first:
+      213: 7783414940745395788
+    second: TUTO_Stage2-2-removebg-preview_41
+  - first:
+      213: -7419614018912652940
+    second: TUTO_Stage2-2-removebg-preview_42
+  - first:
+      213: -5100600110079244767
+    second: TUTO_Stage2-2-removebg-preview_43
+  - first:
+      213: 6759351014895274660
+    second: TUTO_Stage2-2-removebg-preview_44
+  - first:
+      213: 4570067503396803492
+    second: TUTO_Stage2-2-removebg-preview_45
+  - first:
+      213: 6078177274915218014
+    second: TUTO_Stage2-2-removebg-preview_46
+  - first:
+      213: 5040756480663780711
+    second: TUTO_Stage2-2-removebg-preview_47
+  - first:
+      213: 526164736541389876
+    second: TUTO_Stage2-2-removebg-preview_48
+  - first:
+      213: 7755370566877661402
+    second: TUTO_Stage2-2-removebg-preview_49
+  - first:
+      213: 1563188280102096893
+    second: TUTO_Stage2-2-removebg-preview_50
+  - first:
+      213: 3858763297924619701
+    second: TUTO_Stage2-2-removebg-preview_51
+  - first:
+      213: 4131016618726362828
+    second: TUTO_Stage2-2-removebg-preview_52
+  - first:
+      213: 139346951615710028
+    second: TUTO_Stage2-2-removebg-preview_53
+  - first:
+      213: -5327359523375789937
+    second: TUTO_Stage2-2-removebg-preview_54
+  - first:
+      213: -7864285694926816905
+    second: TUTO_Stage2-2-removebg-preview_55
+  - first:
+      213: -6296596745533070504
+    second: TUTO_Stage2-2-removebg-preview_56
+  - first:
+      213: 8657697750840907782
+    second: TUTO_Stage2-2-removebg-preview_57
+  - first:
+      213: 1624534398470605395
+    second: TUTO_Stage2-2-removebg-preview_58
+  - first:
+      213: 8982248253528218363
+    second: TUTO_Stage2-2-removebg-preview_59
+  - first:
+      213: 1852228558500330965
+    second: TUTO_Stage2-2-removebg-preview_60
+  - first:
+      213: 2402871813107377959
+    second: TUTO_Stage2-2-removebg-preview_61
+  - first:
+      213: 1193126808949295004
+    second: TUTO_Stage2-2-removebg-preview_62
+  - first:
+      213: 2771487722320175340
+    second: TUTO_Stage2-2-removebg-preview_63
+  - first:
+      213: 6154729066226669710
+    second: TUTO_Stage2-2-removebg-preview_64
+  - first:
+      213: 4119315250612848520
+    second: TUTO_Stage2-2-removebg-preview_65
+  - first:
+      213: -8811896192525984863
+    second: TUTO_Stage2-2-removebg-preview_66
+  - first:
+      213: 2624538191974743518
+    second: TUTO_Stage2-2-removebg-preview_67
+  - first:
+      213: -4642762211380831693
+    second: TUTO_Stage2-2-removebg-preview_68
+  - first:
+      213: 9039257322819327297
+    second: TUTO_Stage2-2-removebg-preview_69
+  - first:
+      213: 7175494122625754228
+    second: TUTO_Stage2-2-removebg-preview_70
+  - first:
+      213: 6571394602506199040
+    second: TUTO_Stage2-2-removebg-preview_71
+  - first:
+      213: -8145797588174644912
+    second: TUTO_Stage2-2-removebg-preview_72
+  - first:
+      213: -97975923821679502
+    second: TUTO_Stage2-2-removebg-preview_73
+  - first:
+      213: -658575105125987151
+    second: TUTO_Stage2-2-removebg-preview_74
+  - first:
+      213: -2891017184153605986
+    second: TUTO_Stage2-2-removebg-preview_75
+  - first:
+      213: 1975120370693483779
+    second: TUTO_Stage2-2-removebg-preview_76
+  - first:
+      213: 6360202360809617326
+    second: TUTO_Stage2-2-removebg-preview_77
+  - first:
+      213: 1929490387588505821
+    second: TUTO_Stage2-2-removebg-preview_78
+  - first:
+      213: -1530765890172303732
+    second: TUTO_Stage2-2-removebg-preview_79
+  - first:
+      213: -7048068934802719552
+    second: TUTO_Stage2-2-removebg-preview_80
+  - first:
+      213: -3940217054469375061
+    second: TUTO_Stage2-2-removebg-preview_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 234
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1fb9f8cdfe3aeb0800000000000000
+      internalID: -4709657054718201366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 294
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc35b06f9f7fd640800000000000000
+      internalID: 5106940824960449738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 182
+        width: 84
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721f1203b500e7470800000000000000
+      internalID: 8394147147114737959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 293
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543301e0870cb0480800000000000000
+      internalID: -8931833814094695611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 295
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c2f4333f5513ec0800000000000000
+      internalID: -3588992925011334087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 285
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e694ebb68e8bde600800000000000000
+      internalID: 499258442087549294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 284
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42bedd8d85fdee20800000000000000
+      internalID: 3381628883544486474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 296
+        width: 96
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa95d382c896a2f10800000000000000
+      internalID: 2245723414889060778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 231
+        width: 79
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec29691b31638b530800000000000000
+      internalID: 3870903337936655054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 251
+        width: 63
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c50bced68d203e0800000000000000
+      internalID: -2088869310512472995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 258
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b1bab98e63206e0800000000000000
+      internalID: -1872874122360710371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 252
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1f32f7bf6667ff0800000000000000
+      internalID: -38730316430183982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 254
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667df614d54890a50800000000000000
+      internalID: 6487862274268583782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 228
+        width: 75
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f37988617f320af0800000000000000
+      internalID: -431712857956453386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 240
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2c91e864bda8310800000000000000
+      internalID: 1408178929584947963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 188
+        width: 92
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd6861c1cd93dab0800000000000000
+      internalID: -4984466907069911616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 186
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4defb586396b8f4d0800000000000000
+      internalID: -3100527599217279276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 182
+        width: 33
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261ea4cfffce82450800000000000000
+      internalID: 6064357482447954274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 182
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d99665c4505e4a90800000000000000
+      internalID: -7327831218665907755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 183
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc870297c3e37b780800000000000000
+      internalID: -8667390528400099124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 182
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096cfcf2a08417bb0800000000000000
+      internalID: -4940088107659704688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 183
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99e6df7c1f58be70800000000000000
+      internalID: 9131152820502194589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 190
+        width: 63
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2972c2f82ca7579b0800000000000000
+      internalID: -5083021628373457006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 147
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81a7c97ad12adf40800000000000000
+      internalID: 5753948696148943242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 152
+        width: 99
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a4a24c36e39e910800000000000000
+      internalID: 1867092118735571485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36edd4f5bd864e1d0800000000000000
+      internalID: -3322415333686518173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 155
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a42cd720dea79d0800000000000000
+      internalID: -2775645625364886965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 140
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036493333802dca70800000000000000
+      internalID: 8848764590725088816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 93
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf46e4f9fa6e3810800000000000000
+      internalID: 1746951327254466505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 117
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd2466ced87034d0800000000000000
+      internalID: -3156890440580190733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 137
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff96f33825159850800000000000000
+      internalID: 6383031309282222073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 137
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2299a387e41e8b20800000000000000
+      internalID: 3138468974902743595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 139
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0db8583d8aeaead0800000000000000
+      internalID: -2672065536634340083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 139
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f765c4a29e15de610800000000000000
+      internalID: 1652066700193715839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 147
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b9eac6ab0150c80800000000000000
+      internalID: -8357255140642743509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 147
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094d70cf10ac74880800000000000000
+      internalID: -8626704451332746096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 123
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aac75833bf202d90800000000000000
+      internalID: -7124642163709195612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 148
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809232de1a47e4540800000000000000
+      internalID: 4994057275617519880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 75
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe9d5b5e84adc4d0800000000000000
+      internalID: -3112650836117971208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 109
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff32c56a982c9e80800000000000000
+      internalID: -8170610980359618574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 109
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c72fe39fb515cc0800000000000000
+      internalID: -3724094290797626367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 111
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ee89a76ae340c60800000000000000
+      internalID: 7783414940745395788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 101
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471f3305c5c380990800000000000000
+      internalID: -7419614018912652940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 98
+        width: 59
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126886959370739b0800000000000000
+      internalID: -5100600110079244767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 93
+        width: 81
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa420b7fe90ecd50800000000000000
+      internalID: 6759351014895274660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 93
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3d58b5e242c6f30800000000000000
+      internalID: 4570067503396803492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 73
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e526c2927060a5450800000000000000
+      internalID: 6078177274915218014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 71
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d7635ef4d54f540800000000000000
+      internalID: 5040756480663780711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 75
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434f2e64a005d4700800000000000000
+      internalID: 526164736541389876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 72
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8434cd07c90ab60800000000000000
+      internalID: 7755370566877661402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 73
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff0a88657f81b510800000000000000
+      internalID: 1563188280102096893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 73
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd9c1d56c41d8530800000000000000
+      internalID: 3858763297924619701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 74
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce8b684ab1545930800000000000000
+      internalID: 4131016618726362828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 73
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43869f605f0fe100800000000000000
+      internalID: 139346951615710028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 75
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8844623dba6116b0800000000000000
+      internalID: -5327359523375789937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 77
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77973b5c3d17cd290800000000000000
+      internalID: -7864285694926816905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 74
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853ee98ee9efd98a0800000000000000
+      internalID: -6296596745533070504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 75
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6081293eb32562870800000000000000
+      internalID: 8657697750840907782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 73
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a4e32ad618b8610800000000000000
+      internalID: 1624534398470605395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 8
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa1ce3523b57ac70800000000000000
+      internalID: 8982248253528218363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 72
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddfe387f0074b910800000000000000
+      internalID: 1852228558500330965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 76
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727601dde27b85120800000000000000
+      internalID: 2402871813107377959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c970b63e286de8010800000000000000
+      internalID: 1193126808949295004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 7
+        width: 88
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce02044466d467620800000000000000
+      internalID: 2771487722320175340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 51
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8856310a7df96550800000000000000
+      internalID: 6154729066226669710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 48
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887c0a6356fba2930800000000000000
+      internalID: 4119315250612848520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 49
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab1fdea91bd5b580800000000000000
+      internalID: -8811896192525984863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 56
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddb918849b3c6420800000000000000
+      internalID: 2624538191974743518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 52
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ad90efd58919fb0800000000000000
+      internalID: -4642762211380831693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 48
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1459eff94a4e17d70800000000000000
+      internalID: 9039257322819327297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 46
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474e20b13e9749360800000000000000
+      internalID: 7175494122625754228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 44
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0002d410398423b50800000000000000
+      internalID: 6571394602506199040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 6
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059dd98704054fe80800000000000000
+      internalID: -8145797588174644912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 9
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c61189a6be3aef0800000000000000
+      internalID: -97975923821679502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 11
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bccc016e654cd6f0800000000000000
+      internalID: -658575105125987151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 12
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9869f2303b01e7d0800000000000000
+      internalID: -2891017184153605986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 8
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30da2d33389096b10800000000000000
+      internalID: 1975120370693483779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 22
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea778af695af34850800000000000000
+      internalID: 6360202360809617326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 20
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd06ebdd84de6ca10800000000000000
+      internalID: 1929490387588505821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 27
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86cef18880a1cae0800000000000000
+      internalID: -1530765890172303732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 9
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc3e9465aa303e90800000000000000
+      internalID: -7048068934802719552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TUTO_Stage2-2-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 8
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babba6217798159c0800000000000000
+      internalID: -3940217054469375061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TUTO_Stage2-2-removebg-preview_0: -4709657054718201366
+      TUTO_Stage2-2-removebg-preview_1: 5106940824960449738
+      TUTO_Stage2-2-removebg-preview_10: -1872874122360710371
+      TUTO_Stage2-2-removebg-preview_11: -38730316430183982
+      TUTO_Stage2-2-removebg-preview_12: 6487862274268583782
+      TUTO_Stage2-2-removebg-preview_13: -431712857956453386
+      TUTO_Stage2-2-removebg-preview_14: 1408178929584947963
+      TUTO_Stage2-2-removebg-preview_15: -4984466907069911616
+      TUTO_Stage2-2-removebg-preview_16: -3100527599217279276
+      TUTO_Stage2-2-removebg-preview_17: 6064357482447954274
+      TUTO_Stage2-2-removebg-preview_18: -7327831218665907755
+      TUTO_Stage2-2-removebg-preview_19: -8667390528400099124
+      TUTO_Stage2-2-removebg-preview_2: 8394147147114737959
+      TUTO_Stage2-2-removebg-preview_20: -4940088107659704688
+      TUTO_Stage2-2-removebg-preview_21: 9131152820502194589
+      TUTO_Stage2-2-removebg-preview_22: -5083021628373457006
+      TUTO_Stage2-2-removebg-preview_23: 5753948696148943242
+      TUTO_Stage2-2-removebg-preview_24: 1867092118735571485
+      TUTO_Stage2-2-removebg-preview_25: -3322415333686518173
+      TUTO_Stage2-2-removebg-preview_26: -2775645625364886965
+      TUTO_Stage2-2-removebg-preview_27: 8848764590725088816
+      TUTO_Stage2-2-removebg-preview_28: 1746951327254466505
+      TUTO_Stage2-2-removebg-preview_29: -3156890440580190733
+      TUTO_Stage2-2-removebg-preview_3: -8931833814094695611
+      TUTO_Stage2-2-removebg-preview_30: 6383031309282222073
+      TUTO_Stage2-2-removebg-preview_31: 3138468974902743595
+      TUTO_Stage2-2-removebg-preview_32: -2672065536634340083
+      TUTO_Stage2-2-removebg-preview_33: 1652066700193715839
+      TUTO_Stage2-2-removebg-preview_34: -8357255140642743509
+      TUTO_Stage2-2-removebg-preview_35: -8626704451332746096
+      TUTO_Stage2-2-removebg-preview_36: -7124642163709195612
+      TUTO_Stage2-2-removebg-preview_37: 4994057275617519880
+      TUTO_Stage2-2-removebg-preview_38: -3112650836117971208
+      TUTO_Stage2-2-removebg-preview_39: -8170610980359618574
+      TUTO_Stage2-2-removebg-preview_4: -3588992925011334087
+      TUTO_Stage2-2-removebg-preview_40: -3724094290797626367
+      TUTO_Stage2-2-removebg-preview_41: 7783414940745395788
+      TUTO_Stage2-2-removebg-preview_42: -7419614018912652940
+      TUTO_Stage2-2-removebg-preview_43: -5100600110079244767
+      TUTO_Stage2-2-removebg-preview_44: 6759351014895274660
+      TUTO_Stage2-2-removebg-preview_45: 4570067503396803492
+      TUTO_Stage2-2-removebg-preview_46: 6078177274915218014
+      TUTO_Stage2-2-removebg-preview_47: 5040756480663780711
+      TUTO_Stage2-2-removebg-preview_48: 526164736541389876
+      TUTO_Stage2-2-removebg-preview_49: 7755370566877661402
+      TUTO_Stage2-2-removebg-preview_5: 499258442087549294
+      TUTO_Stage2-2-removebg-preview_50: 1563188280102096893
+      TUTO_Stage2-2-removebg-preview_51: 3858763297924619701
+      TUTO_Stage2-2-removebg-preview_52: 4131016618726362828
+      TUTO_Stage2-2-removebg-preview_53: 139346951615710028
+      TUTO_Stage2-2-removebg-preview_54: -5327359523375789937
+      TUTO_Stage2-2-removebg-preview_55: -7864285694926816905
+      TUTO_Stage2-2-removebg-preview_56: -6296596745533070504
+      TUTO_Stage2-2-removebg-preview_57: 8657697750840907782
+      TUTO_Stage2-2-removebg-preview_58: 1624534398470605395
+      TUTO_Stage2-2-removebg-preview_59: 8982248253528218363
+      TUTO_Stage2-2-removebg-preview_6: 3381628883544486474
+      TUTO_Stage2-2-removebg-preview_60: 1852228558500330965
+      TUTO_Stage2-2-removebg-preview_61: 2402871813107377959
+      TUTO_Stage2-2-removebg-preview_62: 1193126808949295004
+      TUTO_Stage2-2-removebg-preview_63: 2771487722320175340
+      TUTO_Stage2-2-removebg-preview_64: 6154729066226669710
+      TUTO_Stage2-2-removebg-preview_65: 4119315250612848520
+      TUTO_Stage2-2-removebg-preview_66: -8811896192525984863
+      TUTO_Stage2-2-removebg-preview_67: 2624538191974743518
+      TUTO_Stage2-2-removebg-preview_68: -4642762211380831693
+      TUTO_Stage2-2-removebg-preview_69: 9039257322819327297
+      TUTO_Stage2-2-removebg-preview_7: 2245723414889060778
+      TUTO_Stage2-2-removebg-preview_70: 7175494122625754228
+      TUTO_Stage2-2-removebg-preview_71: 6571394602506199040
+      TUTO_Stage2-2-removebg-preview_72: -8145797588174644912
+      TUTO_Stage2-2-removebg-preview_73: -97975923821679502
+      TUTO_Stage2-2-removebg-preview_74: -658575105125987151
+      TUTO_Stage2-2-removebg-preview_75: -2891017184153605986
+      TUTO_Stage2-2-removebg-preview_76: 1975120370693483779
+      TUTO_Stage2-2-removebg-preview_77: 6360202360809617326
+      TUTO_Stage2-2-removebg-preview_78: 1929490387588505821
+      TUTO_Stage2-2-removebg-preview_79: -1530765890172303732
+      TUTO_Stage2-2-removebg-preview_8: 3870903337936655054
+      TUTO_Stage2-2-removebg-preview_80: -7048068934802719552
+      TUTO_Stage2-2-removebg-preview_81: -3940217054469375061
+      TUTO_Stage2-2-removebg-preview_9: -2088869310512472995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
