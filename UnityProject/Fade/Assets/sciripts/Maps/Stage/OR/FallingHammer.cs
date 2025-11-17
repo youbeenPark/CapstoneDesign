@@ -1,25 +1,32 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using System.Collections;
 
 public class NeonHammerTrap : MonoBehaviour
 {
-    public float topY = 4f;           // ÇØ¸Ó ½ÃÀÛ À§Ä¡ (À§)
-    public float bottomY = -2f;       // ³»·ÁÂï´Â À§Ä¡ (¹Ù´Ú)
-    public float fallSpeed = 12f;     // ¶³¾îÁú ¶§ ¼Óµµ
-    public float riseSpeed = 3f;      // ¿Ã¶ó°¥ ¶§ ¼Óµµ
-    public float waitTime = 0.6f;     // ¹Ù´Ú µµ´Ş ÈÄ ´ë±â ½Ã°£
-    public float damage = 1f;         // µ¥¹ÌÁö
+    [Header("Position Settings")]
+    public float topY = 4f;        // ì‹œì‘ ìœ„ì¹˜
+    public float bottomY = -2f;    // ë–¨ì–´ì§ˆ ìœ„ì¹˜
+
+    [Header("Speed Settings")]
+    public float fallSpeed = 12f;  // ë–¨ì–´ì§€ëŠ” ì†ë„
+
+    [Header("Timing Settings")]
+    public float startDelay = 0.5f;
+    public float bottomDelay = 0.3f;
+    public float cycleDelay = 0.5f;
+
+    [Header("Damage")]
+    public float damage = 0.5f;
 
     private bool isFalling = false;
 
     private void Start()
     {
-        // ½ÃÀÛ À§Ä¡¸¦ topY·Î °íÁ¤
+        // ì‹œì‘ ìœ„ì¹˜ ê³ ì •
         Vector3 pos = transform.position;
         pos.y = topY;
         transform.position = pos;
 
-        // ¹İº¹ ½ÇÇà ½ÃÀÛ
         StartCoroutine(HammerRoutine());
     }
 
@@ -27,10 +34,10 @@ public class NeonHammerTrap : MonoBehaviour
     {
         while (true)
         {
-            // ----- 1) À§¿¡¼­ ´ë±â -----
-            yield return new WaitForSeconds(0.5f);
+            // 1) ìœ„ì—ì„œ ëŒ€ê¸°
+            yield return new WaitForSeconds(startDelay);
 
-            // ----- 2) ¾Æ·¡·Î ¶³¾îÁü -----
+            // 2) ì•„ë˜ë¡œ ë‚™í•˜
             isFalling = true;
             while (transform.position.y > bottomY)
             {
@@ -38,41 +45,43 @@ public class NeonHammerTrap : MonoBehaviour
                 yield return null;
             }
 
-            // µµ´Ş º¸Á¤
+            // ìœ„ì¹˜ ë³´ì •
             Vector3 pos = transform.position;
             pos.y = bottomY;
             transform.position = pos;
 
-            // ----- 3) ¹Ù´Ú¿¡¼­ ¾à°£ ´ë±â -----
+            // 3) ë°”ë‹¥ì—ì„œ ëŒ€ê¸°
             isFalling = false;
-            yield return new WaitForSeconds(waitTime);
+            yield return new WaitForSeconds(bottomDelay);
 
-            // ----- 4) À§·Î ÃµÃµÈ÷ ¿Ã¶ó°¨ -----
-            while (transform.position.y < topY)
-            {
-                transform.position += Vector3.up * riseSpeed * Time.deltaTime;
-                yield return null;
-            }
-
-            // º¸Á¤
-            pos = transform.position;
+            // 4) ìˆœê°„ ì´ë™ (ì˜¬ë¼ê°€ëŠ” ì• ë‹ˆ ì—†ìŒ)
             pos.y = topY;
             transform.position = pos;
+
+            // 5) ë‹¤ìŒ ì‚¬ì´í´ ì „ ì ê¹ ëŒ€ê¸°
+            yield return new WaitForSeconds(cycleDelay);
         }
     }
 
-    // ÇÃ·¹ÀÌ¾î Ãæµ¹ Ã³¸®
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!isFalling) return; // ¶³¾îÁö´Â µ¿¾È¸¸ µ¥¹ÌÁö
+        if (!isFalling) return;  // ë–¨ì–´ì§ˆ ë•Œë§Œ ë°ë¯¸ì§€ ë“¤ì–´ê°
 
         if (collision.CompareTag("Player"))
         {
+            // ğŸ”¥ ìŠ¬ë¼ì„ ë°©ì‹ ê·¸ëŒ€ë¡œ ì ìš©
             PlayerHealth hp = collision.GetComponent<PlayerHealth>();
+            if (hp == null)
+            {
+                hp = FindObjectOfType<PlayerHealth>();  // í•­ìƒ PlayerHealth ì‹±ê¸€í†¤ ì°¾ìŒ
+            }
+
             if (hp != null)
             {
                 hp.TakeDamage(damage);
             }
         }
+
     }
+
 }
