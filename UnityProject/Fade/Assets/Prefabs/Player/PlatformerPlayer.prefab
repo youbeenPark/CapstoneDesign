@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1000260599257803705}
   - component: {fileID: 5488421815564517957}
   - component: {fileID: 8558733950096183084}
+  - component: {fileID: 2074063225912740845}
   m_Layer: 0
   m_Name: PlatformerPlayer
   m_TagString: Player
@@ -232,6 +233,20 @@ MonoBehaviour:
   maxX: 37.5
   minY: -6
   maxY: 6
+--- !u!114 &2074063225912740845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5398291510593928043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6ba6b63cb31d2448dc4c56bba97171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invincibleDuration: 1
+  cooldown: 2.5
 --- !u!1 &7848593001363767922
 GameObject:
   m_ObjectHideFlags: 0

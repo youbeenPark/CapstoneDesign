@@ -10,6 +10,9 @@ public class PlayerHealth : MonoBehaviour
     public HeartUI heartUI;
     public Animator anim;
 
+    // ⭐ 추가된 부분 (무적 판정)
+    public bool isInvincible = false;
+
     private static PlayerHealth instance;
     private bool isDead = false;
 
@@ -49,14 +52,14 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // --------------------------------------------------------
-    // ⭐ 씬 로딩 시 자동 처리
+    // 씬 로딩 시 자동 처리
     // --------------------------------------------------------
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         string sceneName = scene.name;
 
         //-----------------------------------------------------
-        // ⭐ 1) EpisodeMap(TUTO) → PlatformerPlayer 강제 제거
+        // EpisodeMap(TUTO) → PlatformerPlayer 제거
         //-----------------------------------------------------
         if (sceneName == "TUTO")
         {
@@ -64,12 +67,12 @@ public class PlayerHealth : MonoBehaviour
             if (platformer != null)
                 Destroy(platformer);
 
-            anim = null;    // EpisodeMap에서는 플레이어 애니 끊음
+            anim = null;
             return;
         }
 
         //-----------------------------------------------------
-        // ⭐ 2) Stage 씬일 때만 PlatformerPlayer 연결
+        // Stage 씬일 때만 PlatformerPlayer 연결
         //-----------------------------------------------------
         if (sceneName.Contains("Stage"))
         {
@@ -83,12 +86,11 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
-            // 스테이지가 아닌 씬에서는 애니 끊기 (불필요한 연결 방지)
             anim = null;
         }
 
         //-----------------------------------------------------
-        // ⭐ Heart UI 다시 연결
+        // HeartUI 다시 연결
         //-----------------------------------------------------
         ConnectHeartUI();
 
@@ -97,7 +99,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // --------------------------------------------------------
-    // ⭐ HeartUI 자동 연결
+    // HeartUI 자동 연결
     // --------------------------------------------------------
     private void ConnectHeartUI()
     {
@@ -110,6 +112,9 @@ public class PlayerHealth : MonoBehaviour
     // --------------------------------------------------------
     public void TakeDamage(float amount)
     {
+        // ⭐ 추가된 부분 — 무적이면 데미지 무시
+        if (isInvincible) return;
+
         if (isDead) return;
 
         currentHealth -= amount;
