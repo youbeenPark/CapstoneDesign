@@ -119,9 +119,9 @@ public class WorldMapController : MonoBehaviour
     //}
     private void LoadCurrentIslandScene()
     {
-        string[] sceneNamesByPage0 = { "TUTO", "GR", "YL", "BL" };
-        string[] sceneNamesByPage1 = { "OR", "RD", "PR", "SK" };
-        string[] sceneNamesByPage2 = { "BOSE", "RAINBOW" };
+        string[] sceneNamesByPage0 = { "TUTO", "GR", "YL" };
+        string[] sceneNamesByPage1 = { "BL", "OR", "RD", "SK"  };
+        string[] sceneNamesByPage2 = { "PR", "BOSE", "RAINBOW" };
 
         string sceneName = null;
 
