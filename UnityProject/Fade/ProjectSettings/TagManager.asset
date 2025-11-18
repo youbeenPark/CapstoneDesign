@@ -8,6 +8,7 @@ TagManager:
   - StageSpot
   - BGM
   - MovingPlatform
+  - Destructible
   layers:
   - Default
   - TransparentFX

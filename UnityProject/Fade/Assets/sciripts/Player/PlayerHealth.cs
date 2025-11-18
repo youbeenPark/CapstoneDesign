@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,8 +16,8 @@ public class PlayerHealth : MonoBehaviour
 
     private bool isDead = false;
 
-    private Transform player;
-    private Vector3 startPosition;
+    private Transform player;      // 실제 PlatformerPlayer
+    private Vector3 startPosition; // 스테이지 시작 위치
 
     void Awake()
     {
@@ -52,8 +51,8 @@ public class PlayerHealth : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        FindPlayer();
-        SaveStartPosition();
+        FindPlayer();        // 씬 바뀌면 새 플레이어 찾기
+        SaveStartPosition(); // 스테이지 시작 위치 갱신
         ConnectHeartUI();
         UpdateHeartUI();
     }
@@ -146,12 +145,9 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         UpdateHeartUI();
 
-        // ⭐ 죽었을 때 = 시작 위치로 이동
+        // ⭐ 죽었을 때 → 스테이지 시작 위치로 이동
         if (player != null)
             player.position = startPosition;
-
-        // ⭐ 카메라 흔들림 제거 즉시 스냅
-        StartCoroutine(ForceCameraSnap());
 
         if (anim != null)
             anim.Play("DaniIdle");
@@ -166,21 +162,18 @@ public class PlayerHealth : MonoBehaviour
     {
         if (isDead || isInvincible) return;
 
-        // 체력이 1이면 즉시 사망
+        // 체력이 1이면 즉시 죽음 처리
         if (currentHealth - 1 <= 0)
         {
             TakeDamage(1f);
             return;
         }
 
+        // 체력 2 이상이면 → 이전 안전위치로 이동
         TakeDamage(1f);
 
-        // 체력 >= 2 → 마지막 안전 위치로 이동
         if (player != null)
             player.position = FallRespawnManager.lastSafePosition;
-
-        // ⭐ 카메라 즉시 위치 보정
-        StartCoroutine(ForceCameraSnap());
 
         StartCoroutine(FallInvincibleRoutine());
     }
@@ -191,28 +184,4 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(1f);
         isInvincible = false;
     }
-
-    // ======================================================
-    // ⭐ Cinemachine 3.x 즉시 카메라 스냅 (PositionDamping 사용)
-    // ======================================================
-    IEnumerator ForceCameraSnap()
-    {
-        // vcam 찾기
-        var vcam = FindObjectOfType<CinemachineCamera>();
-        if (vcam == null) yield break;
-
-        // follow 컴포넌트 찾기 (네 프로젝트에 실제 존재함)
-        var follow = vcam.GetComponent<CinemachineFollow>();
-        if (follow == null) yield break;
-
-        // ⭐ 카메라를 강제로 한 프레임 동안 비활성화
-        vcam.enabled = false;
-
-        // 1프레임 기다림 → 플레이어 위치 반영됨
-        yield return null;
-
-        // ⭐ 다시 활성화 → 즉시 스냅
-        vcam.enabled = true;
-    }
-
 }
