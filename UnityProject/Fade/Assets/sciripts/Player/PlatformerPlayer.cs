@@ -175,7 +175,7 @@ public class PlatformerPlayer : MonoBehaviour
 {
     [Header("Movement Settings")]
     [SerializeField] private float speed = 5f;
-    [SerializeField] private float jumpForce = 10f;    // 항상 동일한 점프 높이
+    [SerializeField] private float jumpForce = 10f;
 
     [Header("Ground Check Settings")]
     [SerializeField] private Transform groundCheck;
@@ -184,6 +184,9 @@ public class PlatformerPlayer : MonoBehaviour
 
     [Header("Down Jump Settings")]
     [SerializeField] private float dropDownDisableTime = 0.25f;
+
+    // ⭐ Clamp ON/OFF 스위치 추가 — PlayerHealth가 이걸 제어함
+    [HideInInspector] public bool allowClamp = true;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -196,8 +199,8 @@ public class PlatformerPlayer : MonoBehaviour
     private bool isDropping = false;
 
     // ⭐ 더블 점프
-    private int jumpCount = 0;           // 현재 점프 횟수
-    private int maxJumps = 2;            // 2단 점프
+    private int jumpCount = 0;
+    private int maxJumps = 2;
 
     // ⭐ 화면 밖 못 나가게
     [SerializeField] private float minX;
@@ -238,7 +241,7 @@ public class PlatformerPlayer : MonoBehaviour
 
         // 플레이어 마찰 설정
         PhysicsMaterial2D mat = new PhysicsMaterial2D("PlayerFriction");
-        mat.friction = 0f;        // 공중에서 미끄러지지 않게 friction 0
+        mat.friction = 0f;
         mat.bounciness = 0f;
 
         playerCollider.sharedMaterial = mat;
@@ -248,13 +251,12 @@ public class PlatformerPlayer : MonoBehaviour
     {
         moveInput = controls.Player.Move.ReadValue<Vector2>();
 
-        // 점프 버튼 눌림 확인
         if (controls.Player.Jump.triggered)
         {
             Debug.Log($"Jump Pressed / Grounded={isGrounded} / Jumps={jumpCount}");
         }
 
-        // 아래 점프 (↓ + Jump)
+        // ↓ + Jump
         if (controls.Player.Jump.triggered && !isDropping)
         {
             if (moveInput.y < -0.5f)
@@ -264,7 +266,7 @@ public class PlatformerPlayer : MonoBehaviour
             }
         }
 
-        // 일반 점프 + 더블 점프
+        // 점프 & 더블 점프
         if (controls.Player.Jump.triggered)
         {
             TryJump();
@@ -280,23 +282,19 @@ public class PlatformerPlayer : MonoBehaviour
     private void Move()
     {
         rb.linearVelocity = new Vector2(moveInput.x * speed, rb.linearVelocity.y);
-
         anim.SetFloat("Speed", Mathf.Abs(moveInput.x));
 
-        // flip 적용
         if (Mathf.Abs(moveInput.x) > 0.01f)
             sr.flipX = moveInput.x < 0;
     }
 
     private void TryJump()
     {
-        // ⭐ 땅에서 점프하면 jumpCount 초기화 후 점프
         if (isGrounded)
         {
             jumpCount = 0;
         }
 
-        // ⭐ 점프 가능 횟수 체크 (더블 점프)
         if (jumpCount < maxJumps)
         {
             jumpCount++;
@@ -306,7 +304,6 @@ public class PlatformerPlayer : MonoBehaviour
 
     private void Jump()
     {
-        // y속도 리셋 후 일정한 점프력 적용
         Vector2 v = rb.linearVelocity;
         v.y = 0;
         rb.linearVelocity = v;
@@ -328,15 +325,13 @@ public class PlatformerPlayer : MonoBehaviour
         bool wasGrounded = isGrounded;
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
-
         Debug.Log($"isGrounded={isGrounded}, isJumping={isJumping}, jumpCount={jumpCount}");
 
-        // ⭐ 착지 시 점프 상태 초기화
         if (isGrounded)
         {
-            if (!wasGrounded) // 착지하는 순간
+            if (!wasGrounded)
             {
-                jumpCount = 0; // 점프 횟수 초기화
+                jumpCount = 0;
             }
 
             isJumping = false;
@@ -344,7 +339,6 @@ public class PlatformerPlayer : MonoBehaviour
         }
     }
 
-    // ↓ + Jump 시 아래로 떨어지기
     private System.Collections.IEnumerator DropDownFromPlatform()
     {
         isDropping = true;
@@ -353,9 +347,7 @@ public class PlatformerPlayer : MonoBehaviour
         int groundLayerIndex = LayerMask.NameToLayer("Ground");
 
         Physics2D.IgnoreLayerCollision(playerLayerIndex, groundLayerIndex, true);
-
         yield return new WaitForSeconds(dropDownDisableTime);
-
         Physics2D.IgnoreLayerCollision(playerLayerIndex, groundLayerIndex, false);
 
         isDropping = false;
@@ -363,7 +355,9 @@ public class PlatformerPlayer : MonoBehaviour
 
     private void LateUpdate()
     {
-        // 화면 밖으로 이동 금지
+        // ⭐ PlayerHealth가 이동시키는 1~2프레임 동안은 Clamp 꺼짐
+        if (!allowClamp) return;
+
         Vector3 pos = transform.position;
         pos.x = Mathf.Clamp(pos.x, minX, maxX);
         pos.y = Mathf.Clamp(pos.y, minY, maxY);

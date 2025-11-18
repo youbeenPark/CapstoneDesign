@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,11 +16,12 @@ public class PlayerHealth : MonoBehaviour
     public static PlayerHealth instance;
 
     private bool isDead = false;
+
+    private Transform player;
     private Vector3 startPosition;
 
     void Awake()
     {
-        // 싱글톤 유지
         if (instance != null && instance != this)
         {
             Destroy(gameObject);
@@ -32,7 +34,8 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        startPosition = transform.position;
+        FindPlayer();
+        SaveStartPosition();
         ConnectHeartUI();
         UpdateHeartUI();
     }
@@ -47,64 +50,40 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    // ===========================
-    //     SCENE LOADED LOGIC
-    // ===========================
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        string sceneName = scene.name;
-
-        // 1) TUTO 처리
-        if (sceneName == "TUTO")
-        {
-            GameObject platformer = GameObject.Find("PlatformerPlayer");
-            if (platformer != null)
-                Destroy(platformer);
-
-            anim = null;
-            return;
-        }
-
-        // 2) Stage 처리
-        if (sceneName.Contains("Stage"))
-        {
-            StartCoroutine(DelayedPlayerBinding());
-        }
-        else
-        {
-            anim = null;
-        }
-
-        // UI 재연결
+        FindPlayer();
+        SaveStartPosition();
         ConnectHeartUI();
         UpdateHeartUI();
     }
 
-    // ======================================
-    //  딜레이로 Player / Animator 안정 연결
-    // ======================================
-    IEnumerator DelayedPlayerBinding()
+    // =========================
+    // 플레이어 찾기
+    // =========================
+    private void FindPlayer()
     {
-        yield return null; // 한 프레임 대기 (플레이어 확실히 로드)
+        GameObject obj = GameObject.Find("PlatformerPlayer");
 
-        GameObject playerObj = GameObject.Find("PlatformerPlayer");
-
-        if (playerObj != null)
+        if (obj != null)
         {
-            anim = playerObj.GetComponent<Animator>();
-
-            // PlayerHealth가 플레이어 위치로 이동
-            transform.position = playerObj.transform.position;
+            player = obj.transform;
+            anim = obj.GetComponent<Animator>();
         }
-
-        // UI 재연결
-        ConnectHeartUI();
-        UpdateHeartUI();
     }
 
-    // ===========================
-    //     UI / HEART PROCESS
-    // ===========================
+    // =========================
+    // 스테이지 시작 위치 저장
+    // =========================
+    private void SaveStartPosition()
+    {
+        if (player != null)
+            startPosition = player.position;
+    }
+
+    // =========================
+    // UI 연결
+    // =========================
     private void ConnectHeartUI()
     {
         if (heartUI == null)
@@ -117,9 +96,9 @@ public class PlayerHealth : MonoBehaviour
             heartUI.UpdateHearts(currentHealth);
     }
 
-    // ===========================
-    //       DAMAGE SYSTEM
-    // ===========================
+    // =========================
+    // DAMAGE
+    // =========================
     public void TakeDamage(float amount)
     {
         if (isInvincible) return;
@@ -147,9 +126,9 @@ public class PlayerHealth : MonoBehaviour
         UpdateHeartUI();
     }
 
-    // ===========================
-    //         DEATH / RESPAWN
-    // ===========================
+    // =========================
+    // DEATH
+    // =========================
     void Die()
     {
         isDead = true;
@@ -167,8 +146,12 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         UpdateHeartUI();
 
-        // 시작 위치로 리스폰
-        transform.position = startPosition;
+        // ⭐ 죽었을 때 = 시작 위치로 이동
+        if (player != null)
+            player.position = startPosition;
+
+        // ⭐ 카메라 흔들림 제거 즉시 스냅
+        StartCoroutine(ForceCameraSnap());
 
         if (anim != null)
             anim.Play("DaniIdle");
@@ -176,27 +159,29 @@ public class PlayerHealth : MonoBehaviour
         isDead = false;
     }
 
-    // ======================================================
-    //             ⭐⭐  FALL (낙사 처리 기능 개선) ⭐⭐
-    // ======================================================
+    // =========================
+    // FALL RESPAWN
+    // =========================
     public void RespawnFromFall()
     {
         if (isDead || isInvincible) return;
 
-        // ★ HP가 1일 때 낙사 → 바로 죽음 처리 (startPosition에서 부활)
+        // 체력이 1이면 즉시 사망
         if (currentHealth - 1 <= 0)
         {
             TakeDamage(1f);
             return;
         }
 
-        // ★ HP가 2 이상일 때만 낙사 리스폰 동작
         TakeDamage(1f);
 
-        // 마지막 안전 위치로 이동
-        transform.position = FallRespawnManager.lastSafePosition;
+        // 체력 >= 2 → 마지막 안전 위치로 이동
+        if (player != null)
+            player.position = FallRespawnManager.lastSafePosition;
 
-        // 잠깐 무적
+        // ⭐ 카메라 즉시 위치 보정
+        StartCoroutine(ForceCameraSnap());
+
         StartCoroutine(FallInvincibleRoutine());
     }
 
@@ -206,4 +191,28 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(1f);
         isInvincible = false;
     }
+
+    // ======================================================
+    // ⭐ Cinemachine 3.x 즉시 카메라 스냅 (PositionDamping 사용)
+    // ======================================================
+    IEnumerator ForceCameraSnap()
+    {
+        // vcam 찾기
+        var vcam = FindObjectOfType<CinemachineCamera>();
+        if (vcam == null) yield break;
+
+        // follow 컴포넌트 찾기 (네 프로젝트에 실제 존재함)
+        var follow = vcam.GetComponent<CinemachineFollow>();
+        if (follow == null) yield break;
+
+        // ⭐ 카메라를 강제로 한 프레임 동안 비활성화
+        vcam.enabled = false;
+
+        // 1프레임 기다림 → 플레이어 위치 반영됨
+        yield return null;
+
+        // ⭐ 다시 활성화 → 즉시 스냅
+        vcam.enabled = true;
+    }
+
 }
