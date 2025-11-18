@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - StageSpot
+  - BGM
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Ground
   - Interactable
   - StageSpot
-  - 
+  - Platformside
   - 
   - 
   - 

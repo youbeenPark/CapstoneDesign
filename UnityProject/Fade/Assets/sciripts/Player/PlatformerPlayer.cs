@@ -156,7 +156,6 @@ public class PlatformerPlayer : MonoBehaviour
 
     private Collider2D playerCollider;
 
-
     private void LateUpdate()
     {
         // 화면 밖으로 못 나가게 Clamp
@@ -203,11 +202,10 @@ public class PlatformerPlayer : MonoBehaviour
             }
         }
 
-        // 일반 점프
+        // ⭐ 일반 점프
         if (controls.Player.Jump.triggered && isGrounded)
             Jump();
     }
-
 
     void FixedUpdate()
     {
@@ -258,15 +256,23 @@ public class PlatformerPlayer : MonoBehaviour
         }
     }
 
-    // ⭐ One-Way Platform 아래로 떨어지기 기능
+
+    // ⭐ 수정된 One-Way Platform 아래로 떨어지기 기능 (Collider OFF 제거)
     private System.Collections.IEnumerator DropDownFromPlatform()
     {
         isDropping = true;
-        playerCollider.enabled = false;
+
+        // Player와 Ground Layer 충돌 무시 (플레이어는 Collider를 계속 켠 상태)
+        int playerLayer = LayerMask.NameToLayer("Player");
+        int groundLayerIndex = LayerMask.NameToLayer("Ground");
+
+        Physics2D.IgnoreLayerCollision(playerLayer, groundLayerIndex, true);
 
         yield return new WaitForSeconds(dropDownDisableTime);
 
-        playerCollider.enabled = true;
+        // 다시 충돌 활성화
+        Physics2D.IgnoreLayerCollision(playerLayer, groundLayerIndex, false);
+
         isDropping = false;
     }
 
