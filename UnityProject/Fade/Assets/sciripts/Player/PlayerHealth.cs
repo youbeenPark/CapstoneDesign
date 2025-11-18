@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -54,7 +54,7 @@ public class PlayerHealth : MonoBehaviour
     {
         string sceneName = scene.name;
 
-        // 1) TUTO 처리 (원래 로직 유지)
+        // 1) TUTO 처리
         if (sceneName == "TUTO")
         {
             GameObject platformer = GameObject.Find("PlatformerPlayer");
@@ -65,7 +65,7 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
 
-        // 2) Stage 씬이면 플레이어 찾고 Animator 연결
+        // 2) Stage 처리
         if (sceneName.Contains("Stage"))
         {
             StartCoroutine(DelayedPlayerBinding());
@@ -75,7 +75,7 @@ public class PlayerHealth : MonoBehaviour
             anim = null;
         }
 
-        // 3) UI 재연결
+        // UI 재연결
         ConnectHeartUI();
         UpdateHeartUI();
     }
@@ -85,8 +85,7 @@ public class PlayerHealth : MonoBehaviour
     // ======================================
     IEnumerator DelayedPlayerBinding()
     {
-        // 한 프레임 기다리면 PlatformerPlayer가 확실히 로드됨
-        yield return null;
+        yield return null; // 한 프레임 대기 (플레이어 확실히 로드)
 
         GameObject playerObj = GameObject.Find("PlatformerPlayer");
 
@@ -98,7 +97,7 @@ public class PlayerHealth : MonoBehaviour
             transform.position = playerObj.transform.position;
         }
 
-        // UI 재연결 한 번 더
+        // UI 재연결
         ConnectHeartUI();
         UpdateHeartUI();
     }
@@ -149,7 +148,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // ===========================
-    //       DEATH / RESPAWN
+    //         DEATH / RESPAWN
     // ===========================
     void Die()
     {
@@ -175,5 +174,36 @@ public class PlayerHealth : MonoBehaviour
             anim.Play("DaniIdle");
 
         isDead = false;
+    }
+
+    // ======================================================
+    //             ⭐⭐  FALL (낙사 처리 기능 개선) ⭐⭐
+    // ======================================================
+    public void RespawnFromFall()
+    {
+        if (isDead || isInvincible) return;
+
+        // ★ HP가 1일 때 낙사 → 바로 죽음 처리 (startPosition에서 부활)
+        if (currentHealth - 1 <= 0)
+        {
+            TakeDamage(1f);
+            return;
+        }
+
+        // ★ HP가 2 이상일 때만 낙사 리스폰 동작
+        TakeDamage(1f);
+
+        // 마지막 안전 위치로 이동
+        transform.position = FallRespawnManager.lastSafePosition;
+
+        // 잠깐 무적
+        StartCoroutine(FallInvincibleRoutine());
+    }
+
+    IEnumerator FallInvincibleRoutine()
+    {
+        isInvincible = true;
+        yield return new WaitForSeconds(1f);
+        isInvincible = false;
     }
 }
