@@ -284,4 +284,8 @@ public class PlatformerPlayer : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, groundRadius);
         }
     }
+
+    // 길우진이 추가함 - 다른 스크립트에서 플레이어가 땅에 닿아있는지 확인할 수 있도록
+    public bool IsGrounded => isGrounded;
+
 }
