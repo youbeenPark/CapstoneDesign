@@ -8,11 +8,10 @@ public class HealItem : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            PlayerHealth ph = collision.GetComponent<PlayerHealth>();
-
-            if (ph != null)
+            // PlayerHealth는 싱글톤으로 메인메뉴에서 이미 존재
+            if (PlayerHealth.instance != null)
             {
-                ph.Heal(healAmount);
+                PlayerHealth.instance.Heal(healAmount);
             }
 
             Destroy(gameObject); // 먹으면 사라짐
