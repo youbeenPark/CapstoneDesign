@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: 5d8fe7c80dff4a04f8597f6597aa7fa3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4970558001394894553
+    second: YL_Stage1-removebg-preview_0
+  - first:
+      213: 520213949427902038
+    second: YL_Stage1-removebg-preview_1
+  - first:
+      213: 6642039441667925596
+    second: YL_Stage1-removebg-preview_2
+  - first:
+      213: -4585687047970694630
+    second: YL_Stage1-removebg-preview_3
+  - first:
+      213: -2897376755572215530
+    second: YL_Stage1-removebg-preview_4
+  - first:
+      213: 2002468784578407188
+    second: YL_Stage1-removebg-preview_5
+  - first:
+      213: -79944106489136715
+    second: YL_Stage1-removebg-preview_6
+  - first:
+      213: -5369294689772096960
+    second: YL_Stage1-removebg-preview_7
+  - first:
+      213: -8917921371231823498
+    second: YL_Stage1-removebg-preview_8
+  - first:
+      213: -210248409207905061
+    second: YL_Stage1-removebg-preview_9
+  - first:
+      213: -8507477011213175251
+    second: YL_Stage1-removebg-preview_10
+  - first:
+      213: 4999113565820718398
+    second: YL_Stage1-removebg-preview_11
+  - first:
+      213: 1521157034970542002
+    second: YL_Stage1-removebg-preview_12
+  - first:
+      213: 415108325714910970
+    second: YL_Stage1-removebg-preview_13
+  - first:
+      213: 61162629358231996
+    second: YL_Stage1-removebg-preview_14
+  - first:
+      213: -6348130406499022003
+    second: YL_Stage1-removebg-preview_15
+  - first:
+      213: -5893625599725856011
+    second: YL_Stage1-removebg-preview_16
+  - first:
+      213: 4401260106562570139
+    second: YL_Stage1-removebg-preview_17
+  - first:
+      213: -2000259936291012292
+    second: YL_Stage1-removebg-preview_18
+  - first:
+      213: -3293592319451579582
+    second: YL_Stage1-removebg-preview_19
+  - first:
+      213: -6248944815784345097
+    second: YL_Stage1-removebg-preview_20
+  - first:
+      213: -9218579020958826564
+    second: YL_Stage1-removebg-preview_21
+  - first:
+      213: -387690666796535557
+    second: YL_Stage1-removebg-preview_22
+  - first:
+      213: -8593529225030181363
+    second: YL_Stage1-removebg-preview_23
+  - first:
+      213: -775713576827001290
+    second: YL_Stage1-removebg-preview_24
+  - first:
+      213: -1407599689834662534
+    second: YL_Stage1-removebg-preview_25
+  - first:
+      213: -3423997914063055109
+    second: YL_Stage1-removebg-preview_26
+  - first:
+      213: 2854094695191541183
+    second: YL_Stage1-removebg-preview_27
+  - first:
+      213: 636915694198316526
+    second: YL_Stage1-removebg-preview_28
+  - first:
+      213: 508178166303270568
+    second: YL_Stage1-removebg-preview_29
+  - first:
+      213: -2267567819279931674
+    second: YL_Stage1-removebg-preview_30
+  - first:
+      213: 4546029758156485940
+    second: YL_Stage1-removebg-preview_31
+  - first:
+      213: -1884945675723957436
+    second: YL_Stage1-removebg-preview_32
+  - first:
+      213: 549898371245965217
+    second: YL_Stage1-removebg-preview_33
+  - first:
+      213: 6448386171037413955
+    second: YL_Stage1-removebg-preview_34
+  - first:
+      213: 7918310611050027315
+    second: YL_Stage1-removebg-preview_35
+  - first:
+      213: 1530027700730839937
+    second: YL_Stage1-removebg-preview_36
+  - first:
+      213: 1368672952199469144
+    second: YL_Stage1-removebg-preview_37
+  - first:
+      213: 7307163878407492995
+    second: YL_Stage1-removebg-preview_38
+  - first:
+      213: 2942832454043878851
+    second: YL_Stage1-removebg-preview_39
+  - first:
+      213: -8105786478255881721
+    second: YL_Stage1-removebg-preview_40
+  - first:
+      213: 5025913635457052472
+    second: YL_Stage1-removebg-preview_41
+  - first:
+      213: -8465652445434520054
+    second: YL_Stage1-removebg-preview_42
+  - first:
+      213: 1673547655823715749
+    second: YL_Stage1-removebg-preview_43
+  - first:
+      213: 1842204506054528379
+    second: YL_Stage1-removebg-preview_44
+  - first:
+      213: -4159956183097450770
+    second: YL_Stage1-removebg-preview_45
+  - first:
+      213: -4836126261812356953
+    second: YL_Stage1-removebg-preview_46
+  - first:
+      213: 8798815536927597572
+    second: YL_Stage1-removebg-preview_47
+  - first:
+      213: -4216140315915910071
+    second: YL_Stage1-removebg-preview_48
+  - first:
+      213: -6079253382516566373
+    second: YL_Stage1-removebg-preview_49
+  - first:
+      213: -528746214805559757
+    second: YL_Stage1-removebg-preview_50
+  - first:
+      213: 8148799052955917556
+    second: YL_Stage1-removebg-preview_51
+  - first:
+      213: 1956348167764113368
+    second: YL_Stage1-removebg-preview_52
+  - first:
+      213: 6680274822038801501
+    second: YL_Stage1-removebg-preview_53
+  - first:
+      213: 497862061687724521
+    second: YL_Stage1-removebg-preview_54
+  - first:
+      213: -7908580158062994993
+    second: YL_Stage1-removebg-preview_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 291
+        width: 79
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729b16735d7050bb0800000000000000
+      internalID: -4970558001394894553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 291
+        width: 75
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6566adea4db283700800000000000000
+      internalID: 520213949427902038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 293
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5620c06ea34d2c50800000000000000
+      internalID: 6642039441667925596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 300
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ad8960ded5c50c0800000000000000
+      internalID: -4585687047970694630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 297
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611f4a711337ac7d0800000000000000
+      internalID: -2897376755572215530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 301
+        width: 57
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41baa9200c23acb10800000000000000
+      internalID: 2002468784578407188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 297
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b934da324bf3eef0800000000000000
+      internalID: -79944106489136715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 298
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0423eb96dee6c75b0800000000000000
+      internalID: -5369294689772096960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 305
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679dcd413cd2d3480800000000000000
+      internalID: -8917921371231823498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 238
+        width: 76
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4629e8f2c051df0800000000000000
+      internalID: -210248409207905061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 239
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2636db9bbe5fe980800000000000000
+      internalID: -8507477011213175251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 239
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d849a3d4b606540800000000000000
+      internalID: 4999113565820718398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 241
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf610d834c3c1510800000000000000
+      internalID: 1521157034970542002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 243
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe5b89a2d2c2c500800000000000000
+      internalID: 415108325714910970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 246
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb12d6c561b49d000800000000000000
+      internalID: 61162629358231996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 251
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b05c47709e6e7a0800000000000000
+      internalID: -6348130406499022003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 252
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa11392eb2a53ea0800000000000000
+      internalID: -5893625599725856011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 250
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9782cf7fba641d30800000000000000
+      internalID: 4401260106562570139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 186
+        width: 79
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31cdee8f26ad34e0800000000000000
+      internalID: -2000259936291012292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 185
+        width: 74
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b32245c3fca42d0800000000000000
+      internalID: -3293592319451579582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 193
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1c7226cc94749a0800000000000000
+      internalID: -6248944815784345097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 192
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf71e9f837011080800000000000000
+      internalID: -9218579020958826564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 191
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0bbd28465ae9af0800000000000000
+      internalID: -387690666796535557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 194
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e532743b6adb880800000000000000
+      internalID: -8593529225030181363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 192
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63667cd9c9c1c35f0800000000000000
+      internalID: -775713576827001290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 192
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7574753a83377ce0800000000000000
+      internalID: -1407599689834662534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 192
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6d79cc9048b70d0800000000000000
+      internalID: -3423997914063055109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 129
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5f73ee008cb9720800000000000000
+      internalID: 2854094695191541183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 130
+        width: 76
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeddf880377c6d800800000000000000
+      internalID: 636915694198316526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 131
+        width: 78
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6ad1d89596d0700800000000000000
+      internalID: 508178166303270568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 132
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e666bb151bf780e0800000000000000
+      internalID: -2267567819279931674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 129
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435b549aafdb61f30800000000000000
+      internalID: 4546029758156485940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 129
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b909115e357d5e0800000000000000
+      internalID: -1884945675723957436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 131
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af7ea8b7a1a1a700800000000000000
+      internalID: 549898371245965217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 132
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342f93bbe054d7950800000000000000
+      internalID: 6448386171037413955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 131
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339d7d83c8d73ed60800000000000000
+      internalID: 7918310611050027315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 136
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183c19e5610cb3510800000000000000
+      internalID: 1530027700730839937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 71
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858d8896cc08ef210800000000000000
+      internalID: 1368672952199469144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 71
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3855b0815d2486560800000000000000
+      internalID: 7307163878407492995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 70
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5c6c0768a07d820800000000000000
+      internalID: 2942832454043878851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 72
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702c462f426728f80800000000000000
+      internalID: -8105786478255881721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 77
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fa531b2d1afb540800000000000000
+      internalID: 5025913635457052472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 71
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e55fd24f5f38a80800000000000000
+      internalID: -8465652445434520054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 71
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad6f04e9b2a93710800000000000000
+      internalID: 1673547655823715749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 71
+        width: 71
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d0103ec33d09910800000000000000
+      internalID: 1842204506054528379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 81
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee594154edd446c0800000000000000
+      internalID: -4159956183097450770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 82
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a89cbba9c0a2ecb0800000000000000
+      internalID: -4836126261812356953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 14
+        width: 79
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404e1cadc1cab1a70800000000000000
+      internalID: 8798815536927597572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 14
+        width: 75
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94401a288b24d75c0800000000000000
+      internalID: -4216140315915910071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 14
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b961283024722aba0800000000000000
+      internalID: -6079253382516566373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 14
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336ae2a7e1489a8f0800000000000000
+      internalID: -528746214805559757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 24
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc1a718099561170800000000000000
+      internalID: 8148799052955917556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 17
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7f09c1b48562b10800000000000000
+      internalID: 1956348167764113368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 12
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ccb999e8a15bc50800000000000000
+      internalID: 6680274822038801501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 14
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e95a0648e2c8e600800000000000000
+      internalID: 497862061687724521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YL_Stage1-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 24
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9d3f86f341f3290800000000000000
+      internalID: -7908580158062994993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      YL_Stage1-removebg-preview_0: -4970558001394894553
+      YL_Stage1-removebg-preview_1: 520213949427902038
+      YL_Stage1-removebg-preview_10: -8507477011213175251
+      YL_Stage1-removebg-preview_11: 4999113565820718398
+      YL_Stage1-removebg-preview_12: 1521157034970542002
+      YL_Stage1-removebg-preview_13: 415108325714910970
+      YL_Stage1-removebg-preview_14: 61162629358231996
+      YL_Stage1-removebg-preview_15: -6348130406499022003
+      YL_Stage1-removebg-preview_16: -5893625599725856011
+      YL_Stage1-removebg-preview_17: 4401260106562570139
+      YL_Stage1-removebg-preview_18: -2000259936291012292
+      YL_Stage1-removebg-preview_19: -3293592319451579582
+      YL_Stage1-removebg-preview_2: 6642039441667925596
+      YL_Stage1-removebg-preview_20: -6248944815784345097
+      YL_Stage1-removebg-preview_21: -9218579020958826564
+      YL_Stage1-removebg-preview_22: -387690666796535557
+      YL_Stage1-removebg-preview_23: -8593529225030181363
+      YL_Stage1-removebg-preview_24: -775713576827001290
+      YL_Stage1-removebg-preview_25: -1407599689834662534
+      YL_Stage1-removebg-preview_26: -3423997914063055109
+      YL_Stage1-removebg-preview_27: 2854094695191541183
+      YL_Stage1-removebg-preview_28: 636915694198316526
+      YL_Stage1-removebg-preview_29: 508178166303270568
+      YL_Stage1-removebg-preview_3: -4585687047970694630
+      YL_Stage1-removebg-preview_30: -2267567819279931674
+      YL_Stage1-removebg-preview_31: 4546029758156485940
+      YL_Stage1-removebg-preview_32: -1884945675723957436
+      YL_Stage1-removebg-preview_33: 549898371245965217
+      YL_Stage1-removebg-preview_34: 6448386171037413955
+      YL_Stage1-removebg-preview_35: 7918310611050027315
+      YL_Stage1-removebg-preview_36: 1530027700730839937
+      YL_Stage1-removebg-preview_37: 1368672952199469144
+      YL_Stage1-removebg-preview_38: 7307163878407492995
+      YL_Stage1-removebg-preview_39: 2942832454043878851
+      YL_Stage1-removebg-preview_4: -2897376755572215530
+      YL_Stage1-removebg-preview_40: -8105786478255881721
+      YL_Stage1-removebg-preview_41: 5025913635457052472
+      YL_Stage1-removebg-preview_42: -8465652445434520054
+      YL_Stage1-removebg-preview_43: 1673547655823715749
+      YL_Stage1-removebg-preview_44: 1842204506054528379
+      YL_Stage1-removebg-preview_45: -4159956183097450770
+      YL_Stage1-removebg-preview_46: -4836126261812356953
+      YL_Stage1-removebg-preview_47: 8798815536927597572
+      YL_Stage1-removebg-preview_48: -4216140315915910071
+      YL_Stage1-removebg-preview_49: -6079253382516566373
+      YL_Stage1-removebg-preview_5: 2002468784578407188
+      YL_Stage1-removebg-preview_50: -528746214805559757
+      YL_Stage1-removebg-preview_51: 8148799052955917556
+      YL_Stage1-removebg-preview_52: 1956348167764113368
+      YL_Stage1-removebg-preview_53: 6680274822038801501
+      YL_Stage1-removebg-preview_54: 497862061687724521
+      YL_Stage1-removebg-preview_55: -7908580158062994993
+      YL_Stage1-removebg-preview_6: -79944106489136715
+      YL_Stage1-removebg-preview_7: -5369294689772096960
+      YL_Stage1-removebg-preview_8: -8917921371231823498
+      YL_Stage1-removebg-preview_9: -210248409207905061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
