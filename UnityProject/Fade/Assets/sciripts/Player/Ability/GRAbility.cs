@@ -10,36 +10,24 @@ public class GRAbility : MonoBehaviour
     public Transform spawnPointTransform;
 
     [Header("입력 및 상태")]
-    [Tooltip("발판 생성 능력을 사용할 키를 지정합니다.")]
     public KeyCode abilityKey = KeyCode.E;
 
-    [Tooltip("발판이 파괴된 후 다시 사용할 수 있을 때까지의 시간 (초)")]
-    public float cooldownTime = 3f;
-
-    private float nextAvailableTime = 0f;
-    private GameObject currentPlatform = null; // 현재 맵에 존재하는 발판 추적
+    // 현재 맵에 존재하는 발판을 추적하는 변수 (중복 방지 핵심)
+    private GameObject currentPlatform = null;
 
 
     void Update()
     {
         if (Input.GetKeyDown(abilityKey))
         {
-            // 1. 중복 방지 체크
+            // ⭐ 핵심: 현재 발판이 존재하는지 여부만 체크합니다. ⭐
             if (currentPlatform != null)
             {
-                Debug.Log("이미 발판이 존재합니다.");
+                Debug.Log("이미 발판이 존재합니다. 새 발판을 생성할 수 없습니다.");
                 return;
             }
 
-            // 2. 쿨다운 체크
-            if (Time.time < nextAvailableTime)
-            {
-                float remainingTime = nextAvailableTime - Time.time;
-                Debug.Log($"쿨다운 중입니다. {remainingTime:F1}초 후 사용 가능합니다.");
-                return;
-            }
-
-            // 모든 체크를 통과하면 생성 함수 호출
+            // 발판이 존재하지 않으면 즉시 생성 함수 호출
             InstantiatePlatform();
         }
     }
@@ -77,12 +65,9 @@ public class GRAbility : MonoBehaviour
     // 발판이 파괴될 때, 발판 스크립트에서 이 함수를 호출합니다.
     public void PlatformDestroyed()
     {
-        // 1. 중복 방지 상태 해제
+        // ⭐ 핵심: currentPlatform을 null로 설정하여 즉시 재사용 가능하게 합니다.
         currentPlatform = null;
 
-        // 2. 쿨다운 시작 시간 설정
-        nextAvailableTime = Time.time + cooldownTime;
-
-        Debug.Log($"발판 파괴 완료. {cooldownTime}초 쿨다운 시작.");
+        Debug.Log($"발판 파괴 완료. 능력 즉시 사용 가능.");
     }
 }

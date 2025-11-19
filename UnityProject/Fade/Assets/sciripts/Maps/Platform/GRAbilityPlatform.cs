@@ -3,37 +3,76 @@
 public class GRAbilityPlatform : MonoBehaviour
 {
     [Header("소멸 설정")]
-    public float destroyDelay = 1f; // 밟힌 후 사라질 시간
-    private bool isActivated = false; // 밟혔는지 여부
+    public float destroyDelay = 1f;
+    private bool isActivated = false;
 
-    // ⭐ GRAbility 스크립트와 통신하기 위한 변수 ⭐
     private GRAbility abilityScript;
 
-    // GRAbility 스크립트가 호출하여 자신을 초기화하는 함수
+    // 플레이어를 부모로 붙였다 떼기 위해 저장
+    private Transform playerOnPlatform = null;
+
     public void Initialize(GRAbility spawner)
     {
         abilityScript = spawner;
     }
 
-    // 충돌이 발생했을 때 (플레이어가 밟았을 때)
-    private void OnCollisionEnter(Collision collision)
+    // ==========================
+    // 🔥 2D 충돌 감지
+    // ==========================
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        // 'Player' 태그를 가진 오브젝트에 의해 밟혔는지 확인
         if (collision.gameObject.CompareTag("Player") && !isActivated)
         {
             isActivated = true;
-            // 지정된 시간 뒤 파괴 예약
-            Destroy(gameObject, destroyDelay);
+
+            playerOnPlatform = collision.transform;
+            playerOnPlatform.SetParent(this.transform);
+
+            Invoke("DissolveAndDestroy", destroyDelay);
         }
     }
 
-    // 오브젝트가 파괴되기 직전에 호출되는 함수
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && collision.transform == playerOnPlatform)
+        {
+            playerOnPlatform.SetParent(null);
+            playerOnPlatform = null;
+        }
+    }
+
+    // ==========================
+    // 🔥 발판 소멸
+    // ==========================
+    private void DissolveAndDestroy()
+    {
+        // 부모 관계 해제
+        if (playerOnPlatform != null && playerOnPlatform.parent == this.transform)
+            playerOnPlatform.SetParent(null);
+
+        // 2D Collider 비활성화
+        foreach (var col in GetComponentsInChildren<Collider2D>())
+            col.enabled = false;
+
+        // 자식 포함 모든 SpriteRenderer 비활성화
+        foreach (var sr in GetComponentsInChildren<SpriteRenderer>())
+            sr.enabled = false;
+
+        // 🔥 Destroy 호출되는지 확인 로그
+        Debug.Log("[Platform] Destroy 호출됨!!", this);
+
+        // 발판 삭제
+        Destroy(gameObject);
+    }
+
+    // ==========================
+    // 🔥 Destroy 시 호출되는 함수
+    // ==========================
     private void OnDestroy()
     {
-        // 발판이 사라지면, 플레이어 스크립트에게 알립니다.
+        Debug.Log("[Platform] OnDestroy 실행됨 -> PlatformDestroyed 호출!", this);
+
         if (abilityScript != null)
-        {
             abilityScript.PlatformDestroyed();
-        }
     }
 }
