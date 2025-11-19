@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SlimeMovement : MonoBehaviour
+public class SlimeMovement : MonoBehaviour, IFreezable
 {
     [Header("이동 관련")]
     public float moveSpeed = 1.5f;
@@ -15,14 +15,19 @@ public class SlimeMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+    private Animator anim;
 
     [Header("데미지 관련")]
     public float damage = 0.5f;
+
+    // ⭐ Freeze 상태 저장
+    private bool isFrozen = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
 
         rb.gravityScale = 0;
         rb.freezeRotation = true;
@@ -35,6 +40,9 @@ public class SlimeMovement : MonoBehaviour
 
     void Update()
     {
+        // ⭐ 멈춰있으면 이동·애니·반전 처리 전부 중지
+        if (isFrozen) return;
+
         rb.linearVelocity = new Vector2(direction * moveSpeed, 0);
 
         if (direction == 1 && transform.position.x >= rightLimit)
@@ -47,9 +55,10 @@ public class SlimeMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (isFrozen) return;   // ⭐ 정지 중이면 데미지도 안 들어감
+
         if (collision.CompareTag("Player"))
         {
-            // 💥 여기 수정됨 — 플레이어 오브젝트에 없으면 전체 씬에서 찾아옴
             PlayerHealth hp = collision.GetComponent<PlayerHealth>();
             if (hp == null)
             {
@@ -61,5 +70,27 @@ public class SlimeMovement : MonoBehaviour
                 hp.TakeDamage(damage);
             }
         }
+    }
+
+    // =======================================================================
+    //  ⭐⭐⭐ Freeze / Unfreeze 구현부
+    // =======================================================================
+
+    public void Freeze()
+    {
+        isFrozen = true;
+
+        rb.linearVelocity = Vector2.zero;
+
+        if (anim != null)
+            anim.speed = 0f;
+    }
+
+    public void Unfreeze()
+    {
+        isFrozen = false;
+
+        if (anim != null)
+            anim.speed = 1f;
     }
 }
