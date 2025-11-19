@@ -506,7 +506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9092658383341960928, guid: f7e3c9d6ff818ce44b4fd284d960fcff, type: 3}
       propertyPath: m_Name
-      value: UDPlatform
+      value: UDPlatform_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1638,7 +1638,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1038731067609413330, guid: 1cd1e1b60ba2ee04f83d2a426ece2563, type: 3}
       propertyPath: m_Name
-      value: LRPlatform0
+      value: LRPlatform_1
       objectReference: {fileID: 0}
     - target: {fileID: 4517487522588304670, guid: 1cd1e1b60ba2ee04f83d2a426ece2563, type: 3}
       propertyPath: m_LocalScale.x
@@ -1897,7 +1897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9092658383341960928, guid: f7e3c9d6ff818ce44b4fd284d960fcff, type: 3}
       propertyPath: m_Name
-      value: UDPlatform (1)
+      value: UDPlatform_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2756,7 +2756,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1038731067609413330, guid: 1cd1e1b60ba2ee04f83d2a426ece2563, type: 3}
       propertyPath: m_Name
-      value: LRPlatform (1)
+      value: LRPlatform_2
       objectReference: {fileID: 0}
     - target: {fileID: 4517487522588304670, guid: 1cd1e1b60ba2ee04f83d2a426ece2563, type: 3}
       propertyPath: m_LocalScale.x
@@ -3736,7 +3736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5537726524279512990, guid: 92291b7225e24f5419201bf41e670517, type: 3}
       propertyPath: m_Name
-      value: Platform_3 (1)
+      value: Platform_5
       objectReference: {fileID: 0}
     - target: {fileID: 7856021249501235404, guid: 92291b7225e24f5419201bf41e670517, type: 3}
       propertyPath: m_LocalScale.x

@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 19ccc16500afd0444ba6e147ebb0c98c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4847224453751779510
+    second: GR_Stage4-removebg-preview_0
+  - first:
+      213: -3868757682978795238
+    second: GR_Stage4-removebg-preview_1
+  - first:
+      213: 372012253408755560
+    second: GR_Stage4-removebg-preview_2
+  - first:
+      213: -3049709654657127654
+    second: GR_Stage4-removebg-preview_3
+  - first:
+      213: -6641189447776491899
+    second: GR_Stage4-removebg-preview_4
+  - first:
+      213: -7398189591256320959
+    second: GR_Stage4-removebg-preview_5
+  - first:
+      213: 1005123183808726642
+    second: GR_Stage4-removebg-preview_6
+  - first:
+      213: -5119387588144085962
+    second: GR_Stage4-removebg-preview_7
+  - first:
+      213: 5374489720620842012
+    second: GR_Stage4-removebg-preview_8
+  - first:
+      213: 4228747334676585407
+    second: GR_Stage4-removebg-preview_9
+  - first:
+      213: 7033188751519728230
+    second: GR_Stage4-removebg-preview_10
+  - first:
+      213: 2702538718552247584
+    second: GR_Stage4-removebg-preview_11
+  - first:
+      213: -6410205856209298803
+    second: GR_Stage4-removebg-preview_12
+  - first:
+      213: -4028878835578147935
+    second: GR_Stage4-removebg-preview_13
+  - first:
+      213: 5290396624356254363
+    second: GR_Stage4-removebg-preview_14
+  - first:
+      213: -6040189736557799388
+    second: GR_Stage4-removebg-preview_15
+  - first:
+      213: -6317210463046607506
+    second: GR_Stage4-removebg-preview_16
+  - first:
+      213: -3280672009895396319
+    second: GR_Stage4-removebg-preview_17
+  - first:
+      213: -5521990673392670941
+    second: GR_Stage4-removebg-preview_18
+  - first:
+      213: 2928122579519188007
+    second: GR_Stage4-removebg-preview_19
+  - first:
+      213: 338561022449300270
+    second: GR_Stage4-removebg-preview_20
+  - first:
+      213: 2333512189274796836
+    second: GR_Stage4-removebg-preview_21
+  - first:
+      213: 990593503467354338
+    second: GR_Stage4-removebg-preview_22
+  - first:
+      213: -2681064833757861650
+    second: GR_Stage4-removebg-preview_23
+  - first:
+      213: -1844118921814698721
+    second: GR_Stage4-removebg-preview_24
+  - first:
+      213: -6188245887172442169
+    second: GR_Stage4-removebg-preview_25
+  - first:
+      213: -4865329377586186849
+    second: GR_Stage4-removebg-preview_26
+  - first:
+      213: -7027280994121489949
+    second: GR_Stage4-removebg-preview_27
+  - first:
+      213: 4395120096127022988
+    second: GR_Stage4-removebg-preview_28
+  - first:
+      213: 8160553878726989136
+    second: GR_Stage4-removebg-preview_29
+  - first:
+      213: -5504468175782407875
+    second: GR_Stage4-removebg-preview_30
+  - first:
+      213: -5800151610883622583
+    second: GR_Stage4-removebg-preview_31
+  - first:
+      213: -2106705105435144452
+    second: GR_Stage4-removebg-preview_32
+  - first:
+      213: -3008779180674788988
+    second: GR_Stage4-removebg-preview_33
+  - first:
+      213: 6368234730535600863
+    second: GR_Stage4-removebg-preview_34
+  - first:
+      213: -85113004447918724
+    second: GR_Stage4-removebg-preview_35
+  - first:
+      213: -2552609171921210338
+    second: GR_Stage4-removebg-preview_36
+  - first:
+      213: 5063008748020825725
+    second: GR_Stage4-removebg-preview_37
+  - first:
+      213: -504759231071610104
+    second: GR_Stage4-removebg-preview_38
+  - first:
+      213: -2063065660134362768
+    second: GR_Stage4-removebg-preview_39
+  - first:
+      213: -472711274567050841
+    second: GR_Stage4-removebg-preview_40
+  - first:
+      213: 7582152059252687854
+    second: GR_Stage4-removebg-preview_41
+  - first:
+      213: 358177707937379888
+    second: GR_Stage4-removebg-preview_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 302
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fc98f7a033bbcb0800000000000000
+      internalID: -4847224453751779510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 294
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a115cf782696f4ac0800000000000000
+      internalID: -3868757682978795238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 274
+        width: 99
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f75886c27a92500800000000000000
+      internalID: 372012253408755560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 273
+        width: 99
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b25162a314da5d0800000000000000
+      internalID: -3049709654657127654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 285
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586a53f3261c5d3a0800000000000000
+      internalID: -6641189447776491899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 291
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144bc2893c9545990800000000000000
+      internalID: -7398189591256320959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 236
+        width: 99
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276cd66d53ae2fd00800000000000000
+      internalID: 1005123183808726642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 233
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634c02dbc1844f8b0800000000000000
+      internalID: -5119387588144085962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 254
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cf796fce5069a40800000000000000
+      internalID: 5374489720620842012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 204
+        width: 98
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb1748cb478faa30800000000000000
+      internalID: 4228747334676585407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 241
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6624b94f7e7ea9160800000000000000
+      internalID: 7033188751519728230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 231
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dcb0755a8518520800000000000000
+      internalID: 2702538718552247584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 237
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a148b8cbf5a07a0800000000000000
+      internalID: -6410205856209298803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 196
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab66428b0c8618c0800000000000000
+      internalID: -4028878835578147935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 176
+        width: 116
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b922eab33b34b6940800000000000000
+      internalID: 5290396624356254363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 174
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4281388df6fec2ca0800000000000000
+      internalID: -6040189736557799388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 197
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dd9bacd82c458a0800000000000000
+      internalID: -6317210463046607506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 170
+        width: 93
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c3e915036b872d0800000000000000
+      internalID: -3280672009895396319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 195
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327e8634db2fd53b0800000000000000
+      internalID: -5521990673392670941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 179
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72caa03e8f7c2a820800000000000000
+      internalID: 2928122579519188007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 106
+        width: 104
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2332e5c47fc2b400800000000000000
+      internalID: 338561022449300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 101
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423b4c009fc426020800000000000000
+      internalID: 2333512189274796836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 118
+        width: 104
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e83bf20b8b4fbd00800000000000000
+      internalID: 990593503467354338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 126
+        width: 92
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee822141db1facad0800000000000000
+      internalID: -2681064833757861650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 116
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1598a57c9f5866e0800000000000000
+      internalID: -1844118921814698721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 98
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c78050072fee1aa0800000000000000
+      internalID: -6188245887172442169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95f3bd65b0ea7cb0800000000000000
+      internalID: -4865329377586186849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 107
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1e8800b251a7e90800000000000000
+      internalID: -7027280994121489949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 23
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87f4dae07a9efc30800000000000000
+      internalID: 4395120096127022988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05555f7248c104170800000000000000
+      internalID: 8160553878726989136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 78
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d311c09ab533c93b0800000000000000
+      internalID: -5504468175782407875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 23
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9493fd527d8b18fa0800000000000000
+      internalID: -5800151610883622583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 78
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe49005eda73c2e0800000000000000
+      internalID: -2106705105435144452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 77
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481d940c64bae36d0800000000000000
+      internalID: -3008779180674788988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 24
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd241ef3fb3806850800000000000000
+      internalID: 6368234730535600863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 24
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c759d146c2e91def0800000000000000
+      internalID: -85113004447918724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 23
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e147b318b7f439cd0800000000000000
+      internalID: -2552609171921210338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 23
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ef970a1ab634640800000000000000
+      internalID: 5063008748020825725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 21
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b90e6572cbef8f0800000000000000
+      internalID: -504759231071610104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 21
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071726376b48e53e0800000000000000
+      internalID: -2063065660134362768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 21
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9db1ea9979079f0800000000000000
+      internalID: -472711274567050841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 22
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3c0cc3027393960800000000000000
+      internalID: 7582152059252687854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_Stage4-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03632184ab088f400800000000000000
+      internalID: 358177707937379888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GR_Stage4-removebg-preview_0: -4847224453751779510
+      GR_Stage4-removebg-preview_1: -3868757682978795238
+      GR_Stage4-removebg-preview_10: 7033188751519728230
+      GR_Stage4-removebg-preview_11: 2702538718552247584
+      GR_Stage4-removebg-preview_12: -6410205856209298803
+      GR_Stage4-removebg-preview_13: -4028878835578147935
+      GR_Stage4-removebg-preview_14: 5290396624356254363
+      GR_Stage4-removebg-preview_15: -6040189736557799388
+      GR_Stage4-removebg-preview_16: -6317210463046607506
+      GR_Stage4-removebg-preview_17: -3280672009895396319
+      GR_Stage4-removebg-preview_18: -5521990673392670941
+      GR_Stage4-removebg-preview_19: 2928122579519188007
+      GR_Stage4-removebg-preview_2: 372012253408755560
+      GR_Stage4-removebg-preview_20: 338561022449300270
+      GR_Stage4-removebg-preview_21: 2333512189274796836
+      GR_Stage4-removebg-preview_22: 990593503467354338
+      GR_Stage4-removebg-preview_23: -2681064833757861650
+      GR_Stage4-removebg-preview_24: -1844118921814698721
+      GR_Stage4-removebg-preview_25: -6188245887172442169
+      GR_Stage4-removebg-preview_26: -4865329377586186849
+      GR_Stage4-removebg-preview_27: -7027280994121489949
+      GR_Stage4-removebg-preview_28: 4395120096127022988
+      GR_Stage4-removebg-preview_29: 8160553878726989136
+      GR_Stage4-removebg-preview_3: -3049709654657127654
+      GR_Stage4-removebg-preview_30: -5504468175782407875
+      GR_Stage4-removebg-preview_31: -5800151610883622583
+      GR_Stage4-removebg-preview_32: -2106705105435144452
+      GR_Stage4-removebg-preview_33: -3008779180674788988
+      GR_Stage4-removebg-preview_34: 6368234730535600863
+      GR_Stage4-removebg-preview_35: -85113004447918724
+      GR_Stage4-removebg-preview_36: -2552609171921210338
+      GR_Stage4-removebg-preview_37: 5063008748020825725
+      GR_Stage4-removebg-preview_38: -504759231071610104
+      GR_Stage4-removebg-preview_39: -2063065660134362768
+      GR_Stage4-removebg-preview_4: -6641189447776491899
+      GR_Stage4-removebg-preview_40: -472711274567050841
+      GR_Stage4-removebg-preview_41: 7582152059252687854
+      GR_Stage4-removebg-preview_42: 358177707937379888
+      GR_Stage4-removebg-preview_5: -7398189591256320959
+      GR_Stage4-removebg-preview_6: 1005123183808726642
+      GR_Stage4-removebg-preview_7: -5119387588144085962
+      GR_Stage4-removebg-preview_8: 5374489720620842012
+      GR_Stage4-removebg-preview_9: 4228747334676585407
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
