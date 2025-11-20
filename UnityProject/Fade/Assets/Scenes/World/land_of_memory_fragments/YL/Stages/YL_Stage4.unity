@@ -1478,6 +1478,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25833f91a6510814ca120fc142f42782, type: 3}
+--- !u!114 &971752076 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4183124318050276425, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
+  m_PrefabInstance: {fileID: 1186793958}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841ac1ad5388b57439ce3667dce36e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &977261337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,6 +1722,30 @@ PrefabInstance:
     - target: {fileID: 313852288917531608, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetMode
+      objectReference: {fileID: 0}
+    - target: {fileID: 2549706721362161136, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 971752076}
+    - target: {fileID: 2549706721362161136, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartStage
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236618056186162774, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236618056186162774, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236618056186162774, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236618056186162774, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3255972562619443830, guid: 259c4f86f27d90d47b025894e8a141e8, type: 3}
       propertyPath: m_Pivot.x

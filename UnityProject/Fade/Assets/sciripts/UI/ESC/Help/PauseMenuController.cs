@@ -223,16 +223,26 @@ public class PauseMenuController : MonoBehaviour
     // ========================================================
 
     // 게임 다시 시작
+    //public void RestartStage()
+    //{
+    //    if (buttonRestart == null)
+    //    {
+    //        Debug.Log("[Button] RestartStage 호출됨 - 버튼이 존재하지 않아 무시됨");
+    //        return;
+    //    }
+
+    //    Debug.Log("[Button] 다시 시작");
+    //    Time.timeScale = 1;
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    //}
     public void RestartStage()
     {
-        if (buttonRestart == null)
-        {
-            Debug.Log("[Button] RestartStage 호출됨 - 버튼이 존재하지 않아 무시됨");
-            return;
-        }
-
         Debug.Log("[Button] 다시 시작");
-        Time.timeScale = 1;
+
+        // 타임스케일 초기화 (중요)
+        Time.timeScale = 1f;
+
+        // 현재 스테이지 다시 로드
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

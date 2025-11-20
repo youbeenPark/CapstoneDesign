@@ -7345,7 +7345,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4183124318050276425}
         m_TargetAssemblyTypeName: PauseMenuController, Assembly-CSharp
-        m_MethodName: ResumeGame
+        m_MethodName: RestartStage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
