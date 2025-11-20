@@ -736,7 +736,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5398291510593928043, guid: 0794afbd0a8d4094b9b60bd5bf4657e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1598311717}
   m_SourcePrefab: {fileID: 100100000, guid: 0794afbd0a8d4094b9b60bd5bf4657e9, type: 3}
 --- !u!1001 &1259286816
 PrefabInstance:
@@ -938,6 +941,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1830041303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1598311708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5398291510593928043, guid: 0794afbd0a8d4094b9b60bd5bf4657e9, type: 3}
+  m_PrefabInstance: {fileID: 1252888606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1598311712 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1000260599257803705, guid: 0794afbd0a8d4094b9b60bd5bf4657e9, type: 3}
+  m_PrefabInstance: {fileID: 1252888606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1598311717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598311708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba6da85bc0c54d74d80e7e51ae2db2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityKey: 103
+  swimSpeedMultiplier: 1.5
+  duration: 5
+  cooldown: 3
+  animator: {fileID: 1598311712}
+  swimTriggerName: Swim
 --- !u!1 &1618529462
 GameObject:
   m_ObjectHideFlags: 0
