@@ -155,6 +155,14 @@ public class PlayerHealth : MonoBehaviour
         isDead = false;
     }
 
+    public void ForceDie()
+    {
+        if (!isDead)
+        {
+            Die();   // private Die() 내부 호출
+        }
+    }
+
     // =========================
     // FALL RESPAWN
     // =========================

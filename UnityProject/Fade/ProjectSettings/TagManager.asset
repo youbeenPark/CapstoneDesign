@@ -9,6 +9,7 @@ TagManager:
   - BGM
   - MovingPlatform
   - Destructible
+  - DeadZone
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: 71d93752346142e4d960bf5f6c0b59c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6397012118429056417
+    second: BL_Stage4-2-removebg-preview (1)_0
+  - first:
+      213: 3438974856376670048
+    second: BL_Stage4-2-removebg-preview (1)_1
+  - first:
+      213: 4170806012572208480
+    second: BL_Stage4-2-removebg-preview (1)_2
+  - first:
+      213: 7577569810657087848
+    second: BL_Stage4-2-removebg-preview (1)_3
+  - first:
+      213: 6407982963915356544
+    second: BL_Stage4-2-removebg-preview (1)_4
+  - first:
+      213: 6720122163071746477
+    second: BL_Stage4-2-removebg-preview (1)_5
+  - first:
+      213: 1581859297188712916
+    second: BL_Stage4-2-removebg-preview (1)_6
+  - first:
+      213: -535972650524343692
+    second: BL_Stage4-2-removebg-preview (1)_7
+  - first:
+      213: -5179183318901979084
+    second: BL_Stage4-2-removebg-preview (1)_8
+  - first:
+      213: -5851240772138630839
+    second: BL_Stage4-2-removebg-preview (1)_9
+  - first:
+      213: 5732884123124509954
+    second: BL_Stage4-2-removebg-preview (1)_10
+  - first:
+      213: -6136068341884122695
+    second: BL_Stage4-2-removebg-preview (1)_11
+  - first:
+      213: 2909654956855107703
+    second: BL_Stage4-2-removebg-preview (1)_12
+  - first:
+      213: 5564997304339905500
+    second: BL_Stage4-2-removebg-preview (1)_13
+  - first:
+      213: -196926579188760108
+    second: BL_Stage4-2-removebg-preview (1)_14
+  - first:
+      213: -1314969713629048728
+    second: BL_Stage4-2-removebg-preview (1)_15
+  - first:
+      213: -3986477547524539781
+    second: BL_Stage4-2-removebg-preview (1)_16
+  - first:
+      213: 4542769673267849052
+    second: BL_Stage4-2-removebg-preview (1)_17
+  - first:
+      213: 6040302900690415118
+    second: BL_Stage4-2-removebg-preview (1)_18
+  - first:
+      213: 2021245304343795874
+    second: BL_Stage4-2-removebg-preview (1)_19
+  - first:
+      213: -500374279268656966
+    second: BL_Stage4-2-removebg-preview (1)_20
+  - first:
+      213: -3101767932660792915
+    second: BL_Stage4-2-removebg-preview (1)_21
+  - first:
+      213: -3308281793696140555
+    second: BL_Stage4-2-removebg-preview (1)_22
+  - first:
+      213: -9071773695334288700
+    second: BL_Stage4-2-removebg-preview (1)_23
+  - first:
+      213: 398656667607263550
+    second: BL_Stage4-2-removebg-preview (1)_24
+  - first:
+      213: 3283642598725682898
+    second: BL_Stage4-2-removebg-preview (1)_25
+  - first:
+      213: -7557373408126223365
+    second: BL_Stage4-2-removebg-preview (1)_26
+  - first:
+      213: 4248057182552406989
+    second: BL_Stage4-2-removebg-preview (1)_27
+  - first:
+      213: 8770438424803959421
+    second: BL_Stage4-2-removebg-preview (1)_28
+  - first:
+      213: 7319228627853547831
+    second: BL_Stage4-2-removebg-preview (1)_29
+  - first:
+      213: 5298047735619711203
+    second: BL_Stage4-2-removebg-preview (1)_30
+  - first:
+      213: 2011561439452596053
+    second: BL_Stage4-2-removebg-preview (1)_31
+  - first:
+      213: -2449047821583619148
+    second: BL_Stage4-2-removebg-preview (1)_32
+  - first:
+      213: 2304767377287815856
+    second: BL_Stage4-2-removebg-preview (1)_33
+  - first:
+      213: -4998899977512455453
+    second: BL_Stage4-2-removebg-preview (1)_34
+  - first:
+      213: -6218941604281527177
+    second: BL_Stage4-2-removebg-preview (1)_35
+  - first:
+      213: 3888351444542763195
+    second: BL_Stage4-2-removebg-preview (1)_36
+  - first:
+      213: 7212142957447889821
+    second: BL_Stage4-2-removebg-preview (1)_37
+  - first:
+      213: 8714520479712172666
+    second: BL_Stage4-2-removebg-preview (1)_38
+  - first:
+      213: 9087912609335162444
+    second: BL_Stage4-2-removebg-preview (1)_39
+  - first:
+      213: 5400818793962191686
+    second: BL_Stage4-2-removebg-preview (1)_40
+  - first:
+      213: 2382758820354705185
+    second: BL_Stage4-2-removebg-preview (1)_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 285
+        width: 136
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad35def0a0c6c850800000000000000
+      internalID: 6397012118429056417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 294
+        width: 145
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067d4d15961b9bf20800000000000000
+      internalID: 3438974856376670048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_2
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 311
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d0e6678fda1e930800000000000000
+      internalID: 4170806012572208480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 296
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86190f8589fe82960800000000000000
+      internalID: 7577569810657087848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_4
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 293
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089fde20e8abde850800000000000000
+      internalID: 6407982963915356544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_5
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 128
+        width: 90
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da10f19a08ba24d50800000000000000
+      internalID: 6720122163071746477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 128
+        width: 114
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1159556a4e3f510800000000000000
+      internalID: 1581859297188712916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_7
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 298
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4720c2cc6b7df88f0800000000000000
+      internalID: -535972650524343692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 255
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43808324638df18b0800000000000000
+      internalID: -5179183318901979084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 246
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9410569d4873ccea0800000000000000
+      internalID: -5851240772138630839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 258
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d20516cbb4f8f40800000000000000
+      internalID: 5732884123124509954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 247
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b90a747a5e48daa0800000000000000
+      internalID: -6136068341884122695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 233
+        width: 143
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770ad4a64cb216820800000000000000
+      internalID: 2909654956855107703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 177
+        width: 72
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbbf2d4097da3d40800000000000000
+      internalID: 5564997304339905500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 250
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d10f90d150644df0800000000000000
+      internalID: -196926579188760108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_15
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 128
+        width: 72
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8605eb0330a40cde0800000000000000
+      internalID: -1314969713629048728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_16
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 240
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7abab2bacf2da8c0800000000000000
+      internalID: -3986477547524539781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 180
+        width: 137
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c572c8ff2f82b0f30800000000000000
+      internalID: 4542769673267849052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_18
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 183
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ee96b3c7773d350800000000000000
+      internalID: 6040302900690415118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 226
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8965135e7ec0c10800000000000000
+      internalID: 2021245304343795874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_20
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 219
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8137d7e305e09f0800000000000000
+      internalID: -500374279268656966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_21
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 208
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da14e06cf7e44f4d0800000000000000
+      internalID: -3101767932660792915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 65
+        width: 229
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f279d59c3f9612d0800000000000000
+      internalID: -3308281793696140555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 125
+        width: 197
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2fdde63e59a1280800000000000000
+      internalID: -9071773695334288700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 125
+        width: 111
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3962148020588500800000000000000
+      internalID: 398656667607263550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_25
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 81
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6826acb87d19d20800000000000000
+      internalID: 3283642598725682898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_26
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 81
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb37ad0de0de1790800000000000000
+      internalID: -7557373408126223365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 81
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb3597108124fa30800000000000000
+      internalID: 4248057182552406989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_28
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 94
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7260e2974bd6b970800000000000000
+      internalID: 8770438424803959421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_29
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 97
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739941978af139560800000000000000
+      internalID: 7319228627853547831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_30
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 14
+        width: 104
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0fca46852768940800000000000000
+      internalID: 5298047735619711203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_31
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 77
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5570272b8708aeb10800000000000000
+      internalID: 2011561439452596053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 12
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb609c5bfb330ed0800000000000000
+      internalID: -2449047821583619148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2262de7bd2cff10800000000000000
+      internalID: 2304767377287815856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_34
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 48
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e279aca4f650aab0800000000000000
+      internalID: -4998899977512455453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 53
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774d6ed6f81e1b9a0800000000000000
+      internalID: -6218941604281527177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_36
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 15
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb039d5990336f530800000000000000
+      internalID: 3888351444542763195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_37
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 15
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d934408eecda61460800000000000000
+      internalID: 7212142957447889821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_38
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 15
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a5c1d643230f870800000000000000
+      internalID: 8714520479712172666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_39
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 38
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46373d4e50ce1e70800000000000000
+      internalID: 9087912609335162444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_40
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 15
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bbe5e041093fa40800000000000000
+      internalID: 5400818793962191686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL_Stage4-2-removebg-preview (1)_41
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 15
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127cba0d582411120800000000000000
+      internalID: 2382758820354705185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BL_Stage4-2-removebg-preview (1)_0: 6397012118429056417
+      BL_Stage4-2-removebg-preview (1)_1: 3438974856376670048
+      BL_Stage4-2-removebg-preview (1)_10: 5732884123124509954
+      BL_Stage4-2-removebg-preview (1)_11: -6136068341884122695
+      BL_Stage4-2-removebg-preview (1)_12: 2909654956855107703
+      BL_Stage4-2-removebg-preview (1)_13: 5564997304339905500
+      BL_Stage4-2-removebg-preview (1)_14: -196926579188760108
+      BL_Stage4-2-removebg-preview (1)_15: -1314969713629048728
+      BL_Stage4-2-removebg-preview (1)_16: -3986477547524539781
+      BL_Stage4-2-removebg-preview (1)_17: 4542769673267849052
+      BL_Stage4-2-removebg-preview (1)_18: 6040302900690415118
+      BL_Stage4-2-removebg-preview (1)_19: 2021245304343795874
+      BL_Stage4-2-removebg-preview (1)_2: 4170806012572208480
+      BL_Stage4-2-removebg-preview (1)_20: -500374279268656966
+      BL_Stage4-2-removebg-preview (1)_21: -3101767932660792915
+      BL_Stage4-2-removebg-preview (1)_22: -3308281793696140555
+      BL_Stage4-2-removebg-preview (1)_23: -9071773695334288700
+      BL_Stage4-2-removebg-preview (1)_24: 398656667607263550
+      BL_Stage4-2-removebg-preview (1)_25: 3283642598725682898
+      BL_Stage4-2-removebg-preview (1)_26: -7557373408126223365
+      BL_Stage4-2-removebg-preview (1)_27: 4248057182552406989
+      BL_Stage4-2-removebg-preview (1)_28: 8770438424803959421
+      BL_Stage4-2-removebg-preview (1)_29: 7319228627853547831
+      BL_Stage4-2-removebg-preview (1)_3: 7577569810657087848
+      BL_Stage4-2-removebg-preview (1)_30: 5298047735619711203
+      BL_Stage4-2-removebg-preview (1)_31: 2011561439452596053
+      BL_Stage4-2-removebg-preview (1)_32: -2449047821583619148
+      BL_Stage4-2-removebg-preview (1)_33: 2304767377287815856
+      BL_Stage4-2-removebg-preview (1)_34: -4998899977512455453
+      BL_Stage4-2-removebg-preview (1)_35: -6218941604281527177
+      BL_Stage4-2-removebg-preview (1)_36: 3888351444542763195
+      BL_Stage4-2-removebg-preview (1)_37: 7212142957447889821
+      BL_Stage4-2-removebg-preview (1)_38: 8714520479712172666
+      BL_Stage4-2-removebg-preview (1)_39: 9087912609335162444
+      BL_Stage4-2-removebg-preview (1)_4: 6407982963915356544
+      BL_Stage4-2-removebg-preview (1)_40: 5400818793962191686
+      BL_Stage4-2-removebg-preview (1)_41: 2382758820354705185
+      BL_Stage4-2-removebg-preview (1)_5: 6720122163071746477
+      BL_Stage4-2-removebg-preview (1)_6: 1581859297188712916
+      BL_Stage4-2-removebg-preview (1)_7: -535972650524343692
+      BL_Stage4-2-removebg-preview (1)_8: -5179183318901979084
+      BL_Stage4-2-removebg-preview (1)_9: -5851240772138630839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

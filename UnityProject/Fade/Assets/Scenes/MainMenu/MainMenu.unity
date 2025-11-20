@@ -815,6 +815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490541955}
   - component: {fileID: 490541954}
+  - component: {fileID: 490541956}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -851,6 +852,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &490541956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490541953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c044af776cf54644be8b148612bd23b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseMene_Minimal: {fileID: 1555013801}
 --- !u!1 &492038996
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,6 +949,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 544534403}
+  - component: {fileID: 544534404}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -960,6 +975,19 @@ Transform:
   - {fileID: 74592528}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &544534404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544534402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c044af776cf54644be8b148612bd23b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseMene_Minimal: {fileID: 0}
 --- !u!1 &549972364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1195,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3084771398030054961, guid: 82a1f9672b182ae40a5cbdb42a1bc815, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3255972562619443830, guid: 82a1f9672b182ae40a5cbdb42a1bc815, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1983,6 +2015,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1555013801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6851575198415886619, guid: 82a1f9672b182ae40a5cbdb42a1bc815, type: 3}
+  m_PrefabInstance: {fileID: 698462315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1555454152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,10 +2442,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 490541954}
-          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-          m_MethodName: LoadScene
-          m_Mode: 5
+        - m_Target: {fileID: 490541956}
+          m_TargetAssemblyTypeName: MainMenuSettingController, Assembly-CSharp
+          m_MethodName: OpenSetting
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
