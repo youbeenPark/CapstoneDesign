@@ -1,17 +1,96 @@
+ï»¿//using UnityEngine;
+//using System.Collections;
+
+//public class BLAbility : MonoBehaviour
+//{
+//    [Header("ëŠ¥ë ¥ í‚¤ ì„¤ì •")]
+//    public KeyCode abilityKey = KeyCode.G;
+
+//    [Header("ìŠ¤í”¼ë“œ ì„¤ì •")]
+//    public float swimSpeedMultiplier = 1.5f;   // í—¤ì—„ì¹  ë•Œ ì†ë„ ì¦ê°€ ë¹„ìœ¨
+//    public float duration = 5f;                // ìœ ì§€ ì‹œê°„
+//    public float cooldown = 3f;                // ì¿¨íƒ€ì„
+
+//    [Header("ì• ë‹ˆë©”ì´ì…˜")]
+//    public Animator animator;
+//    public string swimTriggerName = "Swim";
+
+//    private bool isRunning = false;
+//    private bool isCooldown = false;
+
+//    private PlatformerPlayer playerMove;
+//    private float originalSpeed;
+
+//    private void Start()
+//    {
+//        playerMove = GetComponent<PlatformerPlayer>();
+
+//        if (playerMove != null)
+//            originalSpeed = playerMove.speed;
+//    }
+
+//    private void Update()
+//    {
+//        if (Input.GetKeyDown(abilityKey))
+//        {
+//            TryActivate();
+//        }
+//    }
+
+//    private void TryActivate()
+//    {
+//        if (isRunning || isCooldown)
+//            return;
+
+//        StartCoroutine(AbilityRoutine());
+//    }
+
+//    private IEnumerator AbilityRoutine()
+//    {
+//        isRunning = true;
+//        isCooldown = true;
+
+//        Debug.Log("[BLAbility] í—¤ì—„ì¹˜ê¸° ëŠ¥ë ¥ ì‹œì‘!");
+
+//        // ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰
+//        if (animator != null)
+//            animator.SetTrigger(swimTriggerName);
+
+//        // ì´ë™ ì†ë„ ì¦ê°€
+//        if (playerMove != null)
+//            playerMove.speed *= swimSpeedMultiplier;
+
+//        yield return new WaitForSeconds(duration);
+
+//        // ì†ë„ ì›ìƒë³µê·€
+//        if (playerMove != null)
+//            playerMove.speed = originalSpeed;
+
+//        Debug.Log("[BLAbility] í—¤ì—„ì¹˜ê¸° ì¢…ë£Œ");
+
+//        isRunning = false;
+
+//        yield return new WaitForSeconds(cooldown);
+//        isCooldown = false;
+
+//        Debug.Log("[BLAbility] ì¿¨íƒ€ì„ ì¢…ë£Œ â†’ ë‹¤ì‹œ ì‚¬ìš© ê°€ëŠ¥!");
+//    }
+//}
+
 using UnityEngine;
 using System.Collections;
 
 public class BLAbility : MonoBehaviour
 {
-    [Header("´É·Â Å° ¼³Á¤")]
+    [Header("ëŠ¥ë ¥ í‚¤ ì„¤ì •")]
     public KeyCode abilityKey = KeyCode.G;
 
-    [Header("½ºÇÇµå ¼³Á¤")]
-    public float swimSpeedMultiplier = 1.5f;   // Çì¾öÄ¥ ¶§ ¼Óµµ Áõ°¡ ºñÀ²
-    public float duration = 5f;                // À¯Áö ½Ã°£
-    public float cooldown = 3f;                // ÄğÅ¸ÀÓ
+    [Header("ìŠ¤í”¼ë“œ ì„¤ì •")]
+    public float swimSpeedMultiplier = 1.5f;   // í—¤ì—„ì¹  ë•Œ ì†ë„ ì¦ê°€ ë¹„ìœ¨
+    public float duration = 5f;                // ìœ ì§€ ì‹œê°„
+    public float cooldown = 3f;                // ì¿¨íƒ€ì„
 
-    [Header("¾Ö´Ï¸ŞÀÌ¼Ç")]
+    [Header("ì• ë‹ˆë©”ì´ì…˜")]
     public Animator animator;
     public string swimTriggerName = "Swim";
 
@@ -26,7 +105,7 @@ public class BLAbility : MonoBehaviour
         playerMove = GetComponent<PlatformerPlayer>();
 
         if (playerMove != null)
-            originalSpeed = playerMove.speed;
+            originalSpeed = playerMove.Speed;
     }
 
     private void Update()
@@ -50,29 +129,30 @@ public class BLAbility : MonoBehaviour
         isRunning = true;
         isCooldown = true;
 
-        Debug.Log("[BLAbility] Çì¾öÄ¡±â ´É·Â ½ÃÀÛ!");
+        Debug.Log("[BLAbility] í—¤ì—„ì¹˜ê¸° ëŠ¥ë ¥ ì‹œì‘!");
 
-        // ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà
+        // ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰
         if (animator != null)
             animator.SetTrigger(swimTriggerName);
 
-        // ÀÌµ¿ ¼Óµµ Áõ°¡
-        if (playerMove != null)
-            playerMove.speed *= swimSpeedMultiplier;
+        // â­ ì´ë™ ì†ë„ ì¦ê°€
+        originalSpeed = playerMove.Speed;
+        playerMove.Speed = playerMove.Speed * swimSpeedMultiplier;
 
+        // ì§€ì† ì‹œê°„ ìœ ì§€
         yield return new WaitForSeconds(duration);
 
-        // ¼Óµµ ¿ø»óº¹±Í
-        if (playerMove != null)
-            playerMove.speed = originalSpeed;
+        // â­ ì†ë„ ì›ìƒë³µê·€
+        playerMove.Speed = originalSpeed;
 
-        Debug.Log("[BLAbility] Çì¾öÄ¡±â Á¾·á");
+        Debug.Log("[BLAbility] í—¤ì—„ì¹˜ê¸° ì¢…ë£Œ");
 
         isRunning = false;
 
+        // ì¿¨íƒ€ì„
         yield return new WaitForSeconds(cooldown);
         isCooldown = false;
 
-        Debug.Log("[BLAbility] ÄğÅ¸ÀÓ Á¾·á ¡æ ´Ù½Ã »ç¿ë °¡´É!");
+        Debug.Log("[BLAbility] ì¿¨íƒ€ì„ ì¢…ë£Œ â†’ ë‹¤ì‹œ ì‚¬ìš© ê°€ëŠ¥!");
     }
 }
